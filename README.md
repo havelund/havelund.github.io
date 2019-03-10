@@ -1,41 +1,21 @@
-## Welcome to Klaus's GitHub Pages
+#Jekyll Masonry Theme
 
-You can use the [editor on GitHub](https://github.com/havelund/havelund.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This using masonry griding to give a nice design
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Demo - [http://pasindud.github.io/](http://pasindud.github.io/)
 
-### Markdown
+Dev by Pasindu De Silva
 
-[Publications](http://www.havelund.com/papers.html)
+Was orignial authored by [Arunoda](https://github.com/arunoda)
 
-[Personal](PERSONAL.md)
+###License
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The MIT License (MIT)
 
-```markdown
-Syntax highlighted code block
+Copyright (c) 2015 Pasindu
 
-# Header 1
-## Header 2
-### Header 3
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-- Bulleted
-- List
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/havelund/havelund.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
