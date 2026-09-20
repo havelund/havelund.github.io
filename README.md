@@ -111,7 +111,7 @@ Search indexes published Markdown content, publication metadata, and PDF text. P
 
 ## GitHub publishing
 
-This directory is the repository root for `havelund/havelund.github.io`. The initial website address is **https://havelund.github.io/**. In repository Settings → Pages, choose **GitHub Actions** as the source.
+This directory is the repository root for `havelund/havelund.github.io`. The configured website address is **https://havelund.com/**. In repository Settings → Pages, **GitHub Actions** is the source and `havelund.com` is the custom domain.
 
 The workflow in `.github/workflows/deploy.yml` installs Node, Python, and the PDF text extractor, builds and checks the site, then publishes it on each push to `main`.
 
@@ -125,7 +125,9 @@ git push
 
 Check the repository's **Actions** tab for the deployment result. The `build/`, `node_modules/`, caches, and the `migration-excluded/` backup are ignored; GitHub builds the site from its source files.
 
-The domain `havelund.com` still uses its existing hosting. To move it later, verify and configure the custom domain in GitHub Pages, change `url` in `docusaurus.config.js` to `https://havelund.com`, and update the domain's DNS. Keep domain registration renewed independently of hosting.
+The domain is verified in GitHub Pages, and `url` in `docusaurus.config.js` uses `https://havelund.com`. The DNS cutover from Bluehost is in progress. The target website records are four `A` records for `@` (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) and a `CNAME` for `www` pointing to `havelund.github.io`. Keep the GitHub verification TXT record. Once DNS resolves to GitHub and its certificate is ready, enable **Enforce HTTPS** in Pages settings.
+
+Email remains at Bluehost: `mail.havelund.com` has an `A` record pointing to `162.241.225.60`, and the domain's MX points to `mail.havelund.com` with priority 0. Allow the previous mail records' four-hour TTL to expire before switching the apex website records. Keep domain registration renewed independently of hosting, and retain Bluehost service while it provides email.
 
 ## Preserved content
 

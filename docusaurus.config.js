@@ -1,7 +1,7 @@
 const config = {
  title: 'Klaus Havelund',
  tagline: 'Formal methods, runtime verification, and reliable software',
- url: 'https://havelund.github.io', baseUrl: '/', trailingSlash: true,
+ url: 'https://havelund.com', baseUrl: '/', trailingSlash: true,
  favicon: 'favicon.ico', onBrokenLinks: 'throw',
  markdown: {format: 'md', hooks: {onBrokenMarkdownLinks: 'throw'}},
  presets: [['classic', {
