@@ -129,8 +129,14 @@ The domain `havelund.com` still uses its existing hosting. To move it later, ver
 
 ## Preserved content
 
-Only original content reachable from the old homepage is included, together with the later requested additions. `reachability-audit.json` records the original link traversal and exclusions. Unlinked folder imports were moved to `migration-excluded/`, outside published content and search; the parent original website is untouched. Do not copy that backup directory into `static/` or restore the removed “Workshops & projects” menu.
+Only original content reachable from the old homepage is included, together with the later requested additions. `reachability-audit.json` records the original link traversal and exclusions. Unlinked folder imports were moved to `migration-excluded/`, outside published content and search. The original website and terminal prototype are preserved in the ZIP backup described below. Do not copy that backup directory into `static/` or restore the removed “Workshops & projects” menu.
 
-See `MIGRATION.md` for the migration inventory and limits. The old site and terminal prototype in the parent directory are untouched. Once this migration is accepted, edit this directory as the source of truth, rather than editing both websites.
+See `MIGRATION.md` for the migration inventory and limits. Edit this directory as the website source of truth.
+
+## Project location and original backup
+
+The Docusaurus project and Git repository are now directly in `~/Desktop/www/havelund-com/`; there is no nested `docusaurus-site/` folder.
+
+The complete folder before this move is saved beside the project as `../havelund-com-backup-2026-09-20.zip`. It includes the original website, terminal prototype, and the Docusaurus project as it existed before the move. The archive was verified against every source file and symlink before moving anything. Keep this ZIP as the original-site backup; it is outside the Git repository.
 
 Publication structure: keep each entry’s `group` in `data/publications.yml`. Original section order and contextual text are in `data/publication-groups.yml`; the build produces `publication-groups.json`.

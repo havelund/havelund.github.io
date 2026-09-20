@@ -1,3 +1,5 @@
+> **Folder location updated September 20, 2026:** the Docusaurus project now lives directly in `~/Desktop/www/havelund-com/`. References below to the original website in the parent directory describe the earlier migration layout. The complete pre-move folder is preserved in `../havelund-com-backup-2026-09-20.zip`.
+
 # Migration record
 
 ## Current inclusion rule
