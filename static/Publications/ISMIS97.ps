@@ -1,0 +1,5061 @@
+%!PS-Adobe-3.0
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%PageOrder: (atend)
+%%DocumentFonts: (atend)
+%%Creator: Frame 4.0
+%%DocumentData: Clean7Bit
+%%EndComments
+%%BeginProlog
+%
+% Frame ps_prolog 5.0, for use with Frame 5.0 products
+% This ps_prolog file is Copyright (c) 1986-1995 Frame Technology
+% Corporation.  All rights reserved.  This ps_prolog file may be
+% freely copied and distributed in conjunction with documents created
+% using FrameMaker, FrameMaker/SGML and FrameViewer as long as this 
+% copyright notice is preserved.
+%
+% FrameMaker users specify the proper paper size for each print job in the
+% "Print" dialog's "Printer Paper Size" "Width" and "Height~ fields.  If the
+% printer that the PS file is sent to does not support the requested paper
+% size, or if there is no paper tray of the proper size currently installed, 
+% then the job will not be printed.  The following flag, if set to true, will
+% cause the job to print on the default paper in such cases.
+/FMAllowPaperSizeMismatch            false def
+%
+% Frame products normally print colors as their true color on a color printer
+% or as shades of gray, based on luminance, on a black-and white printer. The
+% following flag, if set to true, forces all non-white colors to print as pure
+% black. This has no effect on bitmap images.
+/FMPrintAllColorsAsBlack             false def
+%
+% Frame products can either set their own line screens or use a printer's 
+% default settings. Three flags below control this separately for no 
+% separations, spot separations and process separations. If a flag
+% is true, then the default printer settings will not be changed. If it is
+% false, Frame products will use their own settings from a table based on
+% the printer's resolution.
+/FMUseDefaultNoSeparationScreen      true  def
+/FMUseDefaultSpotSeparationScreen    true  def
+/FMUseDefaultProcessSeparationScreen false def
+%
+% For any given PostScript printer resolution, Frame products have two sets of 
+% screen angles and frequencies for printing process separations, which are 
+% recomended by Adobe. The following variable chooses the higher frequencies
+% when set to true or the lower frequencies when set to false. This is only
+% effective if the appropriate FMUseDefault...SeparationScreen flag is false.
+/FMUseHighFrequencyScreens true def
+%
+% The following is a set of predefined optimal frequencies and angles for various
+% common dpi settings. This is taken from "Advances in Color Separation Using
+% PostScript Software Technology," from Adobe Systems (3/13/89 P.N. LPS 0043)
+% and corrolated with information which is in various PPD (4.0) files.
+%
+% The "dpiranges" figure is the minimum dots per inch device resolution which
+% can support this setting. The "low" and "high" values are controlled by the
+% setting of the FMUseHighFrequencyScreens flag above. The "TDot" flags control
+% the use of the "Yellow Triple Dot" feature whereby the frequency id divided by
+% three, but the dot function is "trippled" giving a block of 3x3 dots per cell.
+%
+% PatFreq is a compromise pattern frequency for ps Level 2 printers which is close
+% to the ideal WYSIWYG pattern frequency of 9 repetitions/inch but does not beat
+% (too badly) against the screen frequencies of any separations for that DPI.
+/dpiranges   [  2540    2400    1693     1270    1200     635      600      0      ] def
+/CMLowFreqs  [ 100.402  94.8683 89.2289 100.402  94.8683  66.9349  63.2456 47.4342 ] def
+/YLowFreqs   [  95.25   90.0    84.65    95.25   90.0     70.5556  66.6667 50.0    ] def
+/KLowFreqs   [  89.8026 84.8528 79.8088  89.8026 84.8528  74.8355  70.7107 53.033  ] def
+/CLowAngles  [  71.5651 71.5651 71.5651 71.5651  71.5651  71.5651  71.5651 71.5651 ] def
+/MLowAngles  [  18.4349 18.4349 18.4349 18.4349  18.4349  18.4349  18.4349 18.4349 ] def
+/YLowTDot    [  true    true    false    true    true     false    false   false   ] def
+/CMHighFreqs [ 133.87  126.491 133.843  108.503 102.523  100.402   94.8683 63.2456 ] def
+/YHighFreqs  [ 127.0   120.0   126.975  115.455 109.091   95.25    90.0    60.0    ] def
+/KHighFreqs  [ 119.737 113.137 119.713  128.289 121.218   89.8026  84.8528 63.6395 ] def
+/CHighAngles [  71.5651 71.5651 71.5651  70.0169 70.0169  71.5651  71.5651 71.5651 ] def
+/MHighAngles [  18.4349 18.4349 18.4349  19.9831 19.9831  18.4349  18.4349 18.4349 ] def
+/YHighTDot   [  false   false   true     false   false    true     true    false   ] def
+/PatFreq     [	10.5833 10.0     9.4055  10.5833 10.0	  10.5833  10.0	   9.375   ] def
+%
+% PostScript Level 2 printers contain an "Accurate Screens" feature which can
+% improve process separation rendering at the expense of compute time. This 
+% flag is ignored by PostScript Level 1 printers.
+/FMUseAcccurateScreens true def
+%
+% The following PostScript procedure defines the spot function that Frame
+% products will use for process separations. You may un-comment-out one of
+% the alternative functions below, or use your own.
+%
+% Dot function
+/FMSpotFunction {abs exch abs 2 copy add 1 gt 
+		{1 sub dup mul exch 1 sub dup mul add 1 sub }
+		{dup mul exch dup mul add 1 exch sub }ifelse } def
+%
+% Line function
+% /FMSpotFunction { pop } def
+%
+% Elipse function
+% /FMSpotFunction { dup 5 mul 8 div mul exch dup mul exch add 
+%		sqrt 1 exch sub } def
+%
+%
+/FMversion (5.0) def 
+/fMLevel1 /languagelevel where {pop languagelevel} {1} ifelse 2 lt def
+/FMPColor
+	fMLevel1 {
+		false
+		/colorimage where {pop pop true} if
+	} {
+		true
+	} ifelse
+def
+/FrameDict 400 dict def 
+systemdict /errordict known not {/errordict 10 dict def
+		errordict /rangecheck {stop} put} if
+% The readline in PS 23.0 doesn't recognize cr's as nl's on AppleTalk
+FrameDict /tmprangecheck errordict /rangecheck get put 
+errordict /rangecheck {FrameDict /bug true put} put 
+FrameDict /bug false put 
+mark 
+% Some PS machines read past the CR, so keep the following 3 lines together!
+currentfile 5 string readline
+00
+0000000000
+cleartomark 
+errordict /rangecheck FrameDict /tmprangecheck get put 
+FrameDict /bug get { 
+	/readline {
+		/gstring exch def
+		/gfile exch def
+		/gindex 0 def
+		{
+			gfile read pop 
+			dup 10 eq {exit} if 
+			dup 13 eq {exit} if 
+			gstring exch gindex exch put 
+			/gindex gindex 1 add def 
+		} loop
+		pop 
+		gstring 0 gindex getinterval true 
+		} bind def
+	} if
+/FMshowpage /showpage load def
+/FMquit /quit load def
+/FMFAILURE { 
+	dup = flush 
+	FMshowpage 
+	/Helvetica findfont 12 scalefont setfont
+	72 200 moveto show
+	72 220 moveto show
+	FMshowpage 
+	FMquit 
+	} def 
+/FMVERSION {
+	FMversion ne {
+		(Frame product version does not match ps_prolog!  Check installation;)
+		(also check ~/fminit and ./fminit for old versions) FMFAILURE
+		} if
+	} def 
+/FMBADEPSF { 
+	(Adobe's PostScript Language Reference Manual, 2nd Edition, section H.2.4)
+	(says your EPS file is not valid, as it calls X              )
+	dup dup (X) search pop exch pop exch pop length 
+	5 -1 roll 
+	putinterval 
+	FMFAILURE
+	} def
+/fmConcatProcs
+	{
+	/proc2 exch cvlit def/proc1 exch cvlit def/newproc proc1 length proc2 length add array def
+	newproc 0 proc1 putinterval newproc proc1 length proc2 putinterval newproc cvx
+}def
+FrameDict begin [
+	/ALDsave
+	/FMdicttop
+	/FMoptop
+	/FMpointsize
+	/FMsaveobject
+	/b
+	/bitmapsave
+	/blut
+	/bpside
+	/bs
+	/bstring
+	/bwidth
+	/c
+	/cf
+	/cs
+	/cynu
+	/depth
+	/edown
+	/fh
+	/fillvals
+	/fw
+	/fx
+	/fy
+	/g
+	/gfile
+	/gindex
+	/grnt
+	/gryt
+	/gstring
+	/height
+	/hh
+	/i
+	/im
+	/indx
+	/is
+	/k
+	/kk
+	/landscape
+	/lb
+	/len
+	/llx
+	/lly
+	/m
+	/magu
+	/manualfeed
+	/n
+	/offbits
+	/onbits
+	/organgle
+	/orgbangle
+	/orgbfreq
+	/orgbproc
+	/orgbxfer
+	/orgfreq
+	/orggangle
+	/orggfreq
+	/orggproc
+	/orggxfer
+	/orgmatrix
+	/orgproc
+	/orgrangle
+	/orgrfreq
+	/orgrproc
+	/orgrxfer
+	/orgxfer
+	/pagesave
+	/paperheight
+	/papersizedict
+	/paperwidth
+	/pos
+	/pwid
+	/r
+	/rad
+	/redt
+	/sl
+	/str
+	/tran
+	/u
+	/urx
+	/ury
+	/val
+	/width
+	/width
+	/ws
+	/ww
+	/x
+	/x1
+	/x2
+	/xindex
+	/xpoint
+	/xscale
+	/xx
+	/y
+	/y1
+	/y2
+	/yelu
+	/yindex
+	/ypoint
+	/yscale
+	/yy
+] { 0 def } forall
+/FmBD {bind def} bind def
+systemdict /pdfmark known {
+	/fMAcrobat true def
+	
+	/FmPD /pdfmark load def
+	
+	
+	/FmPT /show load def
+	
+	
+	currentdistillerparams /CoreDistVersion get 2000 ge {
+	
+		
+		/FmPD2 /pdfmark load def
+		
+		
+		
+		
+		
+		/FmPA { mark exch /Dest exch 5 3 roll 
+				/View [ /XYZ null 6 -2 roll FmDC exch pop null] /DEST FmPD 
+		}FmBD
+	} {
+		
+		/FmPD2 /cleartomark load def
+		/FmPA {pop pop pop}FmBD
+	} ifelse
+} {
+	
+	/fMAcrobat false def
+	/FmPD /cleartomark load def
+	/FmPD2 /cleartomark load def
+	/FmPT /pop load def
+	/FmPA {pop pop pop}FmBD
+} ifelse
+/FmDC {
+	transform fMDefaultMatrix itransform cvi exch cvi exch
+}FmBD
+/FmBx {
+	dup 3 index lt {3 1 roll exch} if 
+	1 index 4 index lt {4 -1 roll 3 1 roll exch 4 1 roll} if
+}FmBD
+/FMnone 0 def
+/FMcyan 1 def
+/FMmagenta 2 def
+/FMyellow 3 def
+/FMblack 4 def
+/FMcustom 5 def
+/fMNegative false def 
+/FrameSepIs FMnone def 
+/FrameSepBlack 0 def
+/FrameSepYellow 0 def
+/FrameSepMagenta 0 def
+/FrameSepCyan 0 def
+/FrameSepRed 1 def
+/FrameSepGreen 1 def
+/FrameSepBlue 1 def
+/FrameCurGray 1 def
+/FrameCurPat null def
+/FrameCurColors [ 0 0 0 1 0 0 0 ] def 
+/FrameColorEpsilon .001 def	
+/eqepsilon {		
+	sub dup 0 lt {neg} if
+	FrameColorEpsilon le
+} bind def
+/FrameCmpColorsCMYK { 
+	2 copy 0 get exch 0 get eqepsilon {
+		2 copy 1 get exch 1 get eqepsilon {
+			2 copy 2 get exch 2 get eqepsilon {
+				3 get exch 3 get eqepsilon
+			} {pop pop false} ifelse
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/FrameCmpColorsRGB { 
+	2 copy 4 get exch 0 get eqepsilon {
+		2 copy 5 get exch 1 get eqepsilon {
+			6 get exch 2 get eqepsilon
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/RGBtoCMYK { 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	3 copy 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	dup dup dup 
+	6 1 roll 
+	4 1 roll 
+	7 1 roll 
+	sub 
+	6 1 roll 
+	sub 
+	5 1 roll 
+	sub 
+	4 1 roll 
+} bind def
+/CMYKtoRGB { 
+	dup dup 4 -1 roll add 						  
+	5 1 roll 3 -1 roll add 						  
+	4 1 roll add 								  
+	1 exch sub dup 0 lt {pop 0} if 3 1 roll 	  
+	1 exch sub dup 0 lt {pop 0} if exch 	      
+	1 exch sub dup 0 lt {pop 0} if exch	  		  
+} bind def
+/FrameSepInit {
+	1.0 RealSetgray
+} bind def
+/FrameSetSepColor { 
+	/FrameSepBlue exch def
+	/FrameSepGreen exch def
+	/FrameSepRed exch def
+	/FrameSepBlack exch def
+	/FrameSepYellow exch def
+	/FrameSepMagenta exch def
+	/FrameSepCyan exch def
+	/FrameSepIs FMcustom def
+	setCurrentScreen	
+} bind def
+/FrameSetCyan {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 1.0 def
+	/FrameSepIs FMcyan def
+	setCurrentScreen	
+} bind def
+ 
+/FrameSetMagenta {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 1.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMmagenta def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetYellow {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 1.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMyellow def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetBlack {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 1.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMblack def
+	setCurrentScreen
+} bind def
+ 
+/FrameNoSep { 
+	/FrameSepIs FMnone def
+	setCurrentScreen
+} bind def
+/FrameSetSepColors { 
+	FrameDict begin
+	[ exch 1 add 1 roll ]
+	/FrameSepColors  
+	exch def end
+	} bind def
+/FrameColorInSepListCMYK { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsCMYK 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/FrameColorInSepListRGB { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsRGB 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/RealSetgray /setgray load def
+/RealSetrgbcolor /setrgbcolor load def
+/RealSethsbcolor /sethsbcolor load def
+end 
+/setgray { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+		{ RealSetgray } 
+		{ 
+		FrameSepIs FMblack eq 
+			{ RealSetgray } 
+			{ FrameSepIs FMcustom eq 
+			  FrameSepRed 0 eq and
+			  FrameSepGreen 0 eq and
+			  FrameSepBlue 0 eq and {
+			  	RealSetgray
+			  } {
+				1 RealSetgray pop 
+			  } ifelse
+			} ifelse
+		} ifelse
+	end
+} bind def
+/setrgbcolor { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+	{  RealSetrgbcolor }
+	{
+		3 copy [ 4 1 roll ] 
+		FrameColorInSepListRGB
+		{
+				FrameSepBlue eq exch 
+			 	FrameSepGreen eq and exch 
+			 	FrameSepRed eq and
+			 	{ 0 } { 1 } ifelse
+		}
+		{
+			FMPColor {
+				RealSetrgbcolor
+				currentcmykcolor
+			} {
+				RGBtoCMYK
+			} ifelse
+			FrameSepIs FMblack eq
+			{1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		RealSetgray
+	} 
+	ifelse
+	end
+} bind def
+/sethsbcolor {
+	FrameDict begin
+	FrameSepIs FMnone eq 
+	{ RealSethsbcolor } 
+	{
+		RealSethsbcolor 
+		currentrgbcolor  
+		setrgbcolor 
+	} 
+	ifelse
+	end
+} bind def
+FrameDict begin
+/setcmykcolor where {
+	pop /RealSetcmykcolor /setcmykcolor load def
+} {
+	/RealSetcmykcolor {
+		4 1 roll
+		3 { 3 index add 0 max 1 min 1 exch sub 3 1 roll} repeat 
+		RealSetrgbcolor pop
+	} bind def
+} ifelse
+userdict /setcmykcolor { 
+		FrameDict begin
+		FrameSepIs FMnone eq
+		{ RealSetcmykcolor } 
+		{
+			4 copy [ 5 1 roll ]
+			FrameColorInSepListCMYK
+			{
+				FrameSepBlack eq exch 
+				FrameSepYellow eq and exch 
+				FrameSepMagenta eq and exch 
+				FrameSepCyan eq and 
+				{ 0 } { 1 } ifelse
+			}
+			{
+				FrameSepIs FMblack eq
+				{1.0 exch sub 4 1 roll pop pop pop} {
+				FrameSepIs FMyellow eq
+				{pop 1.0 exch sub 3 1 roll pop pop} {
+				FrameSepIs FMmagenta eq
+				{pop pop 1.0 exch sub exch pop } {
+				FrameSepIs FMcyan eq
+				{pop pop pop 1.0 exch sub } 
+				{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+			} ifelse
+			RealSetgray
+		}
+		ifelse
+		end
+	} bind put
+fMLevel1 { 
+	
+	
+	
+	/patScreenDict 7 dict dup begin
+		<0f1e3c78f0e1c387> [ 45  { pop } {exch pop} 		.5   2 sqrt] FmBD
+		<0f87c3e1f0783c1e> [ 135 { pop } {exch pop}			.5   2 sqrt] FmBD
+		<cccccccccccccccc> [ 0   { pop } dup				.5   2	   ] FmBD
+		<ffff0000ffff0000> [ 90  { pop } dup				.5   2	   ] FmBD
+		<8142241818244281> [ 45  { 2 copy lt {exch} if pop}	dup .75  2 sqrt] FmBD
+		<03060c183060c081> [ 45  { pop } {exch pop}			.875 2 sqrt] FmBD
+		<8040201008040201> [ 135 { pop } {exch pop}			.875 2 sqrt] FmBD
+	end def
+} { 
+	
+	/patProcDict 5 dict dup begin
+		<0f1e3c78f0e1c387> { 3 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<0f87c3e1f0783c1e> { 3 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+		<8142241818244281> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke
+											-1 -1 moveto 9 9 lineto stroke } bind def
+		<03060c183060c081> { 1 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<8040201008040201> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+	end def
+	/patDict 15 dict dup begin
+		/PatternType 1 def		
+		/PaintType 2 def		
+		/TilingType 3 def		
+		/BBox [ 0 0 8 8 ] def 	
+		/XStep 8 def			
+		/YStep 8 def			
+		/PaintProc {
+			begin
+			patProcDict bstring known {
+				patProcDict bstring get exec
+			} {
+				8 8 true [1 0 0 -1 0 8] bstring imagemask
+			} ifelse
+			end
+		} bind def
+	end def
+} ifelse
+/combineColor {
+    FrameSepIs FMnone eq
+	{
+		graymode fMLevel1 or not {
+			
+			[/Pattern [/DeviceCMYK]] setcolorspace
+			FrameCurColors 0 4 getinterval aload pop FrameCurPat setcolor
+		} {
+			FrameCurColors 3 get 1.0 ge {
+				FrameCurGray RealSetgray
+			} {
+				fMAcrobat not FMPColor graymode and and {
+					0 1 3 { 
+						FrameCurColors exch get
+						1 FrameCurGray sub mul
+					} for
+					RealSetcmykcolor
+				} {
+					4 1 6 {
+						FrameCurColors exch get
+						graymode {
+							1 exch sub 1 FrameCurGray sub mul 1 exch sub
+						} {
+							1.0 lt {FrameCurGray} {1} ifelse
+						} ifelse
+					} for
+					RealSetrgbcolor
+				} ifelse
+			} ifelse
+		} ifelse
+	} { 
+		FrameCurColors 0 4 getinterval aload
+		FrameColorInSepListCMYK {
+			FrameSepBlack eq exch 
+			FrameSepYellow eq and exch 
+			FrameSepMagenta eq and exch 
+			FrameSepCyan eq and
+			FrameSepIs FMcustom eq and
+			{ FrameCurGray } { 1 } ifelse
+		} {
+			FrameSepIs FMblack eq
+			{FrameCurGray 1.0 exch sub mul 1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop FrameCurGray 1.0 exch sub mul 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		graymode fMLevel1 or not {
+			
+			[/Pattern [/DeviceGray]] setcolorspace
+			FrameCurPat setcolor
+		} { 
+			graymode not fMLevel1 and {
+				
+				dup 1 lt {pop FrameCurGray} if
+			} if
+			RealSetgray
+		} ifelse
+	} ifelse
+} bind def
+/savematrix {
+	orgmatrix currentmatrix pop
+	} bind def
+/restorematrix {
+	orgmatrix setmatrix
+	} bind def
+/fMDefaultMatrix matrix defaultmatrix def
+/fMatrix2 matrix def
+/dpi    72 0 fMDefaultMatrix dtransform
+    dup mul exch   dup mul add   sqrt def
+	
+/freq dpi dup 72 div round dup 0 eq {pop 1} if 8 mul div def
+/sangle 1 0 fMDefaultMatrix dtransform exch atan def
+	sangle fMatrix2 rotate 
+	fMDefaultMatrix fMatrix2 concatmatrix 
+	dup 0 get /sflipx exch def
+	    3 get /sflipy exch def
+/screenIndex {
+	0 1 dpiranges length 1 sub { dup dpiranges exch get 1 sub dpi le {exit} {pop} ifelse } for
+} bind def
+/getCyanScreen {
+	FMUseHighFrequencyScreens { CHighAngles CMHighFreqs} {CLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getMagentaScreen {
+	FMUseHighFrequencyScreens { MHighAngles CMHighFreqs } {MLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getYellowScreen {
+	FMUseHighFrequencyScreens { YHighTDot YHighFreqs} { YLowTDot YLowFreqs } ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get { 3 div
+			{2 { 1 add 2 div 3 mul dup floor sub 2 mul 1 sub exch} repeat
+			FMSpotFunction } } {/FMSpotFunction load } ifelse
+			0.0 exch
+} bind def
+/getBlackScreen  {
+	FMUseHighFrequencyScreens { KHighFreqs } { KLowFreqs } ifelse
+		screenIndex get 45.0 /FMSpotFunction load 
+} bind def
+/getSpotScreen {
+	getBlackScreen
+} bind def
+/getCompositeScreen {
+	getBlackScreen
+} bind def
+/FMSetScreen 
+	fMLevel1 { /setscreen load 
+	}{ {
+		8 dict begin
+		/HalftoneType 1 def
+		/SpotFunction exch def
+		/Angle exch def
+		/Frequency exch def
+		/AccurateScreens FMUseAcccurateScreens def
+		currentdict end sethalftone
+	} bind } ifelse
+def
+/setDefaultScreen {
+	FMPColor {
+		orgrxfer cvx orggxfer cvx orgbxfer cvx orgxfer cvx setcolortransfer
+	}
+	{
+		orgxfer cvx settransfer
+	} ifelse
+	orgfreq organgle orgproc cvx setscreen
+} bind def
+/setCurrentScreen {
+	FrameSepIs FMnone eq {
+		FMUseDefaultNoSeparationScreen {
+			setDefaultScreen
+		} {
+			getCompositeScreen FMSetScreen
+		} ifelse
+	} {
+		FrameSepIs FMcustom eq {
+			FMUseDefaultSpotSeparationScreen {
+				setDefaultScreen
+			} {
+				getSpotScreen FMSetScreen
+			} ifelse
+		} {
+			FMUseDefaultProcessSeparationScreen {
+				setDefaultScreen
+			} {
+				FrameSepIs FMcyan eq {
+					getCyanScreen FMSetScreen
+				} {
+					FrameSepIs FMmagenta eq {
+						getMagentaScreen FMSetScreen
+					} {
+						FrameSepIs FMyellow eq {
+							getYellowScreen FMSetScreen
+						} {
+							getBlackScreen FMSetScreen
+						} ifelse
+					} ifelse
+				} ifelse
+			} ifelse
+		} ifelse
+	} ifelse 
+} bind def
+end
+	
+/FMDOCUMENT { 
+	array /FMfonts exch def 
+	/#copies exch def
+	FrameDict begin
+	0 ne /manualfeed exch def
+	/paperheight exch def
+	/paperwidth exch def
+	0 ne /fMNegative exch def 
+	0 ne /edown exch def 
+	/yscale exch def
+	/xscale exch def
+	fMLevel1 {
+		manualfeed {setmanualfeed} if
+		/FMdicttop countdictstack 1 add def 
+		/FMoptop count def 
+		setpapername 
+		manualfeed {true} {papersize} ifelse 
+		{manualpapersize} {false} ifelse 
+		{desperatepapersize} {false} ifelse 
+		{papersizefailure} if
+		count -1 FMoptop {pop pop} for
+		countdictstack -1 FMdicttop {pop end} for 
+		}
+		{2 dict
+		 dup /PageSize [paperwidth paperheight] put
+		 manualfeed {dup /ManualFeed manualfeed put} if
+		 {setpagedevice} stopped {papersizefailure} if
+		}
+	ifelse 
+	
+	FMPColor {
+		currentcolorscreen
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+			cvlit /orgbproc exch def
+				  /orgbangle exch def 
+				  /orgbfreq exch def
+			cvlit /orggproc exch def
+				  /orggangle exch def 
+				  /orggfreq exch def
+			cvlit /orgrproc exch def
+				  /orgrangle exch def 
+				  /orgrfreq exch def
+			currentcolortransfer 
+			fMNegative {
+				1 1 4 { 
+					pop { 1 exch sub } fmConcatProcs 4 1 roll
+				} for
+				4 copy
+				setcolortransfer
+			} if
+			cvlit /orgxfer exch def
+			cvlit /orgbxfer exch def
+			cvlit /orggxfer exch def
+			cvlit /orgrxfer exch def
+	} {
+		currentscreen 
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+				  
+		currenttransfer 
+		fMNegative {
+			{ 1 exch sub } fmConcatProcs
+			dup settransfer
+		} if 
+		cvlit /orgxfer exch def
+	} ifelse
+	end 
+} def 
+/FMBEGINPAGE { 
+	FrameDict begin 
+	/pagesave save def
+	3.86 setmiterlimit
+	/landscape exch 0 ne def
+	landscape { 
+		90 rotate 0 exch dup /pwid exch def neg translate pop 
+	}{
+		pop /pwid exch def
+	} ifelse
+	edown { [-1 0 0 1 pwid 0] concat } if
+	0 0 moveto paperwidth 0 lineto paperwidth paperheight lineto 
+	0 paperheight lineto 0 0 lineto 1 setgray fill
+	xscale yscale scale
+	/orgmatrix matrix def
+	gsave 
+} def 
+/FMENDPAGE {
+	grestore 
+	pagesave restore
+	end 
+	showpage
+	} def 
+/FMFONTDEFINE { 
+	FrameDict begin
+	findfont 
+	ReEncode 
+	1 index exch 
+	definefont 
+	FMfonts 3 1 roll 
+	put
+	end 
+	} def 
+/FMFILLS {
+	FrameDict begin dup
+	array /fillvals exch def
+	dict /patCache exch def
+	end 
+	} def 
+/FMFILL {
+	FrameDict begin
+	 fillvals 3 1 roll put
+	end 
+	} def 
+/FMNORMALIZEGRAPHICS { 
+	newpath
+	1 setlinewidth
+	0 setlinecap
+	0 0 0 sethsbcolor
+	0 setgray 
+	} bind def
+/FMBEGINEPSF { 
+	end 
+	/FMEPSF save def 
+	/showpage {} def 
+% See Adobe's "PostScript Language Reference Manual, 2nd Edition", page 714.
+% "...the following operators MUST NOT be used in an EPS file:" (emphasis ours)
+	/banddevice {(banddevice) FMBADEPSF} def
+	/clear {(clear) FMBADEPSF} def
+	/cleardictstack {(cleardictstack) FMBADEPSF} def 
+	/copypage {(copypage) FMBADEPSF} def
+	/erasepage {(erasepage) FMBADEPSF} def
+	/exitserver {(exitserver) FMBADEPSF} def
+	/framedevice {(framedevice) FMBADEPSF} def
+	/grestoreall {(grestoreall) FMBADEPSF} def
+	/initclip {(initclip) FMBADEPSF} def
+	/initgraphics {(initgraphics) FMBADEPSF} def
+	/quit {(quit) FMBADEPSF} def
+	/renderbands {(renderbands) FMBADEPSF} def
+	/setglobal {(setglobal) FMBADEPSF} def
+	/setpagedevice {(setpagedevice) FMBADEPSF} def
+	/setshared {(setshared) FMBADEPSF} def
+	/startjob {(startjob) FMBADEPSF} def
+	/lettertray {(lettertray) FMBADEPSF} def
+	/letter {(letter) FMBADEPSF} def
+	/lettersmall {(lettersmall) FMBADEPSF} def
+	/11x17tray {(11x17tray) FMBADEPSF} def
+	/11x17 {(11x17) FMBADEPSF} def
+	/ledgertray {(ledgertray) FMBADEPSF} def
+	/ledger {(ledger) FMBADEPSF} def
+	/legaltray {(legaltray) FMBADEPSF} def
+	/legal {(legal) FMBADEPSF} def
+	/statementtray {(statementtray) FMBADEPSF} def
+	/statement {(statement) FMBADEPSF} def
+	/executivetray {(executivetray) FMBADEPSF} def
+	/executive {(executive) FMBADEPSF} def
+	/a3tray {(a3tray) FMBADEPSF} def
+	/a3 {(a3) FMBADEPSF} def
+	/a4tray {(a4tray) FMBADEPSF} def
+	/a4 {(a4) FMBADEPSF} def
+	/a4small {(a4small) FMBADEPSF} def
+	/b4tray {(b4tray) FMBADEPSF} def
+	/b4 {(b4) FMBADEPSF} def
+	/b5tray {(b5tray) FMBADEPSF} def
+	/b5 {(b5) FMBADEPSF} def
+	FMNORMALIZEGRAPHICS 
+	[/fy /fx /fh /fw /ury /urx /lly /llx] {exch def} forall 
+	fx fw 2 div add fy fh 2 div add  translate
+	rotate
+	fw 2 div neg fh 2 div neg translate
+	fw urx llx sub div fh ury lly sub div scale 
+	llx neg lly neg translate 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count def 
+	} bind def
+/FMENDEPSF {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMEPSF restore
+	FrameDict begin 
+	} bind def
+FrameDict begin 
+/setmanualfeed {
+%%BeginFeature *ManualFeed True
+	 statusdict /manualfeed true put
+%%EndFeature
+	} bind def
+/max {2 copy lt {exch} if pop} bind def
+/min {2 copy gt {exch} if pop} bind def
+/inch {72 mul} def
+/pagedimen { 
+	paperheight sub abs 16 lt exch 
+	paperwidth sub abs 16 lt and
+	{/papername exch def} {pop} ifelse
+	} bind def
+/setpapername { 
+	/papersizedict 14 dict def 
+	papersizedict begin
+	/papername /unknown def 
+		/Letter 8.5 inch 11.0 inch pagedimen
+		/LetterSmall 7.68 inch 10.16 inch pagedimen
+		/Tabloid 11.0 inch 17.0 inch pagedimen
+		/Ledger 17.0 inch 11.0 inch pagedimen
+		/Legal 8.5 inch 14.0 inch pagedimen
+		/Statement 5.5 inch 8.5 inch pagedimen
+		/Executive 7.5 inch 10.0 inch pagedimen
+		/A3 11.69 inch 16.5 inch pagedimen
+		/A4 8.26 inch 11.69 inch pagedimen
+		/A4Small 7.47 inch 10.85 inch pagedimen
+		/B4 10.125 inch 14.33 inch pagedimen
+		/B5 7.16 inch 10.125 inch pagedimen
+	end
+	} bind def
+/papersize {
+	papersizedict begin
+		/Letter {lettertray letter} def
+		/LetterSmall {lettertray lettersmall} def
+		/Tabloid {11x17tray 11x17} def
+		/Ledger {ledgertray ledger} def
+		/Legal {legaltray legal} def
+		/Statement {statementtray statement} def
+		/Executive {executivetray executive} def
+		/A3 {a3tray a3} def
+		/A4 {a4tray a4} def
+		/A4Small {a4tray a4small} def
+		/B4 {b4tray b4} def
+		/B5 {b5tray b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	statusdict begin stopped end 
+	} bind def
+/manualpapersize {
+	papersizedict begin
+		/Letter {letter} def
+		/LetterSmall {lettersmall} def
+		/Tabloid {11x17} def
+		/Ledger {ledger} def
+		/Legal {legal} def
+		/Statement {statement} def
+		/Executive {executive} def
+		/A3 {a3} def
+		/A4 {a4} def
+		/A4Small {a4small} def
+		/B4 {b4} def
+		/B5 {b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	stopped 
+	} bind def
+/desperatepapersize {
+	statusdict /setpageparams known
+		{
+		paperwidth paperheight 0 1 
+		statusdict begin
+		{setpageparams} stopped 
+		end
+		} {true} ifelse 
+	} bind def
+/papersizefailure {
+	FMAllowPaperSizeMismatch not
+		{
+(The requested paper size is not available in any currently-installed tray)
+(Edit the PS file to "FMAllowPaperSizeMismatch true" to use default tray)
+		 FMFAILURE } if
+	} def
+/DiacriticEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle /parenleft
+/parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K
+/L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash
+/bracketright /asciicircum /underscore /grave /a /b /c /d /e /f /g /h
+/i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar
+/braceright /asciitilde /.notdef /Adieresis /Aring /Ccedilla /Eacute
+/Ntilde /Odieresis /Udieresis /aacute /agrave /acircumflex /adieresis
+/atilde /aring /ccedilla /eacute /egrave /ecircumflex /edieresis
+/iacute /igrave /icircumflex /idieresis /ntilde /oacute /ograve
+/ocircumflex /odieresis /otilde /uacute /ugrave /ucircumflex
+/udieresis /dagger /.notdef /cent /sterling /section /bullet
+/paragraph /germandbls /registered /copyright /trademark /acute
+/dieresis /.notdef /AE /Oslash /.notdef /.notdef /.notdef /.notdef
+/yen /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/ordfeminine /ordmasculine /.notdef /ae /oslash /questiondown
+/exclamdown /logicalnot /.notdef /florin /.notdef /.notdef
+/guillemotleft /guillemotright /ellipsis /.notdef /Agrave /Atilde
+/Otilde /OE /oe /endash /emdash /quotedblleft /quotedblright
+/quoteleft /quoteright /.notdef /.notdef /ydieresis /Ydieresis
+/fraction /currency /guilsinglleft /guilsinglright /fi /fl /daggerdbl
+/periodcentered /quotesinglbase /quotedblbase /perthousand
+/Acircumflex /Ecircumflex /Aacute /Edieresis /Egrave /Iacute
+/Icircumflex /Idieresis /Igrave /Oacute /Ocircumflex /.notdef /Ograve
+/Uacute /Ucircumflex /Ugrave /dotlessi /circumflex /tilde /macron
+/breve /dotaccent /ring /cedilla /hungarumlaut /ogonek /caron
+] def
+/ReEncode { 
+	dup 
+	length 
+	dict begin 
+	{
+	1 index /FID ne 
+		{def} 
+		{pop pop} ifelse 
+	} forall 
+	0 eq {/Encoding DiacriticEncoding def} if 
+	currentdict 
+	end 
+	} bind def
+FMPColor 
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPCOLOR} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPCOLORc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUECOLOR } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUECOLORc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYK } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKc } def
+	}
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPGRAY} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPGRAYc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUEGRAY } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUEGRAYc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYKGRAY } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKGRAYc } def
+	}
+ifelse
+/K { 
+	FMPrintAllColorsAsBlack {
+		dup 1 eq 2 index 1 eq and 3 index 1 eq and not
+			{7 {pop} repeat 0 0 0 1 0 0 0} if
+	} if 
+	FrameCurColors astore 
+	pop combineColor
+} bind def
+/graymode true def
+fMLevel1 {
+	/fmGetFlip {
+		fMatrix2 exch get mul 0 lt { -1 } { 1 } ifelse
+	} FmBD
+} if
+/setPatternMode {
+	fMLevel1 {
+		2 index patScreenDict exch known {
+			pop pop
+			patScreenDict exch get aload pop 
+			freq 								
+			mul									
+			5 2 roll							
+			fMatrix2 currentmatrix 1 get 0 ne {
+				3 -1 roll 90 add 3 1 roll 		
+				sflipx 1 fmGetFlip sflipy 2 fmGetFlip neg mul
+			} {  								
+				sflipx 0 fmGetFlip sflipy 3 fmGetFlip mul 
+			} ifelse
+			0 lt {exch pop} {pop} ifelse 		
+			fMNegative { 
+				{neg} fmConcatProcs 			
+			} if
+			bind
+			
+			
+			
+			systemdict /setscreen get exec		
+			/FrameCurGray exch def
+		} {
+			/bwidth  exch def
+			/bpside  exch def
+			/bstring exch def
+			/onbits 0 def  /offbits 0 def
+			freq sangle landscape {90 add} if 
+				{/ypoint exch def
+				 /xpoint exch def
+				 /xindex xpoint 1 add 2 div bpside mul cvi def
+				 /yindex ypoint 1 add 2 div bpside mul cvi def
+				 bstring yindex bwidth mul xindex 8 idiv add get
+				 1 7 xindex 8 mod sub bitshift and 0 ne fMNegative {not} if
+				 {/onbits  onbits  1 add def 1}
+				 {/offbits offbits 1 add def 0}
+				 ifelse
+				}
+				setscreen
+			offbits offbits onbits add div fMNegative {1.0 exch sub} if
+			/FrameCurGray exch def
+		} ifelse
+	} { 
+		pop pop
+		dup patCache exch known {
+			patCache exch get
+		} { 
+			dup
+			patDict /bstring 3 -1 roll put
+			patDict 
+			9 PatFreq screenIndex get div dup matrix scale
+			makepattern
+			dup 
+			patCache 4 -1 roll 3 -1 roll put
+		} ifelse
+		/FrameCurGray 0 def
+		/FrameCurPat exch def
+	} ifelse
+	/graymode false def
+	combineColor
+} bind def
+/setGrayScaleMode {
+	graymode not {
+		/graymode true def
+		fMLevel1 {
+			setCurrentScreen
+		} if
+	} if
+	/FrameCurGray exch def
+	combineColor
+} bind def
+/normalize {
+	transform round exch round exch itransform
+	} bind def
+/dnormalize {
+	dtransform round exch round exch idtransform
+	} bind def
+/lnormalize { 
+	0 dtransform exch cvi 2 idiv 2 mul 1 add exch idtransform pop
+	} bind def
+/H { 
+	lnormalize setlinewidth
+	} bind def
+/Z {
+	setlinecap
+	} bind def
+	
+/PFill {
+	graymode fMLevel1 or not {
+		gsave 1 setgray eofill grestore
+	} if
+} bind def
+/PStroke {
+	graymode fMLevel1 or not {
+		gsave 1 setgray stroke grestore
+	} if
+	stroke
+} bind def
+/X { 
+	fillvals exch get
+	dup type /stringtype eq
+	{8 1 setPatternMode} 
+	{setGrayScaleMode}
+	ifelse
+	} bind def
+/V { 
+	PFill gsave eofill grestore
+	} bind def
+/Vclip {
+	clip
+	} bind def
+/Vstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/N { 
+	PStroke
+	} bind def
+/Nclip {
+	strokepath clip newpath
+	} bind def
+/Nstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/M {newpath moveto} bind def
+/E {lineto} bind def
+/D {curveto} bind def
+/O {closepath} bind def
+/L { 
+ 	/n exch def
+	newpath
+	normalize
+	moveto 
+	2 1 n {pop normalize lineto} for
+	} bind def
+/Y { 
+	L 
+	closepath
+	} bind def
+/R { 
+	/y2 exch def
+	/x2 exch def
+	/y1 exch def
+	/x1 exch def
+	x1 y1
+	x2 y1
+	x2 y2
+	x1 y2
+	4 Y 
+	} bind def
+/rarc 
+	{rad 
+	 arcto
+	} bind def
+/RR { 
+	/rad exch def
+	normalize
+	/y2 exch def
+	/x2 exch def
+	normalize
+	/y1 exch def
+	/x1 exch def
+	mark
+	newpath
+	{
+	x1 y1 rad add moveto
+	x1 y2 x2 y2 rarc
+	x2 y2 x2 y1 rarc
+	x2 y1 x1 y1 rarc
+	x1 y1 x1 y2 rarc
+	closepath
+	} stopped {x1 y1 x2 y2 R} if 
+	cleartomark
+	} bind def
+/RRR { 
+	/rad exch def
+	normalize /y4 exch def /x4 exch def
+	normalize /y3 exch def /x3 exch def
+	normalize /y2 exch def /x2 exch def
+	normalize /y1 exch def /x1 exch def
+	newpath
+	normalize moveto 
+	mark
+	{
+	x2 y2 x3 y3 rarc
+	x3 y3 x4 y4 rarc
+	x4 y4 x1 y1 rarc
+	x1 y1 x2 y2 rarc
+	closepath
+	} stopped
+	 {x1 y1 x2 y2 x3 y3 x4 y4 newpath moveto lineto lineto lineto closepath} if
+	cleartomark
+	} bind def
+/C { 
+	grestore
+	gsave
+	R 
+	clip
+	setCurrentScreen
+} bind def
+/CP { 
+	grestore
+	gsave
+	Y 
+	clip
+	setCurrentScreen
+} bind def
+/F { 
+	FMfonts exch get
+	FMpointsize scalefont
+	setfont
+	} bind def
+/Q { 
+	/FMpointsize exch def
+	F 
+	} bind def
+/T { 
+	moveto show
+	} bind def
+/RF { 
+	rotate
+	0 ne {-1 1 scale} if
+	} bind def
+/TF { 
+	gsave
+	moveto 
+	RF
+	show
+	grestore
+	} bind def
+/P { 
+	moveto
+	0 32 3 2 roll widthshow
+	} bind def
+/PF { 
+	gsave
+	moveto 
+	RF
+	0 32 3 2 roll widthshow
+	grestore
+	} bind def
+/S { 
+	moveto
+	0 exch ashow
+	} bind def
+/SF { 
+	gsave
+	moveto
+	RF
+	0 exch ashow
+	grestore
+	} bind def
+/B { 
+	moveto
+	0 32 4 2 roll 0 exch awidthshow
+	} bind def
+/BF { 
+	gsave
+	moveto
+	RF
+	0 32 4 2 roll 0 exch awidthshow
+	grestore
+	} bind def
+/G { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	PFill fill
+	grestore
+	} bind def
+/Gstrk {
+	savematrix
+    newpath
+    2 index 2 div add exch 3 index 2 div sub exch 
+    normalize 2 index 2 div sub exch 3 index 2 div add exch 
+    translate
+    scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+    } bind def
+/Gclip { 
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	clip newpath
+	restorematrix
+	} bind def
+/GG { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	rotate 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath
+	PFill
+	fill
+	grestore
+	} bind def
+/GGclip { 
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	clip newpath
+	restorematrix
+	} bind def
+/GGstrk { 
+	savematrix
+    newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath 
+	restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/A { 
+	gsave
+	savematrix
+	newpath
+	2 index 2 div add exch 3 index 2 div sub exch 
+	normalize 2 index 2 div sub exch 3 index 2 div add exch 
+	translate 
+	scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/Aclip {
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	strokepath clip newpath
+	restorematrix
+} bind def
+/Astrk {
+	Gstrk
+} bind def
+/AA { 
+	gsave
+	savematrix
+	newpath
+	
+	3 index 2 div add exch 4 index 2 div sub exch 
+	
+	normalize 3 index 2 div sub exch 4 index 2 div add exch
+	translate 
+	rotate 
+	scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/AAclip {
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	strokepath clip newpath
+	restorematrix
+} bind def
+/AAstrk {
+	GGstrk
+} bind def
+/BEGINPRINTCODE { 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count 7 sub def 
+	/FMsaveobject save def
+	userdict begin 
+	/showpage {} def 
+	FMNORMALIZEGRAPHICS 
+	3 index neg 3 index neg translate
+	} bind def
+/ENDPRINTCODE {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMsaveobject restore 
+	} bind def
+/gn { 
+	0 
+	{	46 mul 
+		cf read pop 
+		32 sub 
+		dup 46 lt {exit} if 
+		46 sub add 
+		} loop
+	add 
+	} bind def
+/cfs { 
+	/str sl string def 
+	0 1 sl 1 sub {str exch val put} for 
+	str def 
+	} bind def
+/ic [ 
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0
+	{0 hx} {1 hx} {2 hx} {3 hx} {4 hx} {5 hx} {6 hx} {7 hx} {8 hx} {9 hx}
+	{10 hx} {11 hx} {12 hx} {13 hx} {14 hx} {15 hx} {16 hx} {17 hx} {18 hx}
+	{19 hx} {gn hx} {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10} {11} {12}
+	{13} {14} {15} {16} {17} {18} {19} {gn} {0 wh} {1 wh} {2 wh} {3 wh}
+	{4 wh} {5 wh} {6 wh} {7 wh} {8 wh} {9 wh} {10 wh} {11 wh} {12 wh}
+	{13 wh} {14 wh} {gn wh} {0 bl} {1 bl} {2 bl} {3 bl} {4 bl} {5 bl} {6 bl}
+	{7 bl} {8 bl} {9 bl} {10 bl} {11 bl} {12 bl} {13 bl} {14 bl} {gn bl}
+	{0 fl} {1 fl} {2 fl} {3 fl} {4 fl} {5 fl} {6 fl} {7 fl} {8 fl} {9 fl}
+	{10 fl} {11 fl} {12 fl} {13 fl} {14 fl} {gn fl}
+	] def
+/ms { 
+	/sl exch def 
+	/val 255 def 
+	/ws cfs 
+	/im cfs 
+	/val 0 def 
+	/bs cfs 
+	/cs cfs 
+	} bind def
+400 ms 
+/ip { 
+	is 
+	0 
+	cf cs readline pop 
+	{	ic exch get exec 
+		add 
+		} forall 
+	pop 
+	
+	} bind def
+/rip { 
+	   
+	  
+	  bis ris copy pop 
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop 
+	  ris gis copy pop 
+	  dup is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  gis bis copy pop 
+	  dup add is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+/rip4 { 
+	   
+	  
+	  kis cis copy pop 
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop 
+	  cis mis copy pop 
+	  dup is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  mis yis copy pop 
+	  dup dup add is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  yis kis copy pop 
+	  3 mul is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+/wh { 
+	/len exch def 
+	/pos exch def 
+	ws 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/bl { 
+	/len exch def 
+	/pos exch def 
+	bs 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/s1 1 string def
+/fl { 
+	/len exch def 
+	/pos exch def 
+	/val cf s1 readhexstring pop 0 get def
+	pos 1 pos len add 1 sub {im exch val put} for
+	pos len 
+	} bind def
+/hx { 
+	3 copy getinterval 
+	cf exch readhexstring pop pop 
+	} bind def
+/wbytes { 
+      dup dup
+      8 gt { pop 8 idiv mul }
+      { 8 eq {pop} {1 eq {7 add 8 idiv} {3 add 4 idiv} ifelse} ifelse } ifelse
+	} bind def
+/BEGINBITMAPBWc { 
+	1 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAPGRAYc { 
+	8 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAP2BITc { 
+	2 {} COMMONBITMAPc
+	} bind def
+/COMMONBITMAPc { 
+		 
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	cvtProc                
+	/is im 0 lb getinterval def 
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height depth [width 0 0 height neg 0 height] 
+	{ip} image 
+	bitmapsave restore 
+	grestore
+	} bind def
+/BEGINBITMAPBW { 
+	1 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAPGRAY { 
+	8 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAP2BIT { 
+	2 {} COMMONBITMAP
+	} bind def
+/COMMONBITMAP { 
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/bitmapsave save def 
+	cvtProc              
+	/is width depth wbytes string def
+	/cf currentfile def 
+	width height depth [width 0 0 height neg 0 height] 
+	{cf is readhexstring pop} image
+	bitmapsave restore 
+	grestore
+	} bind def
+/ngrayt 256 array def
+/nredt 256 array def
+/nbluet 256 array def
+/ngreent 256 array def
+fMLevel1 {
+/colorsetup {
+	currentcolortransfer
+	/gryt exch def
+	/blut exch def
+	/grnt exch def
+	/redt exch def
+	0 1 255 {
+		/indx exch def
+		/cynu 1 red indx get 255 div sub def
+		/magu 1 green indx get 255 div sub def
+		/yelu 1 blue indx get 255 div sub def
+		/kk cynu magu min yelu min def
+		/u kk currentundercolorremoval exec def
+%		/u 0 def
+		nredt indx 1 0 cynu u sub max sub redt exec put
+		ngreent indx 1 0 magu u sub max sub grnt exec put
+		nbluet indx 1 0 yelu u sub max sub blut exec put
+		ngrayt indx 1 kk currentblackgeneration exec sub gryt exec put
+	} for
+	{255 mul cvi nredt exch get}
+	{255 mul cvi ngreent exch get}
+	{255 mul cvi nbluet exch get}
+	{255 mul cvi ngrayt exch get}
+	setcolortransfer
+	{pop 0} setundercolorremoval
+	{} setblackgeneration
+	} bind def
+}
+{
+/colorSetup2 {
+	[ /Indexed /DeviceRGB 255 
+		{dup red exch get 255 div 
+		 exch dup green exch get 255 div 
+		 exch blue exch get 255 div}
+	] setcolorspace
+} bind def
+} ifelse
+/fakecolorsetup {
+	/tran 256 string def
+	0 1 255 {/indx exch def 
+		tran indx
+		red indx get 77 mul
+		green indx get 151 mul
+		blue indx get 28 mul
+		add add 256 idiv put} for
+	currenttransfer
+	{255 mul cvi tran exch get 255.0 div}
+	exch fmConcatProcs settransfer
+} bind def
+/BITMAPCOLOR { 
+	/depth 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/bitmapsave save def
+	fMLevel1 {	
+		colorsetup
+		/is width depth wbytes string def
+		/cf currentfile def 
+		width height depth [width 0 0 height neg 0 height] 
+		{cf is readhexstring pop} {is} {is} true 3 colorimage 
+	} {
+		colorSetup2
+		/is width depth wbytes string def
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {cf is readhexstring pop} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCOLORc { 
+	/depth 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	fMLevel1 {	
+		colorsetup
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		width height depth [width 0 0 height neg 0 height] 
+		{ip} {is} {is} true 3 colorimage
+	} {
+		colorSetup2
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {ip} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLORc { 
+	/depth 24 def
+        gsave
+ 	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 width getinterval def	
+	/gis im width width getinterval def	
+	/bis im width 2 mul width getinterval def 
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip pop ris} {gis} {bis} true 3 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCMYKc { 
+	/depth 32 def
+        gsave
+ 	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/cis im 0 width getinterval def	
+	/mis im width width getinterval def	
+	/yis im width 2 mul width getinterval def 
+	/kis im width 3 mul width getinterval def 
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip4 pop cis} {mis} {yis} {kis} true 4 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLOR { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf gis readhexstring pop } 
+        { cf bis readhexstring pop } 
+        true 3 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYK { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /mis width string def
+        /yis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf mis readhexstring pop } 
+        { cf yis readhexstring pop } 
+        { cf kis readhexstring pop } 
+        true 4 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPTRUEGRAYc { 
+	/depth 24 def
+        gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 width getinterval def	
+	/gis im width width getinterval def	
+	/bis im width 2 mul width getinterval def 
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop ris gis bis width gray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAYc { 
+	/depth 32 def
+        gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/cis im 0 width getinterval def	
+	/mis im width width getinterval def	
+	/yis im width 2 mul width getinterval def 
+	/kis im width 3 mul width getinterval def 
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop cis mis yis kis width cgray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/cgray { 
+        /ww exch def
+        /k exch def
+        /y exch def
+        /m exch def
+        /c exch def
+        0 1 ww 1 sub { /i exch def c i get m i get y i get k i get CMYKtoRGB
+				.144 mul 3 1 roll .587 mul 3 1 roll .299 mul add add
+				c i 3 -1 roll floor cvi put } for
+        c
+ 		} bind def
+/gray { 
+        /ww exch def
+        /b exch def
+        /g exch def
+        /r exch def
+        0 1 ww 1 sub { /i exch def r i get .299 mul g i get .587 mul
+			b i get .114 mul add add r i 3 -1 roll floor cvi put } for
+        r
+        } bind def
+/BITMAPTRUEGRAY { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf gis readhexstring pop 
+          cf bis readhexstring pop width gray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAY { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /yis width string def
+        /mis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf mis readhexstring pop 
+          cf yis readhexstring pop 
+          cf kis readhexstring pop width cgray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPGRAY { 
+	8 {fakecolorsetup} COMMONBITMAP
+	} bind def
+/BITMAPGRAYc { 
+	8 {fakecolorsetup} COMMONBITMAPc
+	} bind def
+/ENDBITMAP {
+	} bind def
+end 
+	/ALDmatrix matrix def ALDmatrix currentmatrix pop
+/StartALD {
+	/ALDsave save def
+	 savematrix
+	 ALDmatrix setmatrix
+	} bind def
+/InALD {
+	 restorematrix
+	} bind def
+/DoneALD {
+	 ALDsave restore
+	} bind def
+/I { setdash } bind def
+/J { [] 0 setdash } bind def
+%%EndProlog
+%%BeginSetup
+(5.0) FMVERSION
+1 1 0 0 612 792 0 1 13 FMDOCUMENT
+0 0 /Times-Roman FMFONTDEFINE
+1 0 /Times-Bold FMFONTDEFINE
+2 0 /Times-Italic FMFONTDEFINE
+3 0 /Times-BoldItalic FMFONTDEFINE
+4 0 /Courier-Bold FMFONTDEFINE
+5 0 /Courier FMFONTDEFINE
+32 FMFILLS
+0 0 FMFILL
+1 0.1 FMFILL
+2 0.3 FMFILL
+3 0.5 FMFILL
+4 0.7 FMFILL
+5 0.9 FMFILL
+6 0.97 FMFILL
+7 1 FMFILL
+8 <0f1e3c78f0e1c387> FMFILL
+9 <0f87c3e1f0783c1e> FMFILL
+10 <cccccccccccccccc> FMFILL
+11 <ffff0000ffff0000> FMFILL
+12 <8142241818244281> FMFILL
+13 <03060c183060c081> FMFILL
+14 <8040201008040201> FMFILL
+16 1 FMFILL
+17 0.9 FMFILL
+18 0.7 FMFILL
+19 0.5 FMFILL
+20 0.3 FMFILL
+21 0.1 FMFILL
+22 0.03 FMFILL
+23 0 FMFILL
+24 <f0e1c3870f1e3c78> FMFILL
+25 <f0783c1e0f87c3e1> FMFILL
+26 <3333333333333333> FMFILL
+27 <0000ffff0000ffff> FMFILL
+28 <7ebddbe7e7dbbd7e> FMFILL
+29 <fcf9f3e7cf9f3f7e> FMFILL
+30 <7fbfdfeff7fbfdfe> FMFILL
+%%EndSetup
+%%Page: "13" 1
+%%BeginPaperSize: Letter
+%%EndPaperSize
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+J
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.28 (the concrete domain of values and operations in a programming language to an abstract) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.26 (domain, typically with values ordered in a lattice and abstracted operations defined) 119 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (through lattice operations \050e.g., meet and join\051. Abstract interpretation is often applied) 119 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.95 (through fixed mappings for various types of analysis used in compiler optimization,) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(such as dead code detection.) 119 633.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (In this ongoing research, we are applying abstract interpretation through dynamical-) 131 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.37 (ly determined mappings to reduce the state space for model-checking. To date, we have) 119 611.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (only considered mappings based on explicit values: discrete enumerated values and) 119 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.67 (convex intervals over the real numbers. The method is similar to WP-based program) 119 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.34 (slicing: starting from an operation constrained by a flight rule, the state space is merged) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (into one equivalence class. Walking backwards through the code from this operation,) 119 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.13 (this one equivalence class is then recursively partitioned into distinct classes according) 119 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.11 (to those states satisfying the weakest precondition for each statement. At worst, the) 119 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(original state space is regenerated.) 119 534.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(8 Summary) 119 516.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+1.54 (Verification technology is important for next generation of autonomous spacecraft.) 119 498.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.51 (This paper has described ongoing work in applying and extending formal methods tech-) 119 487.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (niques, specifically model-checking, to the verification of an AI-based autonomy archi-) 119 476.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.51 (tecture. The paper presented examples of the core services provided by the DS-1 remote) 119 465.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (agent executive and task programs executed by the executive. Verification and debug-) 119 454.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 (ging of the core services protocol requirements through model-checking were de-) 119 443.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (scribed. The paper then described on-going research to automate the abstraction of task) 119 432.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(programs in order to enable model-checking of flight rules and other requirements.) 119 421.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(Acknowledgments) 119 404.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.05 (This research was supported by NASA Code S and NASA Code Q . We wish to thank) 119 387.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.42 (our colleagues at other NASA centers participating in the analytic verification effort for) 119 376.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.34 (DS-1 for their helpful suggestions in this research. We wish also to thank various mem-) 119 365.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(bers of the model-checking research community for their advise.) 119 354.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(References) 119 337.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 9 Q
+-0.32 (1. B. W. Boehm: A Spiral Model of Software Development and Enhancement.) 119 321.5 P
+2 F
+-0.32 (ACM Sigsoft Soft-) 400.63 321.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ware Eng. Notes 11\0504\051:22-42) 130.34 311.5 T
+0 F
+(.) 235.83 311.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.11 (2. G. J. Holzmann: The Model Checker SPIN,) 119 301.5 P
+2 F
+-0.11 (IEEE Transactions on Software Engineering) 286.57 301.5 P
+0 F
+-0.11 (, Vol) 447.11 301.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(23, No. 5, May 1997.) 130.34 291.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.19 (3. N. Jones, C. Gomard,and P. Sestoft:) 119 281.5 P
+2 F
+0.19 (Partial Evaluation and Automatic Program Generation,) 261.56 281.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(ed. C.A.R. Hoare, Prentice Hall, 1993.) 130.34 271.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (4. B. Korel and J. Laski: Dynamic Slicing of Computer Programs,) 119 261.5 P
+2 F
+0.2 (J. Systems Software,) 361.45 261.5 P
+0 F
+0.2 (Vol 13,) 437.8 261.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(1990, pp 187-195.) 130.34 251.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.32 (5. M. Weiser: Program Slicing,) 119 241.5 P
+2 F
+0.32 (Proc. Fifth International Conference on Software Engineering,) 235.59 241.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(1981, pp. 439-449.) 130.34 231.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.32 (6. J.J. Comuzzi and J.M. Hart, \322Program Slicing Using Weakest Preconditions\323,) 119 221.5 P
+2 F
+-0.32 (3rd Intl. Sympo-) 406.91 221.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(sium of Formal Methods Europe \050FME\32596\051) 130.34 211.5 T
+0 F
+(, M. C. Gaudel, J. Woodcock, eds., Oxford, UK) 286.57 211.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(     March 1996. Springer Verlag Lecture Notes in Computer Science 1051.) 119 201.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "13" 1
+%%Page: "12" 2
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+(The rule for conditionals is defined on the following pattern:) 131 666.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Slice\050{code-sequence; if) 131 655.83 T
+2 F
+(P) 231.88 655.83 T
+0 F
+( then) 237.99 655.83 T
+2 F
+(then-statement) 260.21 655.83 T
+0 F
+( else) 319.09 655.83 T
+2 F
+(else-statement) 339.64 655.83 T
+0 F
+(}, Q}) 396.85 655.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Let) 131 633.83 T
+2 F
+(then-WP =) 146.83 633.83 T
+0 F
+(WP\050) 193.57 633.83 T
+2 F
+(then-statment, Q\051) 211.9 633.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(Let) 131 622.83 T
+2 F
+(else-WP =) 146.83 622.83 T
+0 F
+(WP\050) 191.9 622.83 T
+2 F
+(else-statment, Q\051) 210.23 622.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(Let) 131 600.83 T
+2 F
+(reduced-then-WP =) 146.83 600.83 T
+0 F
+(WPR\050) 229.11 600.83 T
+2 F
+(P,then-WP\051) 254.11 600.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(Let) 131 589.83 T
+2 F
+(reduced-else-WP =) 146.83 589.83 T
+0 F
+(WPR\050not\050) 227.44 589.83 T
+2 F
+(P\051,else-WP\051) 268.55 589.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+-0.07 (Note that when the condition) 131 556.83 P
+2 F
+-0.07 (P) 249.23 556.83 P
+0 F
+-0.07 (implies) 257.77 556.83 P
+2 F
+-0.07 (then-WP,) 289.64 556.83 P
+0 F
+-0.07 (the IDLE statement can be substi-) 329.56 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.62 (tuted for) 119 545.83 P
+2 F
+-0.62 (then-statement.) 154.41 545.83 P
+0 F
+-0.62 (In other words, the) 217.67 545.83 P
+2 F
+-0.62 (then-statement) 293.21 545.83 P
+0 F
+-0.62 ( is executed only in a context) 352.09 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.12 (where it will not generate an error trace. Define) 119 534.83 P
+2 F
+-0.12 (reduced-then-statement) 310.67 534.83 P
+0 F
+-0.12 ( as IDLE when) 405.09 534.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+0.2 (P) 119 523.83 P
+0 F
+0.2 (implies) 127.81 523.83 P
+2 F
+0.2 (then-WP) 159.96 523.83 P
+0 F
+0.2 (, otherwise it is the same as) 194.95 523.83 P
+2 F
+0.2 (then-statement.) 308.58 523.83 P
+0 F
+0.2 (Similarly, when not) 372.66 523.83 P
+2 F
+0.2 (\050P\051) 452.23 523.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.27 (implies) 119 512.83 P
+2 F
+0.27 (else-WP,) 151.22 512.83 P
+0 F
+0.27 (the IDLE statement can be substituted for) 189.82 512.83 P
+2 F
+0.27 (else-statement.) 360.87 512.83 P
+0 F
+0.27 (Define) 423.36 512.83 P
+2 F
+0.27 (re-) 453.34 512.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(duced-else-statement) 119 501.83 T
+0 F
+( accordingly.) 203.42 501.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(The rule for slicing conditionals can now be defined:) 131 479.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Slice\050{code-sequence; if) 131 468.83 T
+2 F
+(P) 231.88 468.83 T
+0 F
+( then) 237.99 468.83 T
+2 F
+(then-statement) 260.21 468.83 T
+0 F
+( else) 319.09 468.83 T
+2 F
+(else-statement) 339.64 468.83 T
+0 F
+(}, Q} ->) 396.85 468.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+({Slice\050code-sequence, \050) 131 446.83 T
+2 F
+(P) 226.32 446.83 T
+0 F
+(and) 234.93 446.83 T
+2 F
+(reduced-then-WP\051) 251.87 446.83 T
+0 F
+(or \050not\050) 328.23 446.83 T
+2 F
+(P) 358.5 446.83 T
+0 F
+(\051 and) 364.61 446.83 T
+2 F
+(reduced-else-WP\051\051\051) 387.38 446.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+-0.24 (                                         ; if) 119 435.83 P
+2 F
+-0.24 (P) 225.1 435.83 P
+0 F
+-0.24 ( then) 231.21 435.83 P
+2 F
+-0.24 (reduced-then-statement) 252.96 435.83 P
+0 F
+-0.24 ( else) 347.38 435.83 P
+2 F
+-0.24 (reduced-else-statement) 367.45 435.83 P
+0 F
+-0.24 (}) 460.2 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.49 (Note that the weakest precondition for the conditional is composed of reduced weak-) 131 413.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(est preconditions for the then-statement and the else-statement.) 119 402.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(7.2 Future Research on Abstraction-based Verification) 119 385.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.1 (Future work will include a full calculus for WP-slicing of ESL constructs. Many of) 131 368.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (the ESL constructs such as) 119 357.83 P
+2 F
+-0.07 (with-maintained-properties) 228.35 357.83 P
+0 F
+-0.07 (greatly simplify WP-slicing. In) 340.78 357.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.3 (other words, the API provided by core executive services is designed to simplify ensur-) 119 346.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (ing that requirements and constraints for task program execution are met. For example,) 119 335.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+0.77 (with-maintained-properties) 119 324.83 P
+0 F
+0.77 (is specified to guarantee that properties are achieved and) 232.27 324.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.44 (maintained throughout the execution of the body. The weakest precondition of the body) 119 313.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(for a state-predicate implied by these properties is simply) 119 302.83 T
+1 F
+(true) 350.91 302.83 T
+3 F
+(.) 368.68 302.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.79 (Another method under investigation for abstracting ESL task programs is equiva-) 131 291.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.66 (lence-based abstract interpretation.WP-program slicing can substantially reduce the) 119 280.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (size of programs. However, it does not reduce the size of the full state space, defined as) 119 269.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (the product of the number of values that can be assigned to each program variable. By) 119 258.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.8 (reducing some state transitions to IDLE, WP-program slicing reduces the number of) 119 247.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (reachable states, defined as the subset of the state space that can be reached through se-) 119 236.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.82 (quences of valid transitions from the initial state. Nonetheless, non-symbolic model-) 119 225.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.65 (checking is required to enumerate all the possible reachable values for each program) 119 214.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (variable, even if many of these values result in equivalent traces with respect to an in-) 119 203.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(variant or temporal property.) 119 192.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (The state space can be greatly reduced by merging equivalent values, and redefining) 131 181.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.25 (the operations according to the equivalence classes. Mapping values to equivalence) 119 170.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (classes and operations to abstracted operations over the equivalence classes is a type of) 119 159.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+-0.4 (abstract interpretation) 119 148.83 P
+0 F
+-0.4 (, [3]. Abstract interpretation is defined as a homomorphism from) 209.44 148.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "12" 2
+%%Page: "11" 3
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 10 Q
+0 X
+0 0 0 1 0 0 0 K
+(7.1 WP-Based Program Slicing) 119 649.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+-0.08 (Program slicing [4,5] is a technique to extract a partial program that is equivalent to an) 119 632.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (original program over a subset of the program variables. The input to a traditional slic-) 119 621.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (ing algorithm is a program and a designated subset of variables, the output of the slicing) 119 610.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (algorithm is a partial program that for every program execution has identical values as-) 119 599.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (signed to the designated subset of variables upon program termination. The key idea of) 119 588.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (slicing algorithms is to work backwards from the program end-point, keeping state-) 119 577.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.5 (ments that have an effect on the designated variables and removing statements that have) 119 566.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (no effect. As the algorithm works backwards over the program statements, additional) 119 555.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (variables might be added to the designated set if they have occur in expressions which) 119 544.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(modify the designated set.) 119 533.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.63 (The concept of program slicing can be extended to abstract ESL programs for the) 131 522.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (purpose of model checking. However, instead of slicing with respect to variables, the) 119 511.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (programs are sliced with respect to state predicates [6], starting from a statement which) 119 500.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (contains the operation\050s\051 which are required to only be executed in particular states. In) 119 489.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (other words, the programs are sliced with respect to a never property of the form de-) 119 478.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.34 (scribed in section 6. The partial program that is generated from such a never property) 119 467.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (has the following guarantee: its error traces for the never property are in direct corre-) 119 456.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (spondence to the error traces of the original program. This is called WP-program slic-) 119 445.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.37 (ing, as the algorithm is defined using Dijkstra\325s weakest-precondition calculus. In the) 119 434.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (example above, the slicing begins at the statement which changes the ACS to TVC-) 119 423.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(mode.) 119 412.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (Two rules for this slicing calculus are described.) 131 401.83 P
+1 F
+-0.05 (Slice) 326.92 401.83 P
+0 F
+-0.05 (takes a code-sequence termi-) 349.37 401.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (nated by a statement, and a state predicate, and returns a reduced code-sequence. It de-) 119 390.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (termines where it can substitute the IDLE statement without affecting error traces by) 119 379.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (calculating when a statement \322passes through\323 a state predicate. This occurs when the) 119 368.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (weakest precondition is the same as the state predicate. The IDLE statements can later) 119 357.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(be removed.) 119 346.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(The slicing rule for straight-line sequences is:) 131 335.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Slice\050{code-sequence ; statement} ,  state-predicate\051  ->) 131 313.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(If WP\050statement, state-predicate\051 = state-predicate) 131 302.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(    then {Slice\050code-sequence,state-predicate\051; IDLE}) 131 291.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(    else  {Slice\050code-sequence,WP\050state-predicate,statement\051\051 ; statement}) 131 280.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (The rule states that IDLE can be substituted for a statement if the statement has no) 131 258.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.13 (effect on the state predicate. Otherwise, the weakest precondition of the state-predicate) 119 247.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (is substituted for the state-predicate and slicing continues backwards. A more elaborate) 119 236.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (calculus would allow substituting a simpler statement that had the same weakest pre-) 119 225.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(condition.) 119 214.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(The rule for conditionals requires the definition of a weakest predicate reduction:) 131 203.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(Definition) 131 181.83 T
+0 F
+(  R is a) 173.78 181.83 T
+2 F
+(predicate reduction) 204.06 181.83 T
+0 F
+( of Q by P  iff R & P => Q) 282.66 181.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(Definition) 131 159.83 T
+0 F
+(R is a) 176.28 159.83 T
+2 F
+(weakest predicate reduction) 201.56 159.83 T
+0 F
+( \050WPR\051 of Q by P iff for any S which) 314.32 159.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(                       is a predicate reduction of Q by P, S=> R) 119 148.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "11" 3
+%%Page: "10" 4
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+(call) 119 677.83 T
+1 F
+(change-acs-mode) 135.94 677.83 T
+0 F
+(.) 209.26 677.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4 F
+(to-achieve-IPS-THRUSTING) 119 666.83 T
+5 F
+( \050level\051) 263 666.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+( if  \050ips-thrusting-state-p or ips-standby-state-p\051) 131 654.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(    then do) 131 643.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        check-type\050 level, ips-thrust-level-type\051;) 131 632.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        command-with-mir-confirmation\050send_fsc_ips_set_thrust_level\050level\051\051;) 131 621.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        wait-for\050memory-event\050ips-state = steady-state and thrust-level = level\051\051;) 131 610.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(             with-guardian\050w) 119 599.83 T
+(arp-safe \050monitor\050ips-thrust-duration-achie) 218.05 599.83 T
+(v) 389.7 599.83 T
+(ed\051\051\051,) 394.55 599.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(                                                                     change-acs-mode\050tvc_mode\051\051;) 119 590.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        od) 119 581.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        else do) 119 572.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              achie) 119 563.83 T
+(v) 174.85 563.83 T
+(e \050ips-standby-state\051;) 179.7 563.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              achie) 119 554.83 T
+(v) 174.85 554.83 T
+(e \050ips-thrusting\050le) 179.7 554.83 T
+(v) 250.83 554.83 T
+(el\051\051;) 255.68 554.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        od) 119 545.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (The procedure first checks that the IPS is either in a thrusting state or a standby state. If) 119 527.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.46 (neither \050the else clause\051, it first achieves a standby state, and then tries to achieve the) 119 516.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (thrusting level. Otherwise \050the then clause\051, it performs a sequence of steps that do not) 119 505.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (themselves change whether the EGA is turned on. These commands instead set-up and) 119 494.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.59 (monitor the thrust-level given as parameter. Finally, the ACS is switched to TVC-mode.) 119 483.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.41 (Note that this procedure does not itself guarantee that the EGA is turned on when the) 131 472.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (ACS is switched to TVC-mode. \050In fact, achieving IPS standby-mode turns the EGA) 119 461.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.39 (off.\051 Thus the existence of a possible error trace for the flight rule is not excluded by the) 119 450.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (code in this procedure, but rather depends on the context in which this procedure is) 119 439.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.23 (called. However, the program is more complicated than need be to determine whether) 119 428.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (or not there is an error trace. The superfluous steps can greatly increase the number of) 119 417.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(interleavings during model-checking.) 119 406.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(7 Abstraction-based Verification) 119 388.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0.71 (Model-checking is an attractive method for verifying flight rules, specifically that) 131 370.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (state constraints \050invariants\051 are satisfied at those points in the code where messages are) 119 359.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.72 (broadcast. However, the executive task descriptions are moderately complex \050tens to) 119 348.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.42 (hundreds of pages\051, and have a large state space. The code described in section 6 is only) 119 337.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.57 (a small part of the overall program to control the IPS. This makes it computationally) 119 326.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (infeasible as a general methodology to run a model-checker on a direct translation of) 119 315.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 (the ESL programs. But for each flight rule, only a small portion of the program is rele-) 119 304.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.51 (vant. However, given the number of flight rules, manually abstracting a model of the) 119 293.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.5 (task programs for each flight rule is not cost effective. Thus we are developing automat-) 119 282.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.49 (ed abstraction methods for generating reduced models. As applied to the code described) 119 271.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.39 (in section 6, the abstraction methods would yield the simplified program below with re-) 119 260.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(spect to the EGA constraint:) 119 249.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+4 F
+(to-achieve-IPS-THRUSTING) 119 227.83 T
+5 F
+( \050level\051) 263 227.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+( if  \050ips-thrusting-state-p or ips-standby-state-p\051) 131 215.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(    then do) 131 204.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(            change-acs-mode\050tvc_mode\051;) 119 193.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        od) 119 184.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        else do) 119 175.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              achie) 119 166.83 T
+(v) 174.85 166.83 T
+(e \050ips-standby-state\051;) 179.7 166.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              achie) 119 157.83 T
+(v) 174.85 157.83 T
+(e \050ips-thrusting\050le) 179.7 157.83 T
+(v) 250.83 157.83 T
+(el\051\051;) 255.68 157.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(        od) 119 148.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "10" 4
+%%Page: "9" 5
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.95 (eliminated in the design of the next version of the executive by changing where the) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(property lock daemon resides and when it is invoked.) 119 666.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.54 (This section has overviewed aspects of the analytic verification and debugging of the) 131 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (DS-1 remote agent executive. It demonstrates that formal methods technology, specif-) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (ically model-checking, which has been successfully applied in the past to verification) 119 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.88 (and debugging of  digital hardware, communication protocols, and operating system) 119 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.78 (protocols; can be extended to the verification and debugging of AI-based concurrent) 119 611.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (systems. However, it has not described the manual effort in hand translating the Lisp) 119 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (code to the language of a model-checker \050e.g., P) 119 589.83 P
+0 8 Q
+-0.18 (ROMELA) 310.58 589.83 P
+0 10 Q
+-0.18 (\051, the much more considerable) 344.35 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (effort in abstracting the model so it is computationally tractable even for a large work-) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.13 (station. This required manual effort has made it somewhat difficult to stay current with) 119 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.61 (the executive design and development team working under the rapid spiral model.) 119 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (Nonetheless, we have made a contribution to the overall verification effort for the DS-) 119 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(1 remote agent.) 119 534.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(6 Executive Task Programs) 122 516.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+-0.28 (This section and the next section together describe research towards automating the ab-) 119 498.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.48 (straction of AI programs for computationally tractable model-checking. The context for) 119 487.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (this research is verification of the task-specific executive programs, which run on top) 119 476.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(of the API provided by the core executive services.) 119 465.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (The task-specific programs need to be verified both against the goals they are meant) 131 454.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (to achieve as well as the constraints they cannot violate while executing. A subclass of) 119 443.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.19 (these constraints are) 119 432.83 P
+2 F
+0.19 (flight rules) 203.18 432.83 P
+0 F
+0.19 ( which are formulated by experts to guide the safe op-) 246.99 432.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.36 (eration of the spacecraft. One class of flight rules have the form that a class of events) 119 421.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(never occur in states satisfying particular predicates:) 119 410.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([never] state-predicate -> event) 131 399.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (In other words, the event should only occur in states that satisfy the negation of the) 131 388.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.41 (state-predicate. An example of such a flight rule concerns the requirements for the) 119 377.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.36 (spacecraft to have directional control over the propulsion. The Engine Gimbal Actuator) 119 366.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (\050EGA\051 must be activated to provide directional control over the thrust vector. Thus one) 119 355.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (implication of the requirement is the following flight rule: the EGA must be on when-) 119 344.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.34 (ever the attitude control system \050ACS\051 is in Thrust Vector Control \050TVC\051 mode. This) 119 333.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (can be formulated as two rules, which together are equivalent to the constraint that a) 119 322.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.45 (time interval in which the ACS is in TVC mode is contained by a time interval when) 119 311.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the EGA is on:) 119 300.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([never] EGA-off -> turn-on-TVC-mode) 131 278.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+([never] TVC-mode-on -> turn-off-EGA) 131 267.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (The executive controls devices such as the EGA and the ACS by broadcasting mes-) 131 245.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (sages to processes that subscribe \050listen\051 to particular classes of messages, these pro-) 119 234.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (cesses implement the low-level device control protocols. Thus from the viewpoint of) 119 223.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (the task-specific executive programs, flight rules such as the one above are equivalent) 119 212.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.21 (to predicates on the state in which particular messages are allowed to be sent by the ex-) 119 201.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ecutive.) 119 190.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (The rest of this section describes a procedure within the executive task program that) 131 179.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.47 (achieves a thrust level of the ion propulsion system. It contains a call to change the ACS) 119 168.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (into TVC-mode. It is a simplified version of the procedure as it existed in the spring of) 119 157.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.4 (1997. The part of the procedure which sends out a message to the ACS is the subroutine) 119 146.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "9" 5
+%%Page: "8" 6
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 10 Q
+0 X
+0 0 0 1 0 0 0 K
+( achieve-lock-properties) 131 677.83 T
+0 F
+( \050lock\051) 233.48 677.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(     p = property-lock-property\050lock\051;) 131 666.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(     if  owner\050lock\051 =  $this-task then do) 131 655.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(          achieve p;) 131 644.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(          property-lock-achieved?\050lock\051 = TRUE;) 131 633.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(          od) 131 622.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(      else wait-for\050p\051;) 131 611.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.13 (An error trace arises in the SPIN model for the following requirement, which is part) 131 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.32 (of requirement 4 listed in the previous section. In contrast to the previous requirements,) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.44 (which were formulated as invariants, this requirement is formulated as a temporal prop-) 119 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(erty:) 119 556.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(  If a task relies on some property to hold, and the database is modified) 131 545.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(  such that it no longer holds, then the task will eventually terminate,) 131 534.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(  either by itself or by an abort from the daemon.) 131 523.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (The error trace is summarized by the following sequence of events which refer to the) 119 501.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.6 (interaction between the environment, the daemon, the) 119 490.83 P
+1 F
+-0.6 (achieve-lock-properties) 332.29 490.83 P
+0 F
+-0.6 ( routine,) 432.27 490.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(and multiple tasks:) 119 479.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.85 (1. A task calls) 119 457.83 P
+1 F
+0.85 (snarf-property-locks,) 181.56 457.83 P
+0 F
+0.85 (becomes the owner of the lock, and then calls) 275.73 457.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+-0.07 (achieve-lock-properties.) 130.34 446.83 P
+0 F
+-0.07 (In the call of the latter, first achieve is called \050because the) 235.25 446.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.34 (task is the owner of the lock\051. After this succeeds, but before the achieved-value is) 130.34 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.47 (set to TRUE, the task is suspended \050put to sleep\051 by the excutive.That is, the property) 130.34 424.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (has been achieved, but the achieved-field in the property lock has not yet been set to) 130.34 413.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(TRUE. \050A second task is activated by the executive and starts to run\051.) 130.34 402.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (2. The database is now modified by the environment in such a way that it becomes in-) 119 380.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.24 (consistent with the property lock just created by the first task. This causes a memory) 130.34 369.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(event.) 130.34 358.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (3. The daemon is awakened. The daemon starts looking for an inconsistency, but finds) 119 336.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.1 (none since the achieved-field has not been set yet. Specifically, check-locks signals) 130.34 325.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (an inconsistency only if the achieved-field is set to TRUE. Hence, the daemon dis-) 130.34 314.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(covers nothing and goes back to sleep.) 130.34 303.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (4. The first task is awakened and finishes executing the) 119 281.83 P
+1 F
+-0.23 (achieve-lock-properties.) 340.22 281.83 P
+0 F
+-0.23 (It as-) 444.96 281.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (signs TRUE to the achieved-field of the lock, and continues execution as if every-) 130.34 270.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(thing is consistent.) 130.34 259.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.46 (5. Unless another memory-event or snarf-event occurs, the daemon remains asleep. The) 119 237.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.06 (task is not stopped, and continues executing \050if it is an infinite loop, perhaps indefi-) 130.34 226.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(nitely\051 even though properties it depends on are not valid.) 130.34 215.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.71 (This error trace could be eliminated through a critical region in the) 131 193.83 P
+1 F
+0.71 (achieve-lock-) 408.9 193.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.24 (properties) 119 182.83 P
+0 F
+-0.24 ( routine. However, it also reinforces a known design flaw of the spring 1997) 162.88 182.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (implementation of the executive: there can be a significant time lag between a property) 119 171.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (being violated and a task being informed of the violation. Prior to model-checking, it) 119 160.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (was not known that this time lag could be indefinite. This significant time lag is being) 119 149.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "8" 6
+%%Page: "7" 7
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.51 (dled by recovery procedures. However, after the body is executed, the) 119 677.83 P
+2 F
+-0.51 (with-maintained-) 396.11 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.63 (property) 119 666.83 P
+0 F
+0.63 (construct exits the) 156.57 666.83 P
+2 F
+0.63 (unwind-protect) 233.72 666.83 P
+0 F
+0.63 ( wrapper and executes code to release the) 294.83 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.5 (locks. If after the) 119 655.83 P
+2 F
+-0.5 (unwind-protect) 187.83 655.83 P
+0 F
+-0.5 ( wrapper is exited a property violation occurs, and then) 248.94 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.61 (the daemon which monitors property violations wakes up, it will signal an error. Be-) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.3 (cause this error occurs outside the dynamic context of an) 119 633.83 P
+2 F
+-0.3 (unwind-protect,) 345.93 633.83 P
+0 F
+-0.3 (the error falls) 411.73 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (through and causes the task to be aborted - whether or not the release locks code has) 119 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(been fully executed.) 119 611.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.98 (This error trace was communicated to the development team, resulting in experi-) 131 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.05 (ments with a critical section being placed in the) 119 589.83 P
+2 F
+1.05 (with-maintained-property) 321.46 589.83 P
+0 F
+1.05 (construct) 428.34 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.47 (around the code to release locks. This prevents any other thread from executing \050includ-) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.29 (ing the daemon monitoring property violations\051 when any instance of) 119 567.83 P
+2 F
+-0.29 (with-maintained-) 396.11 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.47 (properties) 119 556.83 P
+0 F
+0.47 ( enters the release-locks section of code. This still leaves an even more un-) 160.11 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (likely \050by over an order of magnitude\051 error trace that was found through model-check-) 119 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.09 (ing: a property violation occurs exactly at the point where the) 119 534.83 P
+2 F
+0.09 (unwind-protect) 368.54 534.83 P
+0 F
+0.09 ( wrapper) 429.65 534.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.78 (is exited and the gap before the critical section for release locks is entered. The best) 119 523.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (means of handling this unlikely error trace is not obvious, because it is necessary to be) 119 512.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (conservative in creating critical sections of code. Excluding other threads from execut-) 119 501.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (ing can itself lead to timing bugs. This brief overview of this error trace illustrates the) 119 490.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.28 (nature of the interactions between the analytic verification team and the executive de-) 119 479.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(velopment team, and also the subtle nature of concurrency bugs.) 119 468.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (An even more subtle error trace concerns the interaction of the internal operation of) 131 457.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (the daemon which monitors the properties and the code for achieving property locks.) 119 446.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (Simplified versions of the Lisp code for both, circa the spring of 1997, are given below) 119 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (in Algol-like notation, preceded by explanations. The simplified versions are sufficient) 119 424.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (for understanding the nature of the error trace, and for understanding how the verifica-) 119 413.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tion technology is applied to AI programming constructs.) 119 402.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (The maintain-properties-daemon is an infinite loop, and is normally sleeping. First) 131 391.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.2 (it checks the locks data structure; if there is an inconsistency with the database for the) 119 380.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.5 (actual property values, it invokes recovery procedures. Then it determines whether) 119 369.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.56 (there has been any new memory-event occurrences \050induced by an external event\051 or) 119 358.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.24 (snarf-event occurrences \050induced by a task snarfing a property\051. If not, it goes back to) 119 347.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.38 (sleep until a memory-event or snarf-event occurs. Hence, if no event occurs for a while,) 119 336.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(then the damon will not perform check-locks.) 119 325.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+( maintain-properties-daemon) 131 303.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+(  loop-forever do) 131 292.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(          if  check-locks) 131 281.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              do-automatic-recovery;) 131 270.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(          if  not\050changed? \050memory-event-count + pl-snarf-event-count\051\051) 131 259.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(              then wait-for\050memory-event or snarf-event\051;) 131 248.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(    od) 131 237.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.08 (The) 131 215.83 P
+1 F
+1.08 (achieve-lock-property) 150.13 215.83 P
+0 F
+1.08 (routine is called within the dynamic scope of a task,) 247.57 215.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.07 (which is the value of $this-task. This routine is called after a task successfully snarfs a) 119 204.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.38 (property-lock; the routine is called with the lock as a parameter. If the task is the owner,) 119 193.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.06 (then it first achieves the property and then sets the achieved-field to boolean TRUE. If) 119 182.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the task is not the owner of the lock, it waits for the property to be achieved.) 119 171.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "7" 7
+%%Page: "6" 8
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+0.25 (tors in that they explore all possible traces, in other words all realizable paths through) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.25 (the reachability graph. They also enable checking much richer concurrency properties) 119 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.67 (than is typical of simulators. Some model checkers are similar to theorem-provers in) 119 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (that they manipulate symbolic descriptions of the transition relation. However, model-) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.52 (checkers do not perform induction, which typically needs to be guided manually in real-) 119 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (world verification proofs. Trading off from this deficiency, they are completely auto-) 119 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(matic, and thus more practical for verification in a spiral development process.) 119 611.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.2 (Different model checkers provide different languages for defining the interacting fi-) 131 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.21 (nite state machines. The P) 119 589.83 P
+0 8 Q
+-0.21 (ROMELA) 222.88 589.83 P
+0 10 Q
+-0.21 ( language is a C-like language with facilities for cre-) 256.65 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (ating processes and for interprocess communication through buffered channels. SPIN) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.08 (compiles a P) 119 567.83 P
+0 8 Q
+-0.08 (ROMELA) 169.94 567.83 P
+0 10 Q
+-0.08 ( model into a C program which is then run to find error traces. To) 203.72 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.21 (formulate the model of the executive core services in P) 119 556.83 P
+0 8 Q
+-0.21 (ROMELA) 337.36 556.83 P
+0 10 Q
+-0.21 (,) 371.14 556.83 P
+-0.21 ( a number of trade-offs) 373.64 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.38 (had to be made. For example, the spring 1997 release of  P) 119 545.83 P
+0 8 Q
+-0.38 (ROMELA) 349.41 545.83 P
+0 10 Q
+-0.38 (did not directly sup-) 385.31 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.95 (port procedures. Modeling procedure calls as process invocations led to state explo-) 119 534.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.43 (sions, a subsequent attempt at modeling procedure calls as macro calls avoided the state) 119 523.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.05 (explosion but required careful separation of variable names. Neither the precise details) 119 512.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (of our abstracted P) 119 501.83 P
+0 8 Q
+-0.06 (ROMELA) 194.09 501.83 P
+0 10 Q
+-0.06 (model nor the various trade-offs are enumerated in this pa-) 230.3 501.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.77 (per. However, the reader should be aware that formulating computationally tractable) 119 490.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(models of complex systems requires expertise, artistry, and experimentation.) 119 479.83 T
+0 8 Q
+(1) 425.9 483.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0.38 (This section focuses on two subtle bugs that were found regarding the protocol re-) 131 468.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.25 (quirements described in section 4. These bugs were first found through error traces of) 119 457.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (our abstracted P) 119 446.83 P
+0 8 Q
+-0.25 (ROMELA) 182.93 446.83 P
+0 10 Q
+-0.25 ( model and then confirmed in the executive Lisp code. The de-) 216.7 446.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.58 (signers of the executive believe these bugs would not have been detected through means) 119 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (other than formal verification. Empirical testing would not have uncovered these bugs) 119 424.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (because they arise only in a multithreaded environment, and only in unusual circum-) 119 413.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.72 (stances that are unlikely to arise during testing. Model-checking is able to find these) 119 402.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(bugs because it considers all possible interleavings of concurrent processes.) 119 391.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (We should first note that the executive has performed well under empirical testing,) 131 380.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (and moreover we have been able to analytically verify that the implementation satisfies) 119 369.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.41 (various requirements. For example, the following requirements have been verified, in) 119 358.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(the abstracted P) 119 347.83 T
+0 8 Q
+(ROMELA) 182.32 347.83 T
+0 10 Q
+( model, of the property protocols described in section 4:) 216.1 347.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(1. If a property is snarfed by a task, it can only be snarfed by another task if the) 119 325.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(property values are compatible \050requirement 1b\051.) 131 314.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (2. When a task terminates normally, it releases all locks \050requirement 5, normal termi-) 119 303.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(nation\051.) 130.34 292.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.25 (The verification of these requirements was achieved by placing invariants in the) 131 270.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.43 (model at the appropriate locations, and running the model over all interleavings to dem-) 119 259.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(onstrate that there are no traces where the invariants are violated.) 119 248.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (The subtle bugs which have been found through model-checking concern traces in) 131 237.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.52 (abnormal situations, for example, where a property is violated in a situation that was not) 119 226.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.46 (considered by the executive design team. The first bug is demonstrated by an error trace) 119 215.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.41 (where a task may abort without releasing its property locks. The) 119 204.83 P
+2 F
+-0.41 (with-maintained-prop-) 373.89 204.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.27 (erty) 119 193.83 P
+0 F
+0.27 (construct uses the Lisp construct) 137.32 193.83 P
+2 F
+0.27 (unwind-protect) 271.73 193.83 P
+0 F
+0.27 ( to provide a wrapper around the) 332.84 193.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.89 (execution of the body. This ensures that errors signalled during the execution of the) 119 182.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.3 (body \050e.g., an error signalled because a locked property is violated\051 are caught and han-) 119 171.83 P
+0 0 0 1 0 0 0 K
+119 147.5 465 162.5 C
+0 0 0 1 0 0 0 K
+128 160.5 272 160.5 2 L
+0.5 H
+2 Z
+0 X
+0 0 0 1 0 0 0 K
+N
+0 0 0 1 0 0 0 K
+0 0 612 792 C
+0 0 0 1 0 0 0 K
+0 9 Q
+0 X
+0 0 0 1 0 0 0 K
+(1.) 137 141.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(The authors thank Gerard Holzmann, the creator of SPIN, for his advise and help.) 149 141.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "6" 8
+%%Page: "5" 9
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.5 (  1b. Some other task already owns lock, and the values that the two tasks want the prop-) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (erty to have are compatible. In this case the task successfully subscribes to the lock) 130.34 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.31 (but does not become the lock\325s owner - it is a secondary subscriber. It also) 130.34 655.83 P
+2 F
+-0.31 (snarfs) 426.14 655.83 P
+0 F
+-0.31 (the) 452.78 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(property.) 130.34 644.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.01 (  1c. Some other task is subscribing to the lock and the values are incompatible. In this) 119 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(case the subscription FAILS.) 130.34 622.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.76 (2. The owner of a lock, after successfully subscribing, attempts to actually make the) 119 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.37 (property true by calling the) 130.34 589.83 P
+1 F
+-0.37 (achieve) 239.85 589.83 P
+0 F
+-0.37 ( method on the property. All secondary subscrib-) 271.52 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.28 (ers wait for the property to be achieved by the owner. If the owner\325s attempt to) 130.34 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(achieve the property fails, then all of the lock\325s subscribers) 130.34 567.83 T
+1 F
+(fail) 368.9 567.83 T
+0 F
+(.) 382.79 567.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (3. Once a lock property has been achieved, the lock\325s subscribers, which were waiting) 119 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 (for the owner to achieve the property, are signaled and continue to run. The body of) 130.34 534.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(these tasks are executed.) 130.34 523.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (4. If a locked property becomes false \050is violated\051 during execution of a body \050through) 119 501.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.14 (events exogenous to the executive, such as device failures\051, signal this loss, suspend) 130.34 490.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (execution of the body, and attempt to recover the property. Maintained property vi-) 130.34 479.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (olations are detected by a daemon. This daemon will attempt to restore or recover) 130.34 468.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (violated properties, using recovery actions that are either explicitly stated in the task) 130.34 457.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (definition, or default recovery actions that can involve invocation of MIR. If the re-) 130.34 446.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.71 (covery action is not successful, then all tasks which have snarfed the property are) 130.34 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(aborted.) 130.34 424.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (5. When a task terminates, either normally or aborted, it unsubscribes to all properties) 119 402.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.46 (it has snarfed. If the owner of a locked property unsubscribes to the property, then) 130.34 391.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.17 (ownership is passed to the next task subscribing to the property. If there are no fur-) 130.34 380.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ther tasks subscribing to the property, then the lock on the property is released.) 130.34 369.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (The next section describes a simple error trace found through analytic verification that) 119 349.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.38 (violates requirement 5 and then a more complex error trace that violates requirement 4.) 119 338.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(5 Analytic Verification of Executive Core Services) 119 309.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0.44 (This section describes ongoing work to verify and debug key components of the core) 119 291.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (services of the executive. An abstracted model of the Lisp code was manually devel-) 119 280.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (oped of the implementation for locking, snarfing, and releasing properties. This model) 119 269.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.27 (includes the) 119 258.83 P
+2 F
+1.27 (with-maintained-properties) 172.1 258.83 P
+0 F
+1.27 ( construct described in the previous section.) 282.1 258.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.21 (The model was written in P) 119 247.83 P
+0 8 Q
+1.21 (ROMELA) 235.31 247.83 P
+0 10 Q
+1.21 (, the language for the model-checker SPIN [2].) 269.09 247.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.83 (Even this highly abstracted model was at the limits of computational complexity for) 119 236.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(large workstations \050i.e., a workstation with 268MB of memory\051.) 119 225.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (Model-checking is a formal methods technique for verifying and debugging concur-) 131 214.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.44 (rent or real-time systems modeled as interacting finite state machines. Given a model) 119 203.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (and a property, a model-checker searches for) 119 192.83 P
+2 F
+0.02 (traces) 301.28 192.83 P
+0 F
+0.02 ( of the model that violate the prop-) 325.72 192.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (erty. Properties can be invariants, temporal properties \050i.e., defined through model op-) 119 181.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.34 (erators such as) 119 170.83 P
+2 F
+1.34 (eventually) 184.39 170.83 P
+0 F
+1.34 (\051, or in the case of real-time model-checkers, metric time) 225.49 170.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.21 (constraints defined through linear relations. A trace is an interleaved sequence of states) 119 159.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (\050or dually, transitions\051 of the finite state machines. Model checkers differ from simula-) 119 148.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "5" 9
+%%Page: "4" 10
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.54 (clude as a subset those of an operating system for managing a queue of jobs, which must) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.47 (be assigned resources and synchronized according to their concurrency constraints. The) 119 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.92 (executive keeps an agenda of tasks \050jobs\051 which are broken down into sequences of) 119 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (commands; the executive activates and suspends these tasks. The resources are typical-) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (ly states of a device, more generally, resources are) 119 633.83 P
+2 F
+0.14 (properties.) 324.33 633.83 P
+0 F
+0.14 (A property is any value) 370.58 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.34 (that is controlled and monitored. The executive differs from a standard operating sys-) 119 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.19 (tem in at least two respects: the extensive support for monitoring and recovering from) 119 611.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (property violations - leading to robust execution, and the high level of abstraction pro-) 119 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(vided by goal-oriented AI constructs.) 119 589.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+(4.1 Maintaining Properties during Task Execution) 119 572.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 F
+0.44 (This subsection describes the architecture implemented in the executive for assigning) 119 555.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0 (and monitoring properties required by task programs for successful execution. The an-) 119 544.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.67 (alytic verification and debugging of this architecture is described in the next section.) 119 533.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.39 (The primitive construct that invokes these services is the \050) 119 522.83 P
+2 F
+0.39 (with-maintained-properties) 355 522.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+0.17 (prop body) 119 511.83 P
+3 F
+0.17 (\051) 163.35 511.83 P
+0 F
+0.17 ( construct \050implemented as a Lisp macro\051, which takes as parameters a set) 166.68 511.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.03 (of properties and the body of a task program. The specification of this construct is that) 119 500.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.09 (it guarantees the properties while the body is executing. By having the properties man-) 119 489.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (aged in this manner, the task programs can focus on sequencing activities without wor-) 119 478.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(rying about maintaining and monitoring the values of the maintained properties.) 119 467.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.14 (Further constructs are built using the) 131 456.83 P
+2 F
+0.14 (with-maintained-properties) 281.26 456.83 P
+0 F
+0.14 ( construct. For ex-) 391.26 456.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.69 (ample, the \050) 119 445.83 P
+2 F
+0.69 (with-selected-device) 167.87 445.83 P
+1 F
+0.69 (class) 252.71 445.83 P
+0 F
+0.69 ( \050) 272.71 445.83 P
+1 F
+0.69 (do-activity) 279.23 445.83 P
+0 F
+0.69 (\051\051 construct selects a device of the) 324.78 445.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.43 (class, achieves its ready-state, and then locks the properties of that ready-state and) 119 434.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.58 (maintains them with the assistance of MIR while it does the activity. This ESL construct) 119 423.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (is used within the DS-1 executive to maintain properties of devices, which are physical) 119 412.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.5 (objects on the spacecraft. There are classes of devices which are defined to have various) 119 401.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.22 (properties. A task can select a device and execute with the knowledge that the desired) 119 390.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.3 (state of this device is being maintained by the system. Further constructs built using the) 119 379.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+1.27 (with-maintained-properties) 119 368.83 P
+0 F
+1.27 ( construct are used to maintain states during sequencing.) 229 368.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.39 (For example, thrusting in the ion propulsion system is controlled by creating a thrusting) 119 357.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(state predicate and associating it with the property IPS-THRUSTING.) 119 346.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.04 ( The basic architecture in which) 131 335.83 P
+2 F
+-0.04 (with-maintained-properties) 261.29 335.83 P
+0 F
+-0.04 (operates is a collection) 373.75 335.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.02 (of concurrent tasks that require specific values of certain properties in order to execute) 119 324.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (correctly. If a property value become false, then the associated tasks should be suspend-) 119 313.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (ed while action is taken to re-achieve the property. Tasks must also be coordinated so) 119 302.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.42 (they do not require conflicting values of properties. The following are some of the basic) 119 291.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (protocol requirements for this architecture whose analytic verification and debugging is) 119 280.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(described in section 5:) 119 269.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (1. A task wanting a property to have a specific value subscribes to the property. To co-) 119 247.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.22 (ordinate multiple tasks wanting property values, the properties are locked during) 130.34 236.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+0.63 (subscription) 130.34 225.83 P
+0 F
+0.63 (. Property locks are used to coordinate tasks so that they do not try to) 179.79 225.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.46 (achieve different values for a single property at the same time. Mutually exclusive) 130.34 214.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.41 (access to the locks is guaranteed by placing the code for locking within a critical sec-) 130.34 203.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(tion. The subscription process can have three outcomes for a task:) 130.34 192.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (  1a. No other task is subscribing to that lock, in which case the subscription is success-) 119 170.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ful, this task becomes the owner of the lock, and) 130.34 159.83 T
+2 F
+(snarfs) 326.42 159.83 T
+0 F
+( the property.) 350.87 159.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "4" 10
+%%Page: "3" 11
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.56 (all feedback loops above the level of servo-mechanisms go through ground manual con-) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (trol, with human-in-the-loop verification. Verification and validation is a major obsta-) 119 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(cle in accepting more autonomous architectures.) 119 655.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.15 (As an adjunct to the regular testing effort for DS-1, an effort among several NASA) 131 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (centers to apply formal methods to verifying and debugging DS-1 is being pursued. In) 119 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (previous NASA formal method studies the software being analyzed was developed in a) 119 622.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (waterfall process, with relatively long phases for requirements and design \050months to) 119 611.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (years\051. This allowed plenty of time for formal methods practitioners to exercise their) 119 600.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (analysis tools and feedback their results to requirements analysts. In contrast, the DS-1) 119 589.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (software has been developed through the spiral model [1]. The spiral model is an itera-) 119 578.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.44 (tive software development process with four or more distinct phases for each turn of the) 119 567.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.62 (spiral: requirements, design, coding, and testing. In contrast to the one-shot waterfall) 119 556.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.51 (model, the spiral model provides iterative feedback on requirements and design through) 119 545.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.25 (testing and validation of earlier turns of the spiral. It is a process well-suited to devel-) 119 534.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (oping novel architectures where there is substantial initial uncertainty on requirements) 119 523.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (and designs. However, it results in highly time-compressed phases. In the case of DS-) 119 512.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.18 (1, each turn of the spiral has lasted two to three months, and each phase of each spiral) 119 501.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (lasts just a matter of weeks. This presents a substantial challenge to formal methods ef-) 119 490.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(forts, stressing automation over labor-intensive manual methods.) 119 479.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.59 (The NASA-wide effort is being called analytic verification, to stress its complement-) 131 468.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.48 (ing empirical validation efforts and to highlight its foundation in mathematical ap-) 119 457.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (proaches to software engineering. We believe this name is also more informative to the) 119 446.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (spacecraft engineers and mission planners than the name \324formal methods\325. As part of) 119 435.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.49 (this analytic verification effort, our team at NASA Ames is pursuing formal verification) 119 424.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.3 (of part of the remote agent. The technology we are developing stresses model-checking) 119 413.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (over interactive theorem-proving, because the former is much more automated than the) 119 402.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (latter. The long-term goal of our effort is to make our technology directly usable by the) 119 391.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.6 (design and development team, as low-overhead tools. In the interim, we are our own) 119 380.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(users, providing feedback from our efforts to the design and development team.) 119 369.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(4 Executive Core Services) 119 351.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0.18 (The executive subsystem of the remote agent is conceptually composed of two layers:) 119 333.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.45 (a set of core services that implement a robust operating system for executing concurrent) 119 322.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (tasks, and a set of mission-specific task programs. The language in which both layers) 119 311.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.48 (are written is an extension of Lisp called the Executive Sequencing Language \050ESL\051,) 119 300.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (principally authored by Eran Gatt of JPL. ESL is defined through a set of Lisp macros.) 119 289.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ESL code operates in a multi-threaded Lisp.) 119 278.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.21 (In this section we overview one aspect of the executive that will serve as examples) 131 267.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.06 (of the formal verification techniques described in section 5: the) 119 256.83 P
+2 F
+-0.06 (with-maintained-prop-) 373.89 256.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (erties) 119 245.83 P
+0 F
+0.04 ( construct in the core executive system. Section 6 describes an example task pro-) 141.22 245.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.26 (gram for thrusting with the ion propulsion system, which will serve as examples for the) 119 234.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(abstraction techniques described in subsequent sections.) 119 223.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (The services provided by the core executive system, such as those provided by the) 131 212.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 F
+1.82 (with-maintained-properties) 119 201.83 P
+0 F
+1.82 (construct described below, provide an API \050application) 233.32 201.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.43 (programming interface\051 for defining task programs that achieve diverse goals such as) 119 190.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.47 (acquiring images and changing trajectory. These programs are executed concurrently in) 119 179.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (order to achieve the token nets generated by the planner. For the purposes of this paper,) 119 168.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (assume that each token in the token net corresponds to the invocation of a task program) 119 157.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.32 (in the executive, with the appropriate parameters. The core services of the executive in-) 119 146.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "3" 11
+%%Page: "2" 12
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0 X
+0 0 0 1 0 0 0 K
+-0.13 (launch weight of a deep-space robotic spacecraft. This alone can save hundreds of mil-) 119 677.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.04 (lions of dollars by reducing the size of the required launch rocket; for example, from a) 119 666.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (Space Shuttle to a Titan rocket to a Delta rocket. Personnel costs are the second major) 119 655.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.57 (factor in operations costs, with missions such as Voyager requiring hundreds of non-) 119 644.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 (science personnel at the peak of encounters to monitor the health of spacecraft sub-) 119 633.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(systems, sequence the commands executed by the spacecraft, and navigate.) 119 622.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(2 Deep-Space 1 and AI-Based Autonomy) 119 604.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+-0.12 (As one of its objectives, the New Millennium program is seeking to reduce non-sci-) 131 586.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.17 (ence personnel costs by an order of magnitude through automation technology. The ul-) 119 575.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.94 (timate objective of the automation technology is spacecraft autonomy: deep-space) 119 564.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (robotic spacecraft that navigate themselves, monitor their own health, monitor the sta-) 119 553.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.66 (tus of mission goals, and take appropriate corrective actions. Autonomous spacecraft) 119 542.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (will be commanded at the level of mission goals rather than traditional spacecraft se-) 119 531.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.3 (quences, the latter being roughly equivalent to macro-assembler programs for embed-) 119 520.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.31 (ded systems. This will be accomplished by extending the feedback loops which on) 119 509.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.31 (today\325s spacecraft operate only at the low level of servo-mechanisms \050e.g., maintaining) 119 498.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (attitude control\051 to feedback loops which operate all the way up to science goals. In ad-) 119 487.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.31 (dition to greatly reducing operations costs, autonomous spacecraft will also enable new) 119 476.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.02 (kinds of missions that cannot be accomplished through light-time delayed remote con-) 119 465.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(trol, such as comet landings.) 119 454.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.59 (The first New Millennium mission is Deep-Space 1 \050DS-1\051, which currently includes) 131 443.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.39 (plans for an asteroid rendezvous, a Mars fly-by, and a comet fly-by. Critical technology) 119 432.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (being tested includes an ion propulsion system \050IPS\051 and on-board optical navigation.) 119 421.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.55 (Another experiment is the flight-testing an AI-based control system called Remote) 119 410.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (Agent \050RA\051, the first towards the goal of spacecraft autonomy. The remote agent has) 119 399.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.18 (three subsystems: a planner which decomposes goals into task-nets and then sequences) 119 388.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.33 (tasks along a time-line according to precedence constraints and resource constraints; an) 119 377.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (executive which concurrently executes these tasks; and a next-generation fault detec-) 119 366.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.53 (tion and recovery system called MIR. The executive subsystem and MIR provide the) 119 355.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.35 (feedback loops at higher levels. The executive subsystem combines features of multi-) 119 344.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.54 (threaded operating systems with AI languages based on sub-goaling, such as Prolog and) 119 333.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (MRS. This paper describes research aimed at formal verification of the executive sub-) 119 322.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(system.) 119 311.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(3 Analytic Verification Effort) 119 293.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+0.65 (A major concern for spacecraft engineers and mission planners is verification and) 131 275.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (validation of advanced software architectures such as the remote agent. Traditional ap-) 119 264.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.97 (proaches to verification and validation include extensive testing and manual review.) 119 253.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.27 (Furthermore, traditional spacecraft) 119 242.83 P
+2 F
+0.27 (sequences) 261.45 242.83 P
+0 F
+0.27 (- that is, command sequences to control) 304.77 242.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.56 (a spacecraft - are time-stamped, straight-line programs that are reviewed by engineering) 119 231.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (teams from each spacecraft subsystem. For example, the thermal team will review a se-) 119 220.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.28 (quence to check for overheating, the power system team will review a sequence to) 119 209.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.08 (check for safety of the electrical system. Each command is time-stamped to execute at) 119 198.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.08 (a particular time, down to millisecond precision. More flexible methods for command-) 119 187.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (ing a spacecraft are controversial - even minimal extensions such as) 119 176.83 P
+2 F
+1.01 (conditional se-) 404.27 176.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.07 (quencing) 119 165.83 P
+0 F
+2.07 (, where the execution timing of a command depends on the spacecraft\325s) 155.66 165.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.12 (environment. An example would be a command to wait until the spacecraft comes out) 119 154.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.28 (of the shadow of a planet before turning the solar panels towards the sun. Traditionally,) 119 143.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "2" 12
+%%Page: "1" 13
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 0 0 0 1 1 1]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+[ 0.5 0.5 0 0.5 0 0 0.5]
+[ 0.5 0 0 0.5 0 0.5 0.5]
+[ 0.5 0 0.5 0.5 0 0.5 0]
+[ 0 0.5 0 0.5 0.5 0 0.5]
+[ 0 0.5 0.5 0.5 0.5 0 0]
+[ 0 0 0.5 0.5 0.5 0.5 0]
+[ 0 0 0 0.5 0.5 0.5 0.5]
+[ 0 0 0 0.25 0.75 0.75 0.75]
+ 16 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 14 Q
+0 X
+0 0 0 1 0 0 0 K
+(Verification and Validation of AI Systems that Control) 128.09 675.17 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Deep-Space Spacecraft) 223.38 661.17 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+(Michael Lowry, Klaus Havelund, and John Penix) 193.12 637.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 9 Q
+(Computational Sciences Division) 232.39 618.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(NASA Ames Research Center) 232.39 608.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(M.S. 269-2) 232.39 598.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Moffett Field, CA 94035) 232.39 588.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 F
+-0.19 (Abstract.) 147.35 558.5 P
+0 F
+-0.19 (NASA is developing technology for the next generation of deep-space) 185.15 558.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.13 (robotic spacecraft, with the aim of enabling new types of missions and radically) 147.35 548.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.24 (reducing costs. One technology under development is Autonomy: highly capable) 147.35 538.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.22 (spacecraft that perform significant scientific missions with little or no command-) 147.35 528.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.1 (ing and monitoring from Earth. Artificial Intelligence provides a basis for auton-) 147.35 518.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.24 (omy technology, but raises issues of verification and validation outside the scope) 147.35 508.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.39 (of empirical testing technology for conventionally commanded spacecraft. This) 147.35 498.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.24 (paper describes research towards extending formal methods verification tech-) 147.35 488.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.01 (niques for the mathematical verification of AI systems controlling deep-space) 147.35 478.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.42 (spacecraft. This paper first overviews a planned space mission called DS-1 which) 147.35 468.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.07 (includes an AI-based autonomy experiment. It then describes part of this AI sys-) 147.35 458.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.16 (tem called the executive, which includes an \324intelligent\325 operating system based) 147.35 448.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.19 (on goal-oriented constructs. The paper then describes focused research on apply-) 147.35 438.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.16 (ing and extending model-checking technology for verifying both the core servic-) 147.35 428.5 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(es of the executive and the concurrent task programs run by the executive.) 147.35 418.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 12 Q
+(1 NASA\325s New Millennium Program) 119 390.5 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 10 Q
+1.08 (The successful landing of Mars Pathfinder on Independence day \050July 4, 1997\051 sig-) 119 372.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.49 (nalled a new era in man\325s exploration of the solar system: faster, better, and cheaper.) 119 361.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.9 (The Mars Pathfinder project was completed in four years, delivered widely sampled) 119 350.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.25 (geological data from a mobile rover and cost just $250 million \0501997\051 dollars. In con-) 119 339.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.25 (trast, the two Viking missions of twenty years ago took over eight years to develop, de-) 119 328.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.44 (livered data from fixed landers and orbiters, and cost over $3 billion \0501997\051 dollars. The) 119 317.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.11 (Mars pathfinder project took advantage of off-the-shelf technology to reduce develop-) 119 306.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(ment costs.) 119 295.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.01 (NASA is preparing for an order-of-magnitude expanded space exploration program) 131 284.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.29 (in the next decade within the constraints of a flat-lined budget. One key aspect of this) 119 273.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.5 (plan is the New Millennium program: a series of technology validation flights whose) 119 262.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.05 (objective is to accelerate the flight-qualification of new spacecraft technology. For ex-) 119 251.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.55 (ample, new generations of radiation-hardened microprocessors, based on commercial) 119 240.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.29 (designs, will be flight-qualified in New Millennium missions. Up to now the functional) 119 229.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1.14 (performance of space-qualified hardware has often lagged a decade or more behind) 119 218.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.56 (commercial hardware. New Millennium will greatly accelerate the space-hardening and) 119 207.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.45 (space qualification of new technology. This will reduce development costs for subse-) 119 196.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.69 (quent science-oriented missions and enhance the technology base for these missions.) 119 185.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+-0.23 (The New Millennium program is also aimed towards decreasing operations costs while) 119 174.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(enhancing science return.) 119 163.83 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0.4 (Operations costs are largely determined by two factors: launch weight and person-) 131 152.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2.22 (nel. Microelectronics and other miniaturization technology can greatly reduce the) 119 141.83 P
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 8 Q
+(Slightly revised version of paper that) 369 765 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 9 Q
+(Foundations of Intelligent Systems,) 369 751 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(\050Eds. Z.W. Ras, A. Skowron\051,) 369 742 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(TenthInternational Symposium on) 369 733 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Methodologies for Intelligent Systems,) 369 724 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Charlotte,North Carolina,) 369 715 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(October 15-18, 1997,) 369 706 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Lecture Notes in ArtificialIntelligence,) 369 697 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+(Springer-Verlag, Vol. 1325.) 369 688 T
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+1 8 Q
+(appeared in:) 369 757 T
+0 0 0 1 0 0 0 K
+FMENDPAGE
+%%EndPage: "1" 13
+%%Trailer
+%%BoundingBox: 0 0 612 792
+%%PageOrder: Descend
+%%Pages: 13
+%%DocumentFonts: Times-Roman
+%%+ Times-Bold
+%%+ Times-Italic
+%%+ Times-BoldItalic
+%%+ Courier-Bold
+%%+ Courier
+%%EOF

@@ -1,0 +1,640 @@
+[
+  {
+    "sources": [
+      "Publications/dltl.ps.Z",
+      "Publications/dltl.ps"
+    ],
+    "pdf": "Publications/dltl.pdf",
+    "pages": 11
+  },
+  {
+    "sources": [
+      "Publications/testing-temporal.ps.gz",
+      "Publications/testing-temporal.ps"
+    ],
+    "pdf": "Publications/testing-temporal.pdf",
+    "pages": 17
+  },
+  {
+    "sources": [
+      "Publications/gc-refine-report.ps",
+      "Publications/gc-refine-report.ps.Z"
+    ],
+    "pdf": "Publications/gc-refine-report-from-postscript.pdf",
+    "pages": 112
+  },
+  {
+    "sources": [
+      "Publications/thesis.ps",
+      "Publications/thesis.ps.Z"
+    ],
+    "pdf": "Publications/thesis.pdf",
+    "pages": 288
+  },
+  {
+    "sources": [
+      "Publications/mon-rewr.ps.gz",
+      "Publications/mon-rewr.ps"
+    ],
+    "pdf": "Publications/mon-rewr.pdf",
+    "pages": 9
+  },
+  {
+    "sources": [
+      "Publications/ase97.1.ps"
+    ],
+    "pdf": "Publications/ase97.1.pdf",
+    "pages": 8
+  },
+  {
+    "sources": [
+      "Publications/ltl.ps.Z",
+      "Publications/ltl.ps"
+    ],
+    "pdf": "Publications/ltl.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "Publications/synthesis-dynamic.ps.gz",
+      "Publications/synthesis-dynamic.ps"
+    ],
+    "pdf": "Publications/synthesis-dynamic.pdf",
+    "pages": 13
+  },
+  {
+    "sources": [
+      "Publications/ase97.ps",
+      "Publications/ase97.ps.Z"
+    ],
+    "pdf": "Publications/ase97.pdf",
+    "pages": 8
+  },
+  {
+    "sources": [
+      "Publications/remote-agent.ps",
+      "Publications/remote-agent.ps.Z"
+    ],
+    "pdf": "Publications/remote-agent.pdf",
+    "pages": 72
+  },
+  {
+    "sources": [
+      "Publications/jpf-manual.ps",
+      "Publications/jpf-manual.ps.Z"
+    ],
+    "pdf": "Publications/jpf-manual.pdf",
+    "pages": 31
+  },
+  {
+    "sources": [
+      "Publications/esa.ps",
+      "Publications/esa.ps.gz"
+    ],
+    "pdf": "Publications/esa.pdf",
+    "pages": 8
+  },
+  {
+    "sources": [
+      "Publications/pvs-modelcheck-report.ps.Z",
+      "Publications/pvs-modelcheck-report.ps"
+    ],
+    "pdf": "Publications/pvs-modelcheck-report.pdf",
+    "pages": 248
+  },
+  {
+    "sources": [
+      "Publications/pvs-modelcheck-paper.ps",
+      "Publications/pvs-modelcheck-paper.ps.Z"
+    ],
+    "pdf": "Publications/pvs-modelcheck-paper.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "Publications/irlink.ps.Z",
+      "Publications/irlink.ps"
+    ],
+    "pdf": "Publications/irlink.pdf",
+    "pages": 12
+  },
+  {
+    "sources": [
+      "Publications/remote-agent-ieee.ps.gz",
+      "Publications/remote-agent-ieee.ps"
+    ],
+    "pdf": "Publications/remote-agent-ieee.pdf",
+    "pages": 21
+  },
+  {
+    "sources": [
+      "Publications/uppaal-power-arts99.ps",
+      "Publications/uppaal-power-arts99.ps.Z"
+    ],
+    "pdf": "Publications/uppaal-power-arts99.pdf",
+    "pages": 22
+  },
+  {
+    "sources": [
+      "Publications/runtime.ps.Z",
+      "Publications/runtime.ps"
+    ],
+    "pdf": "Publications/runtime.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "Publications/hstsuppaal.ps",
+      "Publications/hstsuppaal.ps.Z"
+    ],
+    "pdf": "Publications/hstsuppaal-from-postscript.pdf",
+    "pages": 11
+  },
+  {
+    "sources": [
+      "Publications/cv.ps",
+      "Publications/cv.ps.Z"
+    ],
+    "pdf": "Publications/cv-from-postscript.pdf",
+    "pages": 8
+  },
+  {
+    "sources": [
+      "Publications/power-down.ps",
+      "Publications/power-down.ps.Z"
+    ],
+    "pdf": "Publications/power-down.pdf",
+    "pages": 72
+  },
+  {
+    "sources": [
+      "Publications/jpf-fm99.ps.Z",
+      "Publications/jpf-fm99.ps"
+    ],
+    "pdf": "Publications/jpf-fm99.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "Publications/main.ps"
+    ],
+    "pdf": "Publications/main.pdf",
+    "pages": 70
+  },
+  {
+    "sources": [
+      "Publications/pax-overview.ps",
+      "Publications/pax-overview.ps.Z"
+    ],
+    "pdf": "Publications/pax-overview.pdf",
+    "pages": 8
+  },
+  {
+    "sources": [
+      "Publications/jpf2-ase.ps.Z",
+      "Publications/jpf2-ase.ps"
+    ],
+    "pdf": "Publications/jpf2-ase-from-postscript.pdf",
+    "pages": 9
+  },
+  {
+    "sources": [
+      "Publications/rv01.ps.gz",
+      "Publications/rv01.ps"
+    ],
+    "pdf": "Publications/rv01.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "Publications/synthesis-safety.ps",
+      "Publications/synthesis-safety.ps.gz"
+    ],
+    "pdf": "Publications/synthesis-safety.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "Publications/planner-sel.ps.Z",
+      "Publications/planner-sel.ps"
+    ],
+    "pdf": "Publications/planner-sel.pdf",
+    "pages": 9
+  },
+  {
+    "sources": [
+      "Publications/gc-paper.ps.Z",
+      "Publications/gc-paper.ps"
+    ],
+    "pdf": "Publications/gc-paper.pdf",
+    "pages": 28
+  },
+  {
+    "sources": [
+      "Publications/jpf-sttt.ps",
+      "Publications/jpf-sttt.ps.Z"
+    ],
+    "pdf": "Publications/jpf-sttt.pdf",
+    "pages": 17
+  },
+  {
+    "sources": [
+      "Publications/jpf2-postcav.ps.Z",
+      "Publications/jpf2-postcav.ps"
+    ],
+    "pdf": "Publications/jpf2-postcav.pdf",
+    "pages": 7
+  },
+  {
+    "sources": [
+      "Publications/gc-report.ps",
+      "Publications/gc-report.ps.Z"
+    ],
+    "pdf": "Publications/gc-report.pdf",
+    "pages": 78
+  },
+  {
+    "sources": [
+      "Publications/ltl.1.ps"
+    ],
+    "pdf": "Publications/ltl.1.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "Publications/sts99.ps",
+      "Publications/sts99.ps.Z"
+    ],
+    "pdf": "Publications/sts99.pdf",
+    "pages": 6
+  },
+  {
+    "sources": [
+      "Publications/gc-fmppta99.ps",
+      "Publications/gc-fmppta99.ps.Z"
+    ],
+    "pdf": "Publications/gc-fmppta99.pdf",
+    "pages": 26
+  },
+  {
+    "sources": [
+      "Publications/rax.ps.Z",
+      "Publications/rax.ps"
+    ],
+    "pdf": "Publications/rax.pdf",
+    "pages": 12
+  },
+  {
+    "sources": [
+      "Publications/spin++.ps",
+      "Publications/spin++.ps.Z"
+    ],
+    "pdf": "Publications/spin++.pdf",
+    "pages": 11
+  },
+  {
+    "sources": [
+      "Publications/statetext.ps.Z",
+      "Publications/statetext.ps"
+    ],
+    "pdf": "Publications/statetext.pdf",
+    "pages": 30
+  },
+  {
+    "sources": [
+      "Publications/ISMIS97.ps.Z",
+      "Publications/ISMIS97.ps"
+    ],
+    "pdf": "Publications/ISMIS97.pdf",
+    "pages": 13
+  },
+  {
+    "sources": [
+      "Publications/rtss.ps"
+    ],
+    "pdf": "Publications/rtss.pdf",
+    "pages": 35
+  },
+  {
+    "sources": [
+      "Publications/GC-PAPER.1.PS"
+    ],
+    "pdf": "Publications/GC-PAPER.1.pdf",
+    "pages": 28
+  },
+  {
+    "sources": [
+      "Publications/refine.ps",
+      "Publications/refine.ps.Z"
+    ],
+    "pdf": "Publications/refine.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "spin2000/spinws.ps"
+    ],
+    "pdf": "spin2000/spinws.pdf",
+    "pages": 3
+  },
+  {
+    "sources": [
+      "spin2000/search_map.ps"
+    ],
+    "pdf": "spin2000/search_map.pdf",
+    "pages": 2
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/first.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/first.pdf",
+    "pages": 3
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/cover.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/cover-from-postscript.pdf",
+    "pages": 2
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/03/abp.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/03/abp.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/03/mux.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/03/mux.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/03/04.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/03/04-from-postscript.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/03/runtime.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/03/runtime-from-postscript.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/04/jContractor.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/04/jContractor-from-postscript.pdf",
+    "pages": 25
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/sieve_ratio.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/sieve_ratio.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/06.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/06-from-postscript.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/sieve_absolute.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/sieve_absolute.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/sieve.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/sieve.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/paper.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/paper.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/05/mac_architecture.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/05/mac_architecture.pdf",
+    "pages": 1
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/02/03.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/02/03-from-postscript.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/02/jassda-events.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/02/jassda-events-from-postscript.pdf",
+    "pages": 15
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/11/main.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/11/main.pdf",
+    "pages": 22
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/11/save-main.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/11/save-main.pdf",
+    "pages": 22
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/10/11.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/10/11-from-postscript.pdf",
+    "pages": 21
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/10/rv-types.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/10/rv-types-from-postscript.pdf",
+    "pages": 21
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/07/08.ps"
+    ],
+    "error": "GPL Ghostscript 10.04.0: Unrecoverable error, exit code 1\nGPL Ghostscript 10.04.0: Page object was reserved for an Annotation destination, but no such page was drawn, annotation in output will be invalid.\n  3   %oparray_pop   1787   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--\nDictionary stack:\n   --dict:743/1123(ro)(G)--   --dict:0/20(G)--   --dict:88/200(L)--   --dict:144/300(L)--   --dict:42/200(L)--\nCurrent allocation mode is local\nCurrent file position is 392739\n"
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/07/main.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/07/main-from-postscript.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/09/10.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/09/10-from-postscript.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/09/prelim-proceedings.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/09/prelim-proceedings-from-postscript.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/08/09.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/08/09-from-postscript.pdf",
+    "pages": 14
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/08/rv.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/08/rv.pdf",
+    "pages": 14
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/01/rv02.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/01/rv02-from-postscript.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/01/02.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/01/02.pdf",
+    "pages": 20
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/06/02rv.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/06/02rv-from-postscript.pdf",
+    "pages": 17
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2002/rv02/06/07.ps"
+    ],
+    "pdf": "runtime-verfication/rv2002/rv02/06/07-from-postscript.pdf",
+    "pages": 17
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/09.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/09-from-postscript.pdf",
+    "pages": 19
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/08.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/08-from-postscript.pdf",
+    "pages": 18
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/03.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/03-from-postscript.pdf",
+    "pages": 13
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/07.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/07-from-postscript.pdf",
+    "pages": 18
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/06.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/06-from-postscript.pdf",
+    "pages": 19
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/02.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/02-from-postscript.pdf",
+    "pages": 16
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/TOC.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/TOC-from-postscript.pdf",
+    "pages": 4
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/05.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/05-from-postscript.pdf",
+    "pages": 17
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/Cover.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/Cover-from-postscript.pdf",
+    "pages": 2
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/11.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/11-from-postscript.pdf",
+    "pages": 10
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/01.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/01-from-postscript.pdf",
+    "pages": 14
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/10.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/10-from-postscript.pdf",
+    "pages": 22
+  },
+  {
+    "sources": [
+      "runtime-verfication/rv2001/proceedings/04.ps"
+    ],
+    "pdf": "runtime-verfication/rv2001/proceedings/04-from-postscript.pdf",
+    "pages": 17
+  }
+]

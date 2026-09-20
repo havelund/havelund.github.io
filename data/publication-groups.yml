@@ -1,0 +1,101 @@
+- title: According to the Web
+  id: according-to-the-web
+  body: '---
+
+
+    [DBLP](http://www.dblp.org/search/index.php#query=klaus%20havelund&qp=H1.80:F1.4:F2.4:F3.4:F4.4)
+
+
+    ---
+
+
+    [Google Scholar](http://scholar.google.com/citations?user=yr-qU5MAAAAJ&hl=en)
+
+
+    ---
+
+
+    [ResearchGate](https://www.researchgate.net/profile/Klaus_Havelund/?ev=hdr_xprf)'
+- title: Papers Published or Submitted for Publication
+  id: papers-published-or-submitted-for-publication
+  body: ''
+- title: JPL Java Coding Standard
+  id: jpl-java-coding-standard
+  body: "JPL Institutional Coding Standard for the Java Programming Language.  \nVersion 1.0, March 31,\
+    \ 2014.  \nCreated by [semmle.com](https://semmle.com), Klaus Havelund (JPL), and Al Niessner (JPL).\
+    \  \n[pdf](/Publications/jpl-java-standard.pdf)\n\n---"
+- title: Books and Book Chapters
+  id: books-and-book-chapters
+  body: "---\n\n***RAISE in Perspective**  \nKlaus Havelund*\nChapter in [Logics of Specification Languages](http://www.springer.com/978-3-540-74106-0)\n\
+    \  \nMonographs in Theoretical Computer Science. An EATCS Series, 2007\n  \nBjorner, Dines; Henson,\
+    \ Martin C. (Eds.)\n  \n624 p., Hardcover\n  \nThe brief chapter (4 pages) comments on RSL, the RAISE\
+    \ Specification Language.  \n[pdf](/Publications/havelund-losl.pdf)\n\n---\n\n***The RAISE Specification\
+    \ Language**  \nThe RAISE Language Group*\nPrentice Hall. The BCS Practitioner Series, 1992.\n  \n\
+    For sale at [amazon.com](http://www.amazon.com/gp/product/0137528337/sr=8-1/qid=1142196477/ref=sr_1_1/002-7669108-1244013?%5Fencoding=UTF8)\n\
+    \  \n  \nThe book consists of two parts I: RSL Tutorial (pages 9-250),\nand II: RSL Reference Description\
+    \ (pages 251-369).\n  \nHavelund wrote part I, while\nHavelund together with Anne Haxthausen wrote\
+    \ part II.\nThe language presented in the book was designed during the period 1985-1991 by many people.\n\
+    Those that lastet to the end were the *RAISE\nLanguage Group*: Chris George, Peter Haff, Klaus Havelund,\n\
+    Anne Haxthausen, Robert Milne, Claus Bendix Nielsen, Soeren\nPrehn and Kim Ritter Wagner.\nThe RAISE\
+    \ project was started by Dines Bjoerner.\n  \n  \nAn early version of the book is the RSL tutorial\
+    \ (draft) below (April 6, 1990).\n\n---"
+- title: Unpublished White Papers
+  id: unpublished-white-papers
+  body: "---\n\n***Combining Modeling and Programming - Towards Advanced Languages for Software Development**\n\
+    \  \nManfred Broy and Klaus Havelund*\n  \nMay 2015.\n  \n[pdf](/Publications/combining-modeling-and-programmingV0.4.pdf)\n\
+    \n---"
+- title: The RAISE Project
+  id: the-raise-project
+  body: "The RAISE Esprit project (1984-1991), of which I was part, developed the specification language\
+    \ RSL\n(RAISE Specification Language), as well as a refinement-based method and tools,\nsuch as editors,\
+    \ type checkers, and proof tools. I was part of the 5 year language design\neffort, including writing\
+    \ dynamic semantics.\nThe language was supposed to be a derivative of VDM, but took a completely\n\
+    different turn, combining algebraic specification with model-based specification,\nand a process specification\
+    \ language inspired by CCS and CSP.\nThe contributors to the language were many over a more than 5\
+    \ year period.\nThose that lastet to the end were Dines Bjoerner, Chris George, Peter Haff, Klaus\
+    \ Havelund,\nAnne Haxthausen, Robert Milne, Claus Bendix Nielsen, Soeren\nPrehn and Kim Ritter Wagner.\
+    \ The RAISE project was started by Dines Bjoerner.\n  \n  \nThis project was a lot of fun and we studied\
+    \ a lot of specification languages and semantics\npapers. Doing specification language design for\
+    \ 5 years does create a desire for\nexperiencing/designing? the perfect programming language, a thought\
+    \ I have not yet given up.\nI claim that such a language does exist, and it is not far removed from\
+    \ those\nold specification languages. Scala is an excellent example.\n  \n  \nThe following reports\
+    \ are early and not quite complete versions of an RSL tutorial (which I wrote)\nand an RSL reference\
+    \ manual (which I wrote the dynamic semantics part of, while Anne Haxthausen\nwrote the static semantics/wellformedness\
+    \ part).\n\n---\n\n***An RSL Tutorial**  \nK. Havelund*\n**Technical Report, Version 1, April 6, 1990**\n\
+    \  \nComputer Resources International A/S.\n  \n[pdf](/Publications/RSL_Tutorial_V1.pdf)\n\n---\n\n\
+    ***An RSL Reference Manual**  \nK. Havelund and A. Haxthausen*\n**Technical Report, Version 1, April\
+    \ 6, 1990**\n  \nComputer Resources International A/S.\n  \n[pdf](/Publications/RSL_Manual_V1.pdf)\n\
+    \n  \n  \nIn addition I co-authored numerous\n[Raise reports](/Publications/raise.pdf), which unfortunately\
+    \ seem\nto have gone lost.\n  \n  \n[RAISE website](http://oersted.terma.com/Projects/RAISE)\n\n---"
+- title: Theses
+  id: theses
+  body: "---\n\n***The Fork Calculus - Towards a Logic for Concurrent ML**  \nK. Havelund*\n**Ph.D. thesis**\n\
+    \  \nDIKU, Department of Computer Science, University\nof Copenhagen, Denmark, 1994.\n  \nSupervisors:\
+    \ Klaus Grue and Kim Guldstrand Larsen.\n  \nPerformed at Ecole Normale Superieure, Paris, France,\n\
+    while attending the groups of Michel Bidoit and Patrick\nCousot.\n  \n[pdf](/Publications/thesis.pdf)\n\
+    \n---\n\n***Stepwise Development of a Denotational Stack Semantics**  \nK. Havelund*\n  \n**Master\
+    \ thesis**\n  \nDIKU, Department of Computer Science, University\nof Copenhagen, Denmark, 1984.\n\
+    \  \nSupervisor: Neil Jones.\n  \nElectronic copy is not available (lost in one of many computer-to-computer\
+    \ moves).  \nIf you have a copy, let me know.\n\n---"
+- title: Technical Reports
+  id: technical-reports
+  body: "---\n\n***Empirical Study of Actor-based Runtime Verification**  \nN. Shafiei, K. Havelund, and\
+    \ P. Mehlitz*\nNASA Technical Report number: NASA/TM-2020-5004331.\nJune 2020.\n  \n[pdf](/Publications/mesa-nasa-report-2020.pdf)\n\
+    \  \nAlso available at\n<http://ntrs.nasa.gov>\n\n---\n\n***Toward Automated Enforcement of Error-Handling\
+    \ Policies**  \nD. Smith and K. Havelund*\nTechnical Report number: TR-KT-0508, Kestrel Technology\
+    \ LLC.\nAugust 2005.\n  \n[pdf](/Publications/HandlErr.pdf)\n\n---\n\n***Eagle Monitors by Collecting\
+    \ Facts and Generating Obligations**  \nH. Barringer, A. Goldberg, K. Havelund, and K. Sen*\nTechnical\
+    \ Report:\nPre-Print CSPP-25, University of Manchester, Department of Computer Science, October 2003.\n\
+    \  \n[pdf](/Publications/eagle-expanded.pdf)\n\n---\n\n***Eagle Does Space Efficient LTL Monitoring**\
+    \  \nH. Barringer, A. Goldberg, K. Havelund, and K. Sen*\nTechnical Report:\nPre-Print CSPP-25, University\
+    \ of Manchester, Department of Computer Science, October 2003\n  \n[pdf](/Publications/eagle-ltl.pdf)\n\
+    \n---\n\n***Synthesizing Dynamic Programming Algorithms from\nLinear Temporal Logic Formulae**  \n\
+    G. Rosu and K. Havelund*\nRIACS Technical Report TR 01-15, May 2001. Written 15 January 2001  \n[pdf](/Publications/synthesis-dynamic.pdf)\n\
+    \n---\n\n***Testing Linear Temporal Logic Formulae on Finite Execution Traces**  \nK. Havelund and\
+    \ G. Rosu*\nRIACS Technical Report TR 01-08, May 2001. Written 20 December 2000  \n[pdf](/Publications/testing-temporal.pdf)\n\
+    \n---\n\n***Java PathFinder User Guide**  \nK. Havelund*\nUnpublished Report  \n[pdf](/Publications/jpf-manual.pdf)\n\
+    \n---\n\n***Java PathFinder, A Translator from Java to Promela**  \nK. Havelund and T. Pressburger*\n\
+    \  \nUnpublished Report, 1998  \n[pdf](/Publications/jpf1-report-99.pdf)\n\n---\n\n***A Mechanized\
+    \ Refinement Proof for a Garbage Collector**  \nK. Havelund, N. Shankar*\n\nUnpublished Report, 1997\n\
+    \  \n[pdf](/Publications/gc-refine-report.pdf)\n\n---\n\n***StateText - A Textual Language for State\
+    \ Charts with Data**  \nK. Havelund, K. G. Larsen*\nUnpublished Report  \n[pdf](/Publications/statetext.pdf)"

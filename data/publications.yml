@@ -1,0 +1,2587 @@
+- title: 'Safe Planning and Scheduling: An SMT-Based Verification Approach'
+  authors: K. Havelund and A. Pinto
+  year: null
+  details: Under review.
+  links: []
+  id: paper-1
+  group: Papers Published or Submitted for Publication
+- title: AI Assisted Programming (AISoLA 2026 Track Introduction)
+  authors: W. Ahrendt, B. K. Aichernig, and K. Havelund
+  year: 2026
+  details: 'AISoLA 2026 AISoLA Track: AI Assisted Programming.
+
+    27-31 October, 2026 - Kos, Greece. pdf'
+  links:
+  - label: AISoLA 2026
+    url: https://2026-isola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-aiap-intro-2026.pdf
+  id: paper-2
+  group: Papers Published or Submitted for Publication
+- title: Monitoring LLM Conversations with First-Order Temporal Logic
+  authors: I. Cohen, K. Havelund, M. Omer, and D. Peled
+  year: 2026
+  details: RV 2026 pdf
+  links:
+  - label: RV 2026
+    url: https://rv2026.smithengineering.queensu.ca
+  - label: pdf
+    url: /Publications/rv-2026-first-order-guardrails.pdf
+  id: paper-3
+  group: Papers Published or Submitted for Publication
+- title: 'DejaVuGuard: Runtime Verification of LLM Conversations with First-Order Temporal Logic'
+  authors: I. Cohen, K. Havelund, M. Omer, and D. Peled
+  year: 2026
+  details: RV 2026 Tool paper. pdf
+  links:
+  - label: RV 2026
+    url: https://rv2026.smithengineering.queensu.ca
+  - label: pdf
+    url: /Publications/rv-2026-dejavuguard.pdf
+  id: paper-4
+  group: Papers Published or Submitted for Publication
+- title: 'Temporal Guardrails for LLM Conversations: A Runtime Verification Framework'
+  authors: I. Cohen, K. Havelund, M. Omer, and D. Peled
+  year: 2026
+  details: 'SAIV 2026 3rd International Symposium on AI Verification, Lisbon, Portugal.
+
+    LNCS, pp. 145-166, Springer. pdf'
+  links:
+  - label: pdf
+    url: /Publications/saiv-2026-temporal-guardrails.pdf
+  id: paper-5
+  group: Papers Published or Submitted for Publication
+- title: LLM-Assisted Translation and Bounded Model Checking of Python Code
+  authors: S. Shivaji, K. Havelund, N. Lobakhina, L. C. Cordeiro, and A. Pinto
+  year: 2025
+  details: 'AISoLA 2025 AISoLA Track: AI Assisted Programming.
+
+    1-5 November, 2025 - Rhodes, Greece. pdf'
+  links:
+  - label: AISoLA 2025
+    url: https://2025-aisola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-python-2025.pdf
+  id: paper-6
+  group: Papers Published or Submitted for Publication
+- title: An Engineering Life-Cycle Assurance Process for Autonomous Space Systems
+  authors: A. Pinto, C. Wagner, K. Havelund, and N. Rouquette
+  year: 2026
+  details: IEEE Aerospace Conference 2026 March 7-14, 2026, Big Sky, Montana. pdf
+  links:
+  - label: IEEE Aerospace Conference 2026
+    url: https://aiaa.org/events/2026-ieee-aerospace-conference/
+  - label: pdf
+    url: /Publications/paas_ieee_aerospace_2026.pdf
+  id: paper-7
+  group: Papers Published or Submitted for Publication
+- title: Fuzz Testing with Temporal Constraints
+  authors: K. Havelund, T. Clark, and and V. Reddy
+  year: 2025
+  details: 'ICTAC 2025 22nd International Colloquium on Theoretical Aspects of Computing.
+
+    24-28 Nov. 2025, Marrakesh, Morocco. Invited paper (keynote) pdf'
+  links:
+  - label: ICTAC 2025
+    url: https://ictac2025.digital-hub.sh/
+  - label: pdf
+    url: /Publications/fuzz-testing-ictac-2025.pdf
+  id: paper-8
+  group: Papers Published or Submitted for Publication
+- title: From Natural Language to Monitors via LLM-Assisted Disambiguation
+  authors: I. Cohen, K. Havelund, D. Peled, and Y. Goldberg
+  year: 2025
+  details: RV 2025 pdf
+  links:
+  - label: RV 2025
+    url: https://rv25.isec.tugraz.at/
+  - label: pdf
+    url: /Publications/llm-assisted-disambiguation-2026.pdf
+  id: paper-9
+  group: Papers Published or Submitted for Publication
+- title: 'The Power of Reframing: Using LLMs in Synthesizing RV Monitors'
+  authors: I. Cohen, K. Havelund, D. Peled, and Y. Goldberg.
+  year: 2025
+  details: 'In Bettina Könighofer and Hazem Torfah, editors, RV 2025 25th International Conference on
+    Runtime Verification,
+
+    September 15-19, 2025 - Graz, Austria, LNCS, pp. 202-212, Springer-Verlag. pdf'
+  links:
+  - label: RV 2025
+    url: https://rv25.isec.tugraz.at/
+  - label: pdf
+    url: /Publications/rv-2025-llm.pdf
+  id: paper-10
+  group: Papers Published or Submitted for Publication
+- title: DSLs for Runtime Verification
+  authors: K. Havelund, M. Omer, and D. Peled.
+  year: 2025
+  details: 'In Bettina Könighofer and Hazem Torfah, editors, RV 2025 25nd International Conference on
+    Runtime Verification,
+
+    September 15-19, 2025 - Graz, Austria, LNCS TBD, Springer-Verlag. Tutorial pdf'
+  links:
+  - label: RV 2025
+    url: https://rv25.isec.tugraz.at/
+  - label: pdf
+    url: /Publications/rv-2025-tutorial.pdf
+  id: paper-11
+  group: Papers Published or Submitted for Publication
+- title: Embedding Monitoring of First-order Temporal Logic in a Programming Language
+  authors: K. Havelund, M. Omer, and D. Peled.
+  year: 2025
+  details: 'In Nathalie Bertrand, Clemens Dubslaff, and Sascha Klüppelholz, editors, Principles of Formal
+    Quantitative Analysis -
+
+    Essays Dedicated to Christel Baier on the Occasion of Her 60th Birthday.
+
+    2025. LNCS 15760, Springer-Verlag. Invited paper pdf'
+  links:
+  - label: pdf
+    url: /Publications/cb-pydejavu-2025.pdf
+  id: paper-12
+  group: Papers Published or Submitted for Publication
+- title: AI Assisted Programming (AISoLA 2025 Post-Proceedings Track Introduction)
+  authors: W. Ahrendt, B. K. Aichernig, and K. Havelund
+  year: 2025
+  details: 'AISoLA 2025 AISoLA Track: AI Assisted Programming.
+
+    1-5 November, 2025 - Rhodes, Greece. Post-proceedings. pdf'
+  links:
+  - label: AISoLA 2025
+    url: https://2025-aisola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-aiap-post-intro-2025.pdf
+  id: paper-13
+  group: Papers Published or Submitted for Publication
+- title: AI Assisted Programming (AISoLA 2025 Track Introduction)
+  authors: W. Ahrendt, B. K. Aichernig, and K. Havelund
+  year: 2025
+  details: 'AISoLA 2025 AISoLA Track: AI Assisted Programming.
+
+    1-5 November, 2025 - Rhodes, Greece. LNCS To Appear. pdf'
+  links:
+  - label: AISoLA 2025
+    url: https://2025-aisola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-aiap-intro-2025.pdf
+  id: paper-14
+  group: Papers Published or Submitted for Publication
+- title: 'Correct-ish by Design: From Upfront Verification to Continuous Monitoring of LLM Generated Code'
+  authors: B. Aichernig and K. Havelund.
+  year: 2024
+  details: 'ISoLA/AISoLA 2024 AISoLA Track: AI Assisted Programming.
+
+    27 October - 3 November, 2024 - Crete, Greece. LNCS. pdf'
+  links:
+  - label: ISoLA/AISoLA 2024
+    url: https://2024-isola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-aiap-safer-2024.pdf
+  id: paper-15
+  group: Papers Published or Submitted for Publication
+- title: 'Presentation Abstract: Runtime Verification Tools'
+  authors: S. Kauffman and K. Havelund.
+  year: 2025
+  details: 'RRRR 2025 RRRR 2025 - Fourth Workshop on Reproducibility and Replication of Research Results.
+
+    May 3, 2025. Published on website only. pdf'
+  links:
+  - label: RRRR 2025
+    url: https://qcomp.org/rrrr/2025/
+  - label: pdf
+    url: /Publications/rrrr-rv-tools-2025.pdf
+  id: paper-16
+  group: Papers Published or Submitted for Publication
+- title: AI Assisted Programming (AISoLA 2024 Track Introduction)
+  authors: W. Ahrendt, B. K. Aichernig, and K. Havelund
+  year: 2024
+  details: 'ISoLA/AISoLA 2024 AISoLA Track: AI Assisted Programming.
+
+    27 October - 3 November, 2024 - Crete, Greece. LNCS To Appear. pdf'
+  links:
+  - label: ISoLA/AISoLA 2024
+    url: https://2024-isola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-aiap-intro-2024.pdf
+  id: paper-17
+  group: Papers Published or Submitted for Publication
+- title: High-Integrity Runtime Verification
+  authors: A. E. Goodloe and K. Havelund
+  year: 2024
+  details: Computer, vol. 57, no. 4, pp. 37-45, April 2024. pdf
+  links:
+  - label: pdf
+    url: /Publications/high-integrity-rv-2024.pdf
+  id: paper-18
+  group: Papers Published or Submitted for Publication
+- title: Operational and Declarative Runtime Verification (Keynote)
+  authors: K. Havelund, M. Omer, and and D. Peled
+  year: null
+  details: 'VORTEX ''24: Proceedings of the 7th ACM International Workshop on Verification and Monitoring
+    at Runtime Execution, ACM.'
+  links: []
+  id: paper-19
+  group: Papers Published or Submitted for Publication
+- title: What Is a Garbage Collector? An Exercise in Compositional Refinement
+  authors: K. Havelund and N. Shankar
+  year: null
+  details: "The Practice of Formal Methods - \nEssays in Honour of Cliff Jones, Part I.\nLNCS Volume 14780\
+    \ pdf"
+  links:
+  - label: pdf
+    url: /Publications/cliff-jones-2024.pdf
+  id: paper-20
+  group: Papers Published or Submitted for Publication
+- title: Does Every Computer Scientist Need to Know Formal Methods?
+  authors: "M. Broy, A. D. Brucker, A. Fantechi, M. Gleirscher, K. Havelund, \nM. Kuppe, A. Mendes, A.\
+    \ Platzer, J. O. Ringert, and A. Sullivan."
+  year: 2024
+  details: Formal Aspects of Computing, Springer International, 2024. pdf
+  links:
+  - label: pdf
+    url: /Publications/fm-edu-2024.pdf
+  id: paper-21
+  group: Papers Published or Submitted for Publication
+- title: Introduction to Selected Papers from NFM 2022
+  authors: J. Deshmukh, K. Havelund, I. Perez.
+  year: 2022
+  details: 'Innovations in Systems and Software Engineering, a NASA journal , Special Issue on NASA Formal
+    Methods 2022 (NFM''22).
+
+    Appeared online 2024, to appear in print. pdf'
+  links:
+  - label: NASA journal
+    url: https://link.springer.com/journal/11334
+  - label: Special Issue
+    url: https://link.springer.com/collections/bihgiiajhh
+  - label: NASA Formal Methods 2022
+    url: https://nfm2022.caltech.edu/
+  - label: pdf
+    url: /Publications/nfm-2022-journal-intro.pdf
+  id: paper-22
+  group: Papers Published or Submitted for Publication
+- title: 'TP-DejaVu: Combining Operational and Declarative Runtime Verification'
+  authors: K. Havelund, P. Katsaros, M. Omer, D. Peled, and A. Temperekidis
+  year: 2024
+  details: 'VMCAI''24, 25th International Conference on Verification, Model Checking and
+
+    Abstract Interpretation, January 15-16, London, UK, 2024.
+
+    LNCS 14500, Part II, 249-263. pdf'
+  links:
+  - label: pdf
+    url: /Publications/vmcai-2024-tpdejavu.pdf
+  id: paper-23
+  group: Papers Published or Submitted for Publication
+- title: AI-Assisted Programming with Test-based Refinement
+  authors: B. Aichernig and K. Havelund
+  year: 2023
+  details: 'ISoLA 2023 Bridging the Gap Between AI and Reality.
+
+    Track: AI Assisted Programming.
+
+    23-28 October 2023 - Crete, Greece.
+
+    Abstract occurred in 2023 meeting proceedings, LNCS 14380. The full paper
+
+    here will appear in post-meeting LNCS proceedings. pdf'
+  links:
+  - label: ISoLA 2023
+    url: https://2023-aisola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-2023-aiap-refinement.pdf
+  id: paper-24
+  group: Papers Published or Submitted for Publication
+- title: AI Assisted Programming (AISoLA 2023 Track Introduction)
+  authors: W. Ahrendt and K. Havelund
+  year: 2023
+  details: 'ISoLA 2023 Bridging the Gap Between AI and Reality.
+
+    Track: AI Assisted Programming.
+
+    23-28 October 2023 - Crete, Greece. LNCS 14380. pdf'
+  links:
+  - label: ISoLA 2023
+    url: https://2023-aisola.isola-conference.org/
+  - label: pdf
+    url: /Publications/aisola-2023-aiap-intro.pdf
+  id: paper-25
+  group: Papers Published or Submitted for Publication
+- title: Monitorability for Runtime Verification
+  authors: K. Havelund and D. Peled.
+  year: 2023
+  details: 'In Panagiotis Katsaros and Laura Nenzi, editors, 23rd International Conference on Runtime
+    Verification,
+
+    October 3-6, 2023 - Thessaloniki, Greece, LNCS 14245, 447-460, Springer-Verlag. Tutorial pdf'
+  links:
+  - label: pdf
+    url: /Publications/rv-2023-tutorial.pdf
+  id: paper-26
+  group: Papers Published or Submitted for Publication
+- title: 'Autonomica: Ontological Modeling and Analysis of Autonomous Behavior'
+  authors: M. Elaasar, N. Rouquette, K. Havelund, M. Feather, S. Bandyopadhyay, and A. Candela.
+  year: 2023
+  details: 33rd Annual INCOSE International Symposium, Honolulu, HI, USA, July 15-20, 2023. pdf
+  links:
+  - label: pdf
+    url: /Publications/autonomica-incose-2023.pdf
+  id: paper-27
+  group: Papers Published or Submitted for Publication
+- title: Programming Event Monitors
+  authors: K. Havelund and G. J. Holzmann.
+  year: 2023
+  details: International Journal on Software Tools for Technology Transfer (STTT), 26:33-47, 2023. Springer-Verlag.
+    pdf
+  links:
+  - label: pdf
+    url: /Publications/daut-cobra-2023.pdf
+  id: paper-28
+  group: Papers Published or Submitted for Publication
+- title: Space Telemetry Analysis with PyContract
+  authors: B. Duckett, K. Havelund, and L. Stewart.
+  year: 2023
+  details: 'In Anne E. Haxthausen, Wen-Ling Huang, and Markus Roggenbach, editors, JanFest 2023.
+
+    Essays Dedicated to Jan Peleska on the Occasion of His 65th Birthday,
+
+    March 3, 2023 - Bremen, Germany, LNCS 14165, Springer-Verlag. Invited paper pdf'
+  links:
+  - label: pdf
+    url: /Publications/jan65-telemetry-2023.pdf
+  id: paper-29
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verification as Documentation
+  authors: D. Dams, K. Havelund, and S. Kauffman.
+  year: 2022
+  details: 'ISoLA 2022 11th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Programming What is Next: The Role of Documentation.
+
+    22-30 October 2022 - Rhodes, Greece. LNCS 13702. pdf'
+  links:
+  - label: ISoLA 2022
+    url: https://2022.isola-conference.org/
+  - label: pdf
+    url: /Publications/isola-pwn-rvdoc-2022.pdf
+  id: paper-30
+  group: Papers Published or Submitted for Publication
+- title: Discussing the Future Role of Documentation in the Context of Modern Software Engineering (ISoLA
+    2022 Track Introduction)
+  authors: K. Havelund, T. Tegeler, S. Smyth, and B. Steffen.
+  year: 2022
+  details: 'ISoLA 2022 11th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Programming What is Next: The Role of Documentation.
+
+    22-30 October 2022 - Rhodes, Greece. LNCS 13702. pdf'
+  links:
+  - label: ISoLA 2022
+    url: https://2022.isola-conference.org/
+  - label: pdf
+    url: /Publications/isola-pwn-intro-2022.pdf
+  id: paper-31
+  group: Papers Published or Submitted for Publication
+- title: Specification-based Monitoring in C++
+  authors: K. Havelund.
+  year: 2022
+  details: 'ISoLA 2022 11th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Specify This - Bridging gaps between program specification paradigms.
+
+    22-30 October 2022 - Rhodes, Greece. LNCS 13701. Invited paper pdf Was also presented at VPT 2022
+    (as a technical report).'
+  links:
+  - label: ISoLA 2022
+    url: https://2022.isola-conference.org/
+  - label: pdf
+    url: /Publications/isola-specthis-logscope-2022.pdf
+  - label: VPT 2022
+    url: https://www.sci.unich.it/hcvs22/program.html
+  id: paper-32
+  group: Papers Published or Submitted for Publication
+- title: A Python Library for Trace Analysis
+  authors: D. Dams, K. Havelund, and S. Kauffman
+  year: 2022
+  details: 'RV 2022 22nd International Conference on Runtime Verification,
+
+    28-30 September 2022 - Tbilisi, Georgia. LNCS 13498, Springer-Verlag. pdf'
+  links:
+  - label: RV 2022
+    url: https://rv22.gitlab.io
+  - label: pdf
+    url: /Publications/rv-pycontract-2022.pdf
+  id: paper-33
+  group: Papers Published or Submitted for Publication
+- title: On Monitoring Linear Temporal Properties
+  authors: K. Havelund and D. Peled
+  year: 2023
+  details: 'Formal Methods in System Design (FMSD). A special issue in memory of Ed Clarke.
+
+    Volume 60, pages 405-425, 2023. Invited paper pdf'
+  links:
+  - label: pdf
+    url: /Publications/fmsd-clarke-2023.pdf
+  id: paper-34
+  group: Papers Published or Submitted for Publication
+- title: A Half Century of Formal Methods
+  authors: D. Bjoerner and K. Havelund.
+  year: 2022
+  details: August 2022 (unpublished). pdf
+  links:
+  - label: pdf
+    url: /Publications/fm-50-2022.pdf
+  id: paper-35
+  group: Papers Published or Submitted for Publication
+- title: Concurrent Runtime Verification of Data Rich Events
+  authors: N. Shafiei, K. Havelund, and P. Mehlitz.
+  year: 2023
+  details: 'International Journal on Software Tools for Technology Transfer (STTT),
+
+    Volume 25, pages 481-501, 2023.
+
+    Springer-Verlag.
+
+    Journal version of RV 2020 paper. pdf'
+  links:
+  - label: pdf
+    url: /Publications/sttt-mesa-2023.pdf
+  id: paper-36
+  group: Papers Published or Submitted for Publication
+- title: Monitoring First-Order Interval Logic
+  authors: K. Havelund,  M. Omer, and D. Peled.
+  year: 2021
+  details: 'SEFM 2021 19th International Conference on Software Engineering and Formal Methods,
+
+    6-10 December 2021 - Jointly organised in virtual mode by Carnegie Mellon University (US), Nazarbayev
+    University (Kazakhstan) and University of York (UK). pdf'
+  links:
+  - label: SEFM 2021
+    url: https://sefm-conference.github.io/
+  - label: pdf
+    url: /Publications/momani-sefm-2021.pdf
+  id: paper-37
+  group: Papers Published or Submitted for Publication
+- title: Programming - What is Next?
+  authors: K. Havelund and B. Steffen.
+  year: 2021
+  details: 'ISoLA 2021 9th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Programming - What is Next?
+
+    25-29 October 2021 - Rhodes, Greece. LNCS 13036. pdf'
+  links:
+  - label: ISoLA 2021
+    url: http://isola-conference.org/isola2021
+  - label: pdf
+    url: /Publications/isola-2021-pwn-intro.pdf
+  id: paper-38
+  group: Papers Published or Submitted for Publication
+- title: Integrated Modeling and Development of Component-Based Embedded Software in Scala
+  authors: K. Havelund and R. Bocchino.
+  year: 2021
+  details: 'ISoLA 2021 9th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Programming - What is Next?
+
+    25-29 October 2021 - Rhodes, Greece. LNCS 13036. pdf'
+  links:
+  - label: ISoLA 2021
+    url: http://isola-conference.org/isola2021
+  - label: pdf
+    url: /Publications/fprime-scala-isola-2021.pdf
+  id: paper-39
+  group: Papers Published or Submitted for Publication
+- title: Assurance of Model-Based Autonomy for Robotic Space Missions
+  authors: M. S. Feather, S. L. Cornford, and K. Havelund.
+  year: 2022
+  details: 'RAMS 2022 68th Annual Reliability and Maintainability Symposium
+
+    January 24-27, 2022, Tucson, Arizona, USA. pdf'
+  links:
+  - label: RAMS 2022
+    url: https://rams.org
+  - label: pdf
+    url: /Publications/assurance-rams-2022.pdf
+  id: paper-40
+  group: Papers Published or Submitted for Publication
+- title: Information-Driven and Risk-Bounded Autonomy for Scientist Avatars
+  authors: 'E. Timmons, M. Reeves, B. Ayton, B. C. Williams,
+
+    M. D. Ingham, J. Castillo-Rogez, W. Seto, K. Havelund,
+
+    A. Jasour, B. Donitz, D. Mages, A. Rahmani,
+
+    P. Tavallali, and S. Chung.'
+  year: 2021
+  details: ASCEND 2021 Organized by AIAA, Las Vegas, Nov 8-17, 2021. pdf
+  links:
+  - label: ASCEND 2021
+    url: https://www.ascend.events/2021-ascend
+  - label: pdf
+    url: /Publications/ascend-2021-autonomy.pdf
+  id: paper-41
+  group: Papers Published or Submitted for Publication
+- title: An Extension of LTL with Rules and its Application to Runtime Verification
+  authors: K. Havelund and D. Peled.
+  year: 2021
+  details: 'International Journal on Software Tools for Technology Transfer (STTT),
+
+    Springer-Verlag.  Issue 23/2021. pdf'
+  links:
+  - label: pdf
+    url: /Publications/dejavu-rules-sttt-2021.pdf
+  id: paper-42
+  group: Papers Published or Submitted for Publication
+- title: Towards a Systems Programming Language Designed for Hierarchical State Machines
+  authors: 'B. McClelland, D. Tellier, M. Millman, K. Beatrix Go, A. Balayan,
+
+    M. J. Munje, K. Dewey, N. Ho, K. Havelund, and M. Ingham.'
+  year: 2021
+  details: 'SMC-IT 2021 8th IEEE International Conference on Space Mission Challenges for Information
+    Technology.
+
+    Online - July 26-30, 2021. pdf'
+  links:
+  - label: SMC-IT 2021
+    url: https://smcit.ecs.baylor.edu/
+  - label: pdf
+    url: /Publications/smc-it-2021-proteus.pdf
+  id: paper-43
+  group: Papers Published or Submitted for Publication
+- title: A Flight Rule Checker for the LADEE Lunar Spacecraft
+  authors: E. Kurklu and K. Havelund.
+  year: 2020
+  details: 'ICTAC 2020 17th International Colloquium on Theoretical Aspects of Computing,
+
+    30 October - 4 Dec 2020 - Macau, China. LNCS TBD, Springer-Verlag. Keynote talk. pdf'
+  links:
+  - label: ICTAC 2020
+    url: https://ictac2020.github.io
+  - label: pdf
+    url: /Publications/frc-ladee-ictac-2020.pdf
+  id: paper-44
+  group: Papers Published or Submitted for Publication
+- title: First-Order Timed Runtime Verification using BDDs
+  authors: K. Havelund and D. Peled.
+  year: 2020
+  details: 'The 18th International Symposium on Automated Technology for Verification and Analysis
+
+    (ATVA''20).
+
+    Hanoi, Vietnam, October 19-23, 2020. Keynote talk. pdf'
+  links:
+  - label: pdf
+    url: /Publications/dejavu-time-atva-2020.pdf
+  id: paper-45
+  group: Papers Published or Submitted for Publication
+- title: Actor-based Runtime Verification with MESA
+  authors: N. Shafiei, K. Havelund, and P. Mehlitz.
+  year: 2020
+  details: 'RV 2020 In Jyotirmoy Deshmukh and Dejan Nickovic, editors,
+
+    20th International Conference on Runtime Verification,
+
+    6-9 October 2020 - Los Angeles, USA. LNCS TBD, Springer-Verlag.
+
+    (was one of three papers nominated for best paper award, but did not win it) pdf'
+  links:
+  - label: RV 2020
+    url: https://rv20.ait.ac.at/
+  - label: pdf
+    url: /Publications/mesa-rv-2020.pdf
+  id: paper-46
+  group: Papers Published or Submitted for Publication
+- title: BDDs for Representing Data in Runtime Verification
+  authors: K. Havelund and D. Peled.
+  year: 2020
+  details: 'RV 2020 In Jyotirmoy Deshmukh and Dejan Nickovic, editors,
+
+    20th International Conference on Runtime Verification,
+
+    6-9 October 2020 - Los Angeles, USA. LNCS TBD, Springer-Verlag. pdf'
+  links:
+  - label: RV 2020
+    url: https://rv20.ait.ac.at/
+  - label: pdf
+    url: /Publications/RV_2020_Tutorial.pdf
+  id: paper-47
+  group: Papers Published or Submitted for Publication
+- title: What Can We Monitor Over Unreliable Channels?
+  authors: S. Kauffman, K. Havelund, and S. Fischmeister.
+  year: 2021
+  details: 'International Journal on Software Tools for Technology Transfer (STTT).
+
+    Springer-Verlag. Issue 23/2021. pdf'
+  links:
+  - label: pdf
+    url: /Publications/sttt-lossy-channels-2020.pdf
+  id: paper-48
+  group: Papers Published or Submitted for Publication
+- title: 'An Extension of LTL with Rules
+
+    and its Application to Runtime Verification'
+  authors: K. Havelund and D. Peled
+  year: 2019
+  details: "RV 2019 In Bernd Finkbeiner and Leonardo Mariani, editors,\n19th International Conference\
+    \ on Runtime Verification, \n8-11 October 2019 - Porto, Portugal. LNCS TBD, Springer-Verlag. pdf"
+  links:
+  - label: RV 2019
+    url: https://www.react.uni-saarland.de/rv2019/index.html
+  - label: pdf
+    url: /Publications/rv-2019-ltl-rules.pdf
+  id: paper-49
+  group: Papers Published or Submitted for Publication
+- title: Monitorability Over Unreliable Channels
+  authors: S. Kauffman, K. Havelund, and S. Fischmeister
+  year: 2019
+  details: "RV 2019 In Bernd Finkbeiner and Leonardo Mariani, editors,\n19th International Conference\
+    \ on Runtime Verification, \n8-11 October 2019 - Porto, Portugal. LNCS TBD, Springer-Verlag. pdf"
+  links:
+  - label: RV 2019
+    url: https://www.react.uni-saarland.de/rv2019/index.html
+  - label: pdf
+    url: /Publications/rv-2019-unreliable-channels.pdf
+  id: paper-50
+  group: Papers Published or Submitted for Publication
+- title: A Refinement Proof for a Garbage Collector
+  authors: K. Havelund and N. Shankar.
+  year: 2019
+  details: 'In Ezio Bartocci, Rance Cleaveland, Radu Grosu, and Oleg Sokolsky, editors, ScottFest 2019
+    . Celebration of Scott Smolka''s 65 year birthday,
+
+    1-2 August 2019 - Stony Brook, NY. LNCS TBD, Springer-Verlag. Invited presentation pdf'
+  links:
+  - label: ScottFest 2019
+    url: http://scottfest.conf.tuwien.ac.at
+  - label: pdf
+    url: /Publications/scottfest-2019-gcrefine.pdf
+  id: paper-51
+  group: Papers Published or Submitted for Publication
+- title: 'Refining the Safety-liveness Classification of Temporal
+
+    Properties According to Monitorability'
+  authors: D. Peled and K. Havelund
+  year: 2018
+  details: 'In Tiziana Margaria, Susanne Graf, and Kim Larsen, editors,
+
+    Models, Mindsets, Meta - The What, The How, and the Why Not? Celebration of Berhard Steffen''s 60
+    year birthday,
+
+    10-13 November 2018 - Limassol, Cyprus. LNCS 11200, Springer-Verlag. Invited presentation pdf Springer
+    link'
+  links:
+  - label: pdf
+    url: /Publications/bernhard-60.pdf
+  - label: Springer link
+    url: https://www.springer.com/gp/book/9783030223472?wt_mc=Internal.Event.1.SEM.ChapterAuthorCongrat
+  id: paper-52
+  group: Papers Published or Submitted for Publication
+- title: Introduction to Selected Papers from SPIN 2017
+  authors: H. Erdogmus and K. Havelund
+  year: 2019
+  details: 'International Journal on Software Tools for Technology Transfer (STTT),
+
+    volume 21, 2019. Springer-Verlag. pdf Springer link'
+  links:
+  - label: pdf
+    url: /Publications/sttt-spin-2017-intro.pdf
+  - label: Springer link
+    url: https://link.springer.com/epdf/10.1007/s10009-019-00515-5?author_access_token=nSQtHuJ_3dbT83MrAsuFlve4RwlQNchNByi7wbcMAY6jaYZDCD12eJEJ9BRQM3GCophBuXIRcBbguoCXDa60BIAnYZgg6cFG7sJipF__sImCQxXVu4whadN8wz4FPgxS6G3pwMdebD-o0cJr8-zOfA%3D%3D
+  id: paper-53
+  group: Papers Published or Submitted for Publication
+- title: The DejaVu Runtime Verification Benchmark
+  authors: K. Havelund, D. Peled, and D. Ulus
+  year: 2018
+  details: "RV 2018 18th International Conference on Runtime Verification, \n10-13 November 2018 - Limassol,\
+    \ Cyprus.\nThe RV RV competition .\nPublished on website (not in LNCS proceedings). Won best benchmark\
+    \ price. pdf"
+  links:
+  - label: RV 2018
+    url: https://rv2018.isp.uni-luebeck.de
+  - label: RV competition
+    url: https://www.rv-competition.org/2018-2
+  - label: pdf
+    url: /Publications/rv-2018-benchmark.pdf
+  id: paper-54
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verication - 17 Years Later
+  authors: K. Havelund and G. Rosu
+  year: 2018
+  details: "RV 2018 In Christian Columbo and Martin Leucker, editors,\n18th International Conference on\
+    \ Runtime Verification, \n10-13 November 2018 - Limassol, Cyprus. LNCS TBD, Springer-Verlag. Invited\
+    \ presentation in response to the authors receiving the 'Test of Time'\naward for their 2001 paper:\
+    \ Monitoring Java Programs with Java PathExplorer, RV'01, 2001. pdf"
+  links:
+  - label: RV 2018
+    url: https://rv2018.isp.uni-luebeck.de
+  - label: pdf
+    url: /Publications/rv-2018-test-of-time.pdf
+  id: paper-55
+  group: Papers Published or Submitted for Publication
+- title: Modeling with Scala
+  authors: K. Havelund and R. Joshi
+  year: 2018
+  details: 'ISoLA 2018 8th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Towards a Unified View of Modeling and Programming.
+
+    5-9 November 2018 - Limasol, Cyprus. LNCS TBD, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2018
+    url: http://www.isola-conference.org/isola2018/
+  - label: pdf
+    url: /Publications/isola-2018-uvmp-scala.pdf
+  id: paper-56
+  group: Papers Published or Submitted for Publication
+- title: Towards a Unified View of Modeling and Programming (ISoLA 2018 Track Introduction)
+  authors: M. Broy, K. Havelund, R. Kumar, B. Steffen.
+  year: 2018
+  details: 'ISoLA 2018 8th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Towards a Unified View of Modeling and Programming.
+
+    5-9 November 2018 - Limasol, Cyprus. LNCS TBD, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2018
+    url: http://www.isola-conference.org/isola2018/
+  - label: pdf
+    url: /Publications/isola-2018-uvmp-intro.pdf
+  id: paper-57
+  group: Papers Published or Submitted for Publication
+- title: Refining the Safety-liveness Classification of Temporal Properties According to Monitorability
+  authors: D. Peled and K. Havelund
+  year: 2018
+  details: 'ISoLA 2018 8th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    5-9 November 2018 - Limasol, Cyprus. LNCS TBD, Springer-Verlag. Invited presentation pdf --->'
+  links:
+  - label: ISoLA 2018
+    url: http://www.isola-conference.org/isola2018/
+  - label: pdf
+    url: /Publications/b60.pdf
+  id: paper-58
+  group: Papers Published or Submitted for Publication
+- title: 'Runtime Verification: From Propositional to First-Order Temporal Logic (Tutorial)'
+  authors: K. Havelund and D. Peled
+  year: 2018
+  details: "RV 2018 In Christian Columbo and Martin Leucker, editors,\n18th International Conference on\
+    \ Runtime Verification, \n10-13 November 2018 - Limassol, Cyprus. LNCS TBD, Springer-Verlag. pdf"
+  links:
+  - label: RV 2018
+    url: https://rv2018.isp.uni-luebeck.de
+  - label: pdf
+    url: /Publications/rv-2018-tutorial.pdf
+  id: paper-59
+  group: Papers Published or Submitted for Publication
+- title: BDDs on the Run
+  authors: K. Havelund and D. Peled
+  year: 2018
+  details: 'ISoLA 2018 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    8th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: RV-TheToP: Runtime Verification from the Theory To the industry Practice,
+
+    organized by Ezio Bartocci and Ylies Falcone.
+
+    5-9 November 2018 - Limasol, Cyprus. LNCS TBD, Springer-Verlag. Invited presentation pdf'
+  links:
+  - label: ISoLA 2018
+    url: http://www.isola-conference.org/isola2018/
+  - label: pdf
+    url: /Publications/isola-2018-rvthetop.pdf
+  id: paper-60
+  group: Papers Published or Submitted for Publication
+- title: Efficient Runtime Verification of First-Order Temporal Properties
+  authors: K. Havelund and D. Peled
+  year: 2018
+  details: '25th International Symposium on Model Checking of Software (SPIN 2018),
+
+    20-22 June, 2018, Malaga, Spain. LNCS Volume TBD. Invited presentation pdf'
+  links:
+  - label: pdf
+    url: /Publications/spin-2018-dejavu.pdf
+  id: paper-61
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verification - Past Experiences and Future Projections
+  authors: K. Havelund, G. Reger, and G. Rosu
+  year: null
+  details: 'LNCS 10000, special issue in celebration of issue number 10,000
+
+    of Lecture Notes in Computer Science. pdf Invited paper'
+  links:
+  - label: pdf
+    url: /Publications/lncs-10000.pdf
+  id: paper-62
+  group: Papers Published or Submitted for Publication
+- title: First-Order Temporal Logic Monitoring with BDDs
+  authors: K. Havelund, D. Peled, and D. Ulus
+  year: 2020
+  details: Formal Methods in System Design (FMSD), 56, 1-21, 2020. Journal version of FMCAD 2017 paper
+    with the same title. Springer link pdf
+  links:
+  - label: Springer link
+    url: https://link.springer.com/article/10.1007/s10703-018-00327-4#citeas
+  - label: pdf
+    url: /Publications/fmsd-2018-dejavu.pdf
+  id: paper-63
+  group: Papers Published or Submitted for Publication
+- title: 'DejaVu: A Monitoring Tool for First-Order Temporal Logic'
+  authors: K. Havelund, D. Peled, and D. Ulus
+  year: 2018
+  details: '3rd Workshop on Monitoring and Testing of Cyber-Physical Systems (MT-CPS 2018),
+
+    10 April, 2018, Porto, Portugal.
+
+    IEEE proceedings of CPSWEEK. pdf'
+  links:
+  - label: pdf
+    url: /Publications/dejavu-mtcps-2018.pdf
+  id: paper-64
+  group: Papers Published or Submitted for Publication
+- title: First Order Temporal Logic Monitoring with BDDs
+  authors: K. Havelund, D. Peled, and D. Ulus
+  year: 2017
+  details: "17th Conference on Formal Methods in Computer-Aided Design (FMCAD 2017), 2-6 October, \n2017,\
+    \ Vienna, Austria.\nIEEE. pdf"
+  links:
+  - label: pdf
+    url: /Publications/fmcad-2017.pdf
+  id: paper-65
+  group: Papers Published or Submitted for Publication
+- title: Inferring Event Stream Abstractions
+  authors: S. Kauffman, K. Havelund, R. Joshi, and  S. Fischmeister
+  year: 2018
+  details: 'Formal Methods in System Design (FMSD). Springer. 2018. Journal version of RV 2016 paper with
+    the title: nfer - A Notation and System for Inferring Event Stream Abstractions. Online version pdf'
+  links:
+  - label: Online version
+    url: https://link.springer.com/article/10.1007%2Fs10703-018-0317-z
+  - label: pdf
+    url: /Publications/nfer-fmsd-2017.pdf
+  id: paper-66
+  group: Papers Published or Submitted for Publication
+- title: Modeling Rover Communication using Hierarchical State Machines with Scala
+  authors: K. Havelund and R. Joshi
+  year: 2017
+  details: '2nd International Workshop on the Timing Performance in Safety Engineering (TIPS 2017),
+
+    12 September, 2017, Trento, Italy.
+
+    LNCS Volume TDB. pdf'
+  links:
+  - label: pdf
+    url: /Publications/tips-2017.pdf
+  id: paper-67
+  group: Papers Published or Submitted for Publication
+- title: Modeling and Monitoring of Hierarchical State Machines in Scala
+  authors: K. Havelund and R. Joshi
+  year: 2017
+  details: '9th International Workshop on Software Engineering for Resilient Systems (SERENE 2017),
+
+    September 4-5, 2017, Geneva, Switzerland.
+
+    LNCS Volume TDB. pdf'
+  links:
+  - label: pdf
+    url: /Publications/serene-2017.pdf
+  id: paper-68
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verification Logics - A Language Design Perspective
+  authors: K. Havelund and G. Reger
+  year: 2017
+  details: "KIMfest 2017, \na conference in honour of Kim G. Larsen on the occasion of his 60th birthday,\
+    \ \n19-20 August 2017, Aalborg University, Denmark.\nLNCS TBD. pdf"
+  links:
+  - label: pdf
+    url: /Publications/kimfest-2017.pdf
+  id: paper-69
+  group: Papers Published or Submitted for Publication
+- title: Monitoring Events that Carry Data
+  authors: K. Havelund, G. Reger, D. Thoma, and E. Zalinescu
+  year: 2018
+  details: "Book chapter in: \nLectures on Runtime Verification - Introductory and Advanced Topics,\n\
+    LNCS 10457, Springer. 2018.\nBook editors: Ezio Bartocci and Ylies Falcone. pdf"
+  links:
+  - label: pdf
+    url: /Publications/rvdata-chapter-2017.pdf
+  id: paper-70
+  group: Papers Published or Submitted for Publication
+- title: 'First International Competition on Runtime Verification --
+
+    Rules, Benchmarks, Tools, and Final Results of CRV 2014'
+  authors: 'E. Bartocci, Y. Falcone, B. Bonakdarpour, C. Colombo,
+
+    N. Decker, K. Havelund, Y. Joshi, F. Klaedtke, R. Milewicz,
+
+    G. Reger, G. Rosu, J. Signoles, D. Thoma, E. Zalinescu, and Y. Zhang'
+  year: 2017
+  details: 'International Journal on Software Tools for Technology Transfer (STTT),
+
+    volume TDD, issue TDB, pages TBD, 2017. Springer-Verlag. online access pdf'
+  links:
+  - label: online access
+    url: https://link.springer.com/article/10.1007%2Fs10009-017-0454-5
+  - label: pdf
+    url: /Publications/crv2014-sttt.pdf
+  id: paper-71
+  group: Papers Published or Submitted for Publication
+- title: nfer - A Notation and System for Inferring Event Stream Abstractions
+  authors: S. Kauffman, K. Havelund, and R. Joshi
+  year: 2016
+  details: 'RV 2016 In Ylies Falone and Cesar Sanchez editors,
+
+    16th International Conference on Runtime Verification. 23-30 September 2016 - Madrid. LNCS, Volume
+    10012, pages 235-250, Springer-Verlag. pdf'
+  links:
+  - label: RV 2016
+    url: https://rv2016.imag.fr
+  - label: pdf
+    url: /Publications/nfer-rv-2016.pdf
+  id: paper-72
+  group: Papers Published or Submitted for Publication
+- title: Towards a Unified View of Modeling and Programming
+  authors: M. Broy, K. Havelund, and R. Kumar
+  year: 2016
+  details: 'ISoLA 2016 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    7th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation - Part II.
+
+    Track: Towards a Unified View of Modeling and Programming,
+
+    organized by Manfred Broy, Klaus Havelund, Rahul Kumar, and Bernhard Steffen.
+
+    10-14 October 2016 - Imperial, Corfu, Greece. LNCS 9952, pages 238-260, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2016
+    url: http://www.isola-conference.org/isola2016
+  - label: pdf
+    url: /Publications/unified-isola-2016.pdf
+  id: paper-73
+  group: Papers Published or Submitted for Publication
+- title: Towards a Logic for Inferring Properties of Event Streams
+  authors: S. Kauffman, R. Joshi, and K. Havelund.
+  year: 2016
+  details: 'ISoLA 2016 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    7th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation - Part II.
+
+    Track: RVE - Runtime Verification and Enforcement, the (Industrial)
+
+    Application Perspective,
+
+    organized by Ezio Bartocci and Ylies Falcone.
+
+    10-14 October 2016 - Imperial, Corfu, Greece. LNCS 9952, pages 333-338, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2016
+    url: http://www.isola-conference.org/isola2016
+  - label: pdf
+    url: /Publications/nfer-isola-2016.pdf
+  id: paper-74
+  group: Papers Published or Submitted for Publication
+- title: What is a Trace? A Runtime Verification Perspective
+  authors: G. Reger and K. Havelund.
+  year: 2016
+  details: 'ISoLA 2016 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    7th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation - Part II.
+
+    Track: RVE - Runtime Verification and Enforcement, the (Industrial)
+
+    Application Perspective,
+
+    organized by Ezio Bartocci and Ylies Falcone.
+
+    10-14 October 2016 - Imperial, Corfu, Greece. LNCS 9952, pages 339-355, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2016
+    url: http://www.isola-conference.org/isola2016
+  - label: pdf
+    url: /Publications/traces-isola-2016.pdf
+  id: paper-75
+  group: Papers Published or Submitted for Publication
+- title: Towards a Unified View of Modeling and Programming (Track Summary)
+  authors: M. Broy, K. Havelund, R. Kumar, and B. Steffen.
+  year: 2016
+  details: 'ISoLA 2016 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    7th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation - Part II.
+
+    Track: Towards a Unified View of Modeling and Programming,
+
+    organized by Manfred Broy, Klaus Havelund, Rahul Kumar, and Bernhard Steffen.
+
+    10-14 October 2016 - Imperial, Corfu, Greece. LNCS 9952, pages 3-10, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2016
+    url: http://www.isola-conference.org/isola2016
+  - label: pdf
+    url: /Publications/unified-intro-isola-2016.pdf
+  id: paper-76
+  group: Papers Published or Submitted for Publication
+- title: Static and Runtime Verification, Competitors or Friends? (Track Summary)
+  authors: Dilian Gurov, Klaus Havelund, Marieke Huisman, and Rosemary Monahan
+  year: 2016
+  details: 'ISoLA 2016 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    7th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation - Part I.
+
+    Track: Static and Runtime Verification, Competitors or Friends?,
+
+    organized by Dilian Gurov, Klaus Havelund, Marieke Huisman, and Rosemary Monahan.
+
+    10-14 October 2016 - Imperial, Corfu, Greece. LNCS 9952, pages 397-401, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2016
+    url: http://www.isola-conference.org/isola2016
+  - label: pdf
+    url: /Publications/srv-intro-isola-2016.pdf
+  id: paper-77
+  group: Papers Published or Submitted for Publication
+- title: 'K: A Wide Spectrum Language for Modeling, Programming, and Analysis'
+  authors: K. Havelund, R. Kumar, C. Delp and B. Clement
+  year: 2016
+  details: 'MODELSWARD 2016 4th International Conference on Model-Driven Engineering and Software Development.
+    19-21 February 2016 - Rome, Italy. SciTePress. Pages 111-122. On short list of candidate papers to
+    win the MODELSWARD 2016 best paper award. (but heck: did not
+
+    make it). pdf NASA tech brief on The K Development Language.'
+  links:
+  - label: MODELSWARD 2016
+    url: http://www.modelsward.org
+  - label: pdf
+    url: /Publications/k-modelsward-2016.pdf
+  - label: NASA tech brief
+    url: http://viewer.zmags.com/publication/561bcaac#/561bcaac/60
+  id: paper-78
+  group: Papers Published or Submitted for Publication
+- title: Verified Change
+  authors: K. Havelund and R. Kumar
+  year: 2016
+  details: 'To appear in FoMaC :
+
+    Transactions on Foundations for Mastering Change (edited by Bernhard Steffen).
+
+    First issue containing submissions from the editorial board.
+
+    Submitted in final form 2016. pdf'
+  links:
+  - label: FoMaC
+    url: http://www.fomac.de
+  - label: pdf
+    url: /Publications/k-fomac-2016.pdf
+  id: paper-79
+  group: Papers Published or Submitted for Publication
+- title: Some Recent Advances in Automated Analysis
+  authors: E. Abraham and K. Havelund
+  year: 2016
+  details: "International Journal on Software Tools for Technology Transfer (STTT),\nvolume 18, issue\
+    \ 2, pages 121-128, 2016.\nIntroduction article to special issue containing selected submissions \n\
+    from TACAS 2014. Springer Link pdf"
+  links:
+  - label: Springer Link
+    url: http://link.springer.com/journal/10009/18/2?wt_mc=alerts.TOCjournals
+  - label: pdf
+    url: /Publications/sttt-tacas-2014-intro.pdf
+  id: paper-80
+  group: Papers Published or Submitted for Publication
+- title: Domain-Specific Languages with Scala
+  authors: C. Artho, K. Havelund, R. Kumar, and Y. Yamagata
+  year: 2015
+  details: 'ICFEM 2015 In Michael Butler, Sylvain Conchon, and Fatiha Zaidi editors,
+
+    17th International Conference on Formal Engineering Methods. 3-6 November 2015 - Paris. LNCS, Volume
+    9407, pages 1-16, Springer-Verlag. pdf'
+  links:
+  - label: ICFEM 2015
+    url: http://icfem2015.lri.fr
+  - label: pdf
+    url: /Publications/dsl-scala-2015.pdf
+  id: paper-81
+  group: Papers Published or Submitted for Publication
+- title: Specification of Parametric Monitors - Quantified Event Automata versus Rule Systems
+  authors: K. Havelund and G. Reger
+  year: 2015
+  details: 'SyDe Summer School 2015 In Rolf Drechsler and Ulrich Kuhne, editors,
+
+    Formal Modeling and Verification of Cyber-Physical Systems ( book ), pages 151-189.
+
+    1st International Summer School on Methods and Tools for the Design of Digital Systems, Bremen, Germany,
+    September 2015. pdf'
+  links:
+  - label: SyDe Summer School 2015
+    url: http://www.informatik.uni-bremen.de/syde/index.php?summerschool-21
+  - label: book
+    url: http://www.springer.com/de/book/9783658099930
+  - label: pdf
+    url: /Publications/syde-havelund-reger-2015.pdf
+  id: paper-82
+  group: Papers Published or Submitted for Publication
+- title: Rule-based Runtime Verification Revisited
+  authors: K. Havelund
+  year: 2012
+  details: "International Journal on Software Tools for Technology Transfer (STTT),\nvolume 17, issue\
+    \ 2, page 143-170. doi:10.1007/s10009-014-0309-2 . \nSpecial issue containing selected submissions\
+    \ from\nthe 5th International Symposium On Leveraging Applications of\nFormal Methods, Verification\
+    \ and Validation (ISoLA 2012).\nTrack: Runtime Verification, the Application Perspective.\nPublished\
+    \ online April 2013.\nPaper version March 2015. pdf"
+  links:
+  - label: doi:10.1007/s10009-014-0309-2
+    url: http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10009-014-0309-2
+  - label: pdf
+    url: /Publications/sttt-2013-logfire.pdf
+  id: paper-83
+  group: Papers Published or Submitted for Publication
+- title: Experience with Rule-Based Analysis of Spacecraft Logs
+  authors: K. Havelund and R. Joshi
+  year: 2014
+  details: "FTSCS 2014 In Cyrille Artho and Peter Olveczky, editors,\nFTSCS 2014: Third International\
+    \ Workshop on Formal Techniques for Safety-Critical Systems.\n6-7 November 2014 - Luxembourg. Communications\
+    \ in Computer and Information Science (CCIS). \nVolume 476, pages 1-16, Springer-Verlag.\nAn ICFEM\
+    \ 2014 Satellite Event. pdf"
+  links:
+  - label: FTSCS 2014
+    url: http://www.ftscs.org
+  - label: ICFEM 2014
+    url: http://icfem2014.uni.lu
+  - label: pdf
+    url: /Publications/ftscs-2014-logfire-telemetry.pdf
+  id: paper-84
+  group: Papers Published or Submitted for Publication
+- title: 'Comprehension of Spacecraft Telemetry
+
+    using Hierarchical Specifications of Behavior'
+  authors: K. Havelund and R. Joshi
+  year: 2014
+  details: 'ICFEM 2014 In Stephan Merz and Jun Pang, editors,
+
+    16th International Conference on Formal Engineering Methods. 3-7 November 2014 - Luxembourg. LNCS,
+    Volume 8829, pages 187-202, Springer-Verlag. pdf'
+  links:
+  - label: ICFEM 2014
+    url: http://icfem2014.uni.lu
+  - label: pdf
+    url: /Publications/icfem-2014.pdf
+  id: paper-85
+  group: Papers Published or Submitted for Publication
+- title: Data Automata in Scala
+  authors: K. Havelund
+  year: 2014
+  details: 'TASE 2014 In Martin Leucker and Ji Wang, editors,
+
+    The 8th International Symposium on Theoretical Aspects of Software Engineering. 1-3 September 2014
+    - Changsha, China. IEEE Computer Society Press. Pages 1-9. Invited presentation . pdf'
+  links:
+  - label: TASE 2014
+    url: http://www.nudt.edu.cn/tase2014/
+  - label: pdf
+    url: /Publications/tase-2014.pdf
+  id: paper-86
+  group: Papers Published or Submitted for Publication
+- title: Monitoring with Data Automata
+  authors: K. Havelund
+  year: 2014
+  details: 'ISoLA 2014 In Tiziana Margaria and Bernhard Steffen, editors,
+
+    6th International Symposium On Leveraging Applications of Formal Methods,
+
+    Verification and Validation.
+
+    Track: Statistical Model Checking, Past Present and Future,
+
+    organized by Kim Larsen and Axel Legay. 8-11 October 2014 - Imperial, Corfu, Greece. LNCS 8803, pages
+    254-273, Springer-Verlag. pdf'
+  links:
+  - label: ISoLA 2014
+    url: http://www.cs.uni-potsdam.de/isola/isola2014/
+  - label: pdf
+    url: /Publications/isola-2014.pdf
+  id: paper-87
+  group: Papers Published or Submitted for Publication
+- title: Mastering Change @ Runtime
+  authors: K. Havelund
+  year: 2014
+  details: "ISoLA 2014 In Tiziana Margaria and Bernhard Steffen, editors,\n6th International Symposium\
+    \ On Leveraging Applications of Formal Methods,\nVerification and Validation.\nResponse to a call\
+    \ for opinion statements from members of the editorial \nboard of the upcoming journal: LNCS Transactions\
+    \ on\nFoundations for Mastering Change (FoMaC). 8-11 October 2014 - Imperial, Corfu, Greece. LNCS\
+    \ 8802, pages 533-534, Springer-Verlag. pdf"
+  links:
+  - label: ISoLA 2014
+    url: http://www.cs.uni-potsdam.de/isola/isola2014/
+  - label: pdf
+    url: /Publications/fomac-isola-2014.pdf
+  id: paper-88
+  group: Papers Published or Submitted for Publication
+- title: 40 Years of Formal Methods - Some Obstacles and Some Possibilities ?
+  authors: D. Bjoerner and K. Havelund
+  year: 2014
+  details: FM 2014 . Lecture Notes in Computer Science, Vol. 8442. D. Bjoerner invited speaker. pdf
+  links:
+  - label: FM 2014
+    url: http://www.comp.nus.edu.sg/~pat/FM2014
+  - label: pdf
+    url: /Publications/40fm.pdf
+  id: paper-89
+  group: Papers Published or Submitted for Publication
+- title: Verification & Validation Meets Planning & Scheduling
+  authors: S. Bensalem, K. Havelund, and A. Orlandini
+  year: 2014
+  details: 'International Journal on Software Tools for Technology Transfer (STTT) 16(1) 2014.
+
+    Introduction article to special issue containing selected submissions for the 3rd ICAPS workshop
+
+    on Verification & Validation of Planning & Scheduling Systems (VVPS 2011). pdf Also presented at MOCHAP
+    2014 , Workshop on Model Checking and Automated Planning,
+
+    Portsmouth, NH, USA, June 21-26, 2014. Affiliated with
+
+    ICAPS 2014, the 24th International Conference on Automated Planning and Scheduling.'
+  links:
+  - label: pdf
+    url: /Publications/sttt-2013-vvps.pdf
+  - label: MOCHAP 2014
+    url: http://icaps14.icaps-conference.org/workshops_tutorials/mochap.html
+  id: paper-90
+  group: Papers Published or Submitted for Publication
+- title: A Scala DSL for Rete-based Runtime Verification
+  authors: K. Havelund
+  year: 2013
+  details: The 4th International Conference on Runtime Verification (RV 2013) Rennes, France, September
+    24-27, 2013. Lecture Notes in Computer Science, Vol. 8174. pdf
+  links:
+  - label: pdf
+    url: /Publications/rv2013-logfire.pdf
+  id: paper-91
+  group: Papers Published or Submitted for Publication
+- title: 'InterAspect: Aspect-Oriented Instrumentation with GCC'
+  authors: 'J. Seyster, K. Dixit, X. Huang, R. Grosu,
+
+    K. Havelund, S. A. Smolka, S. D. Stoller, and E. Zadok'
+  year: 2012
+  details: "Formal Methods in System Design, 41(3), 295-320, December 2012. Extended version of the paper\
+    \ \"Aspect-Oriented Instrumentation with GCC\" \npresented at RV'10. pdf"
+  links:
+  - label: pdf
+    url: /Publications/interaspect-journal.pdf
+  id: paper-92
+  group: Papers Published or Submitted for Publication
+- title: Requirements-Driven Log Analysis - Extended Abstract
+  authors: K. Havelund
+  year: 2012
+  details: "ICTSS 2012 In B. Nielsen and C. Weise, editors, \n24th IFIP WG 6.1 Int. Conference on Testing\
+    \ Software and Systems. 19-21 November 2012 - Aalborg, Denmark. LNCS 7641, Springer-Verlag. Invited\
+    \ presentation . pdf"
+  links:
+  - label: ICTSS 2012
+    url: http://ictss2012.aau.dk/
+  - label: pdf
+    url: /Publications/ictss-2012.pdf
+  id: paper-93
+  group: Papers Published or Submitted for Publication
+- title: What does AI have to do with RV? - Extended Abstract
+  authors: K. Havelund
+  year: 2012
+  details: "ISoLA 2012 In T. Margaria and B. Steffen, editors, \n5th International Symposium On Leveraging\
+    \ Applications of Formal Methods, \nVerification and Validation.\nTrack: Runtime Verification - the\
+    \ Application Perspective. 15-18 October 2012 - Heraclion, Crete. LNCS 7610, Springer-Verlag. Invited\
+    \ presentation . pdf"
+  links:
+  - label: ISoLA 2012
+    url: http://www.cs.uni-potsdam.de/isola/isola2012
+  - label: pdf
+    url: /Publications/isola-2012.pdf
+  id: paper-94
+  group: Papers Published or Submitted for Publication
+- title: A Tutorial on Runtime Verification
+  authors: Y. Falcone, K. Havelund, and G. Reger
+  year: 2012
+  details: 'Book chapter for: Summer School Marktoberdorf 2012 -
+
+    Engineering Dependable Software Systems .
+
+    July 31 to August 12, 2012.
+
+    Editors: Manfred Broy, Doron Peled, and Georg Kalus. IOS Press book, 2013 . NATO Science for Peace
+    and Security Series - D: Information and Communication Security. Volume 34. pdf'
+  links:
+  - label: 'Summer School Marktoberdorf 2012 -
+
+      Engineering Dependable Software Systems'
+    url: http://asimod.in.tum.de
+  - label: IOS Press book, 2013
+    url: http://ebooks.iospress.nl/volume/engineering-dependable-software-systems
+  - label: pdf
+    url: /Publications/rv-tutorial-ios-2012.pdf
+  id: paper-95
+  group: Papers Published or Submitted for Publication
+- title: NASA Techbrief on LogScope and TraceContract
+  authors: K. Havelund, M. Smith, H. Barringer, and A. Groce.
+  year: 2012
+  details: 'NTRS - NASA Technical Reports Server ,
+
+    August 2012, pdf'
+  links:
+  - label: NTRS - NASA Technical Reports Server
+    url: https://ntrs.nasa.gov/citations/20120013237
+  - label: pdf
+    url: /Publications/nasa-techbrief-logscope-tracecontract-2012.pdf
+  id: paper-96
+  group: Papers Published or Submitted for Publication
+- title: Introduction to the Special Section on Runtime Verification
+  authors: O. Sokolsky, K. Havelund, and Insup Lee
+  year: 2012
+  details: "International Journal on Software Tools for Technology Transfer (STTT)\n14(3), 2012.\nIntroduction\
+    \ article to special issue containing selected submissions \non runtime verification. pdf"
+  links:
+  - label: pdf
+    url: /Publications/sttt-2012-rvintro.pdf
+  id: paper-97
+  group: Papers Published or Submitted for Publication
+- title: Quantified Event Automata - Towards Expressive and Efficient Runtime Monitors
+  authors: H. Barringer, Y. Falcone, K. Havelund, G. Reger, and D. Rydeheard
+  year: 2012
+  details: FM 2012 . Lecture Notes in Computer Science, Vol. 7436. pdf
+  links:
+  - label: FM 2012
+    url: http://fm2012.cnam.fr
+  - label: pdf
+    url: /Publications/qea-fm-2012.pdf
+  id: paper-98
+  group: Papers Published or Submitted for Publication
+- title: Howard Barringer - The Man who Invented the Past
+  authors: K. Havelund
+  year: 2011
+  details: 'HOWARD-60 Higher-Order Workshop on Automated Runtime Verification and Debugging. December
+    20, 2011, Manchester, UK. EasyChair Proceedings Volume 1 (first edition). Festschrift celebrating
+    Howard Barringer''s 60th
+
+    Birthday and hosted by CICADA and CS, the University of Manchester. Editors: Andrei Voronkov and Margarita
+    Korovina. pdf See also online proceedings'
+  links:
+  - label: HOWARD-60
+    url: http://howard60.cs.man.ac.uk
+  - label: pdf
+    url: /Publications/howard60-about-howard-ecps.pdf
+  - label: online proceedings
+    url: http://www.easychair.org/publications/?page=195264436
+  id: paper-99
+  group: Papers Published or Submitted for Publication
+- title: 'Closing the Gap Between Specification and Programming: VDM++ and Scala'
+  authors: K. Havelund
+  year: 2011
+  details: "HOWARD-60 Higher-Order Workshop on Automated Runtime Verification and Debugging. December\
+    \ 20, 2011, Manchester, UK. EasyChair Proceedings Volume 1 (first edition). Festschrift celebrating\
+    \ Howard Barringer's 60th \nBirthday and hosted by CICADA and CS, the University of Manchester. Editors:\
+    \ Andrei Voronkov and Margarita Korovina. Invited presentation. pdf Where Specification and Programming\
+    \ Meet - Extended Abstract \n(early version): pdf See also online proceedings"
+  links:
+  - label: HOWARD-60
+    url: http://howard60.cs.man.ac.uk
+  - label: pdf
+    url: /Publications/howard60-ecps.pdf
+  - label: pdf
+    url: /Publications/howard60.pdf
+  - label: online proceedings
+    url: http://www.easychair.org/publications/?page=195264436
+  id: paper-100
+  group: Papers Published or Submitted for Publication
+- title: Implementing Runtime Monitors
+  authors: K. Havelund
+  year: 2011
+  details: TORRENTS 2011 2nd TORRENTS Workshop December 12, 2011, Toulouse, France. Invited presentation
+    pdf
+  links:
+  - label: TORRENTS 2011
+    url: http://conf.laas.fr/OPODIS2011/OPODIS/TORRENTS.html
+  - label: pdf
+    url: /Publications/torrents-2011.pdf
+  id: paper-101
+  group: Papers Published or Submitted for Publication
+- title: 'Software Certification: Coding, Code, and Coders'
+  authors: K. Havelund and G. Holzmann
+  year: 2011
+  details: EMSOFT 2011 International Conference on Embedded Software October 9-14, 2011, Taipei, Taiwan
+    Invited presentation pdf
+  links:
+  - label: EMSOFT 2011
+    url: http://www.emsoft.org/
+  - label: pdf
+    url: /Publications/emsoft-2011.pdf
+  id: paper-102
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verication with State Estimation
+  authors: 'S. D. Stoller, E. Bartocci, J. Seyster, R. Grosu,
+
+    K. Havelund, S. A. Smolka, and E. Zadok'
+  year: 2011
+  details: The 2nd International Conference on Runtime Verification (RV 2011) San Francisco, California,
+    USA, September 27-30, 2011. Lecture Notes in Computer Science, Vol. 7186. Won best paper award pdf
+  links:
+  - label: pdf
+    url: /Publications/rv2011-rvse.pdf
+  id: paper-103
+  group: Papers Published or Submitted for Publication
+- title: Internal versus External DSLs for Trace Analysis
+  authors: Extended abstract for presented tutorial. H. Barringer and K. Havelund
+  year: 2011
+  details: The 2nd International Conference on Runtime Verification (RV 2011) San Francisco, California,
+    USA, October 27-30, 2011. Lecture Notes in Computer Science, Vol. TBD. pdf
+  links:
+  - label: pdf
+    url: /Publications/rv2011-tutorial.pdf
+  id: paper-104
+  group: Papers Published or Submitted for Publication
+- title: 'Checking Flight Rules with TraceContract: Application of a Scala DSL for Trace Analysis'
+  authors: H. Barringer, K. Havelund, E. Kurklu, and R. Morris
+  year: 2011
+  details: Scala Days 2011 (informal web-based proceedings). June 2-3, 2011. pdf
+  links:
+  - label: Scala Days 2011
+    url: http://days2011.scala-lang.org/node/92
+  - label: pdf
+    url: /Publications/tracecontract-ladee.pdf
+  id: paper-105
+  group: Papers Published or Submitted for Publication
+- title: 'TraceContract: A Scala DSL for Trace Analysis'
+  authors: H. Barringer and K. Havelund
+  year: 2011
+  details: FM 2011 . Lecture Notes in Computer Science, vol. 6664. pdf
+  links:
+  - label: FM 2011
+    url: http://sites.lero.ie/fm2011
+  - label: pdf
+    url: /Publications/tracecontract-fm-2011.pdf
+  id: paper-106
+  group: Papers Published or Submitted for Publication
+- title: Aspect-Oriented Instrumentation with GCC
+  authors: 'J. Seyster, K. Dixit, X. Huang, R. Grosu,
+
+    K. Havelund, S. A. Smolka, S. D. Stoller, and E. Zadok'
+  year: 2010
+  details: The 1st International Conference on Runtime Verification (RV 2010) St. Julians, Malta, November
+    1-4, 2010. Lecture Notes in Computer Science, Vol. 6418. pdf
+  links:
+  - label: pdf
+    url: /Publications/interaspect-rv-2010.pdf
+  id: paper-107
+  group: Papers Published or Submitted for Publication
+- title: A Case Study in DSL Development - An Experiment with Python and Scala
+  authors: K. Havelund, M. Ingham, and D. Wagner
+  year: 2010
+  details: Scala Days 2010, Arpil 15-16, 2010, Lausanne, Switzerland. pdf
+  links:
+  - label: pdf
+    url: /Publications/scala-days-2010-dsl.pdf
+  id: paper-108
+  group: Papers Published or Submitted for Publication
+- title: Formal Analysis of Log Files
+  authors: H. Barringer, A. Groce, K. Havelund and M. Smith
+  year: 2010
+  details: "Journal of Aerospace Computing, Information, and Communication, Volume 7 - Issue 11, 2010.\
+    \ Invited talk given at the SMC-IT workshop: Software Reliability for \nSpace Missions. July 20, 2009,\
+    \ Pasadena, California, USA. pdf"
+  links:
+  - label: pdf
+    url: /Publications/logscope10.pdf
+  id: paper-109
+  group: Papers Published or Submitted for Publication
+- title: Prototyping a Domain-Specific Language for Monitor and Control Systems
+  authors: M. Bennett, R. Borgen, K. Havelund, M. Ingham and David Wagner
+  year: 2010
+  details: "Journal of Aerospace Computing, Information, and Communication, Volume 7 - Issue 11, 2010.\
+    \ Extended version (extended with a study of the Scala programming language for DSL development) \n\
+    of paper submitted to IEEE Aerospace Conference\nBig Sky, Montana, March 1-8, 2008 (see below). pdf"
+  links:
+  - label: pdf
+    url: /Publications/dsl-aiaa.pdf
+  id: paper-110
+  group: Papers Published or Submitted for Publication
+- title: "From Scripts to Specifications - \nthe Evolution of a Flight Software Testing Effort"
+  authors: A. Groce, K. Havelund, and M. Smith
+  year: 2010
+  details: "ICSE '10 Proceedings of the 32nd ACM/IEEE International Conference on \nSoftware Engineering\
+    \ - Volume 2, ACM New York, NY, USA 2010. \ndoi 10.1145/1810295.1810314. Cape Town, South Africa,\
+    \ May 2-8, 2010. The work received JPL's internal Mariner Award in August 2009. pdf"
+  links:
+  - label: pdf
+    url: /Publications/icse10.pdf
+  id: paper-111
+  group: Papers Published or Submitted for Publication
+- title: Detection of Deadlock Potentials in Multithreaded Programs
+  authors: R. Agarwal , S. Bensalem , E. Farchi , K. Havelund , Y. Nir-Buchbinder, S. D. Stoller, S. Ur,
+    and L. Wang
+  year: 2010
+  details: 'IBM Journal of Research & Development, Volume: 54 Issue:5.
+
+    September 2010. pdf'
+  links:
+  - label: pdf
+    url: /Publications/deadlock-IBM-2010.pdf
+  id: paper-112
+  group: Papers Published or Submitted for Publication
+- title: 'Rule Systems for Runtime Verification: A Short Tutorial'
+  authors: H. Barringer, K. Havelund, D. Rydeheard, A. Groce
+  year: 2009
+  details: Tutorial presented at the 9th international workshop on Runtime Verification (RV'09). Lecture
+    Notes in Computer Science volume 5779. Grenoble, France, June 26-28, 2009. pdf
+  links:
+  - label: pdf
+    url: /Publications/RV09-tutorial.pdf
+  id: paper-113
+  group: Papers Published or Submitted for Publication
+- title: 'An Entry Point for Formal Methods: Specification and Analysis of Event Logs'
+  authors: H. Barringer, A. Groce, K. Havelund, M. Smith
+  year: 2009
+  details: 'Invited talk given at the 1''st Workshop on Formal Methods in Aerospace (FMA''09) . Affiliated
+    with FM''09 . To appear in Electronic Proceedings of Theoretical Computer Science (EPTCS). Eindhoven,
+    Holland, November 3, 2009. pdf (abstract published in informal hand-out proceedings: pdf )'
+  links:
+  - label: 1'st Workshop on Formal Methods in Aerospace (FMA'09)
+    url: http://personalpages.manchester.ac.uk/staff/Manuela.Bujorianu/FMA.htm
+  - label: FM'09
+    url: http://www.win.tue.nl/fm2009/
+  - label: pdf
+    url: /Publications/logscope-fma-09-final.pdf
+  - label: pdf
+    url: /Publications/FMA09-abstract.pdf
+  id: paper-114
+  group: Papers Published or Submitted for Publication
+- title: 'Establishing Flight Software Reliability: Testing, Model
+
+    Checking, Constraint-Solving, and Monitoring'
+  authors: A. Groce, K. Havelund, G. Holzmann, R. Joshi, R-G. Xu
+  year: null
+  details: Annals of Mathematics and Artificial Intelligence. To appear. pdf
+  links:
+  - label: pdf
+    url: /Publications/annals-math.pdf
+  id: paper-115
+  group: Papers Published or Submitted for Publication
+- title: Requirements Capture with RCAT
+  authors: M. Smith and K. Havelund
+  year: 2008
+  details: "16th IEEE International Requirements \nEngineering Conference Barcelona, Spain, September\
+    \ 8-12, 2008. pdf"
+  links:
+  - label: "16th IEEE International Requirements \nEngineering Conference"
+    url: http://sites.upc.edu/~www-gessi/re08/
+  - label: pdf
+    url: /Publications/rcat-re08.pdf
+  id: paper-116
+  group: Papers Published or Submitted for Publication
+- title: Aspect-Oriented Race Detection in Java
+  authors: E. Bodden and K. Havelund
+  year: 2010
+  details: 'IEEE Transactions on Software Engineering,
+
+    Volume 36 no. 4, July/August 2010
+
+    (invited journal version of ISSTA''08 paper).
+
+    doi: http://doi.ieeecomputersociety.org/10.1109/TSE.2010.25 . pdf'
+  links:
+  - label: http://doi.ieeecomputersociety.org/10.1109/TSE.2010.25
+    url: http://doi.ieeecomputersociety.org/10.1109/TSE.2010.25
+  - label: pdf
+    url: /Publications/racer-ieee.pdf
+  id: paper-117
+  group: Papers Published or Submitted for Publication
+- title: 'Racer: Effective Race Detection Using AspectJ'
+  authors: E. Bodden and K. Havelund
+  year: 2008
+  details: International Symposium on Software Testing and Analysis (ISSTA'08) Seattle, WA, July 20-24,
+    2008. Won ISSTA's ACM SIGSOFT Distinguished Paper Award. pdf (here is the technical report )
+  links:
+  - label: International Symposium on Software Testing and Analysis (ISSTA'08)
+    url: http://issta08.rutgers.edu/
+  - label: ACM SIGSOFT
+    url: http://www.sigsoft.org/awards/disPapAwd.htm
+  - label: pdf
+    url: /Publications/issta2008.pdf
+  - label: technical report
+    url: /Publications/abc-2008-1.pdf
+  id: paper-118
+  group: Papers Published or Submitted for Publication
+- title: Automated Testing of Planning Models
+  authors: 'Klaus Havelund, Alex Groce, Gerard Holzmann,
+
+    Rajeev Joshi, and Margaret Smith'
+  year: 2008
+  details: 'The Fifth International Workshop on
+
+    Model Checking and Artificial Intelligence
+
+    ( MOCHART''08 @ ECAI''08 ) Lecture Notes in Artificial Intelligence (LNAI), Volume 5348. Patras, Greece,
+    July 21, 2008. pdf'
+  links:
+  - label: MOCHART'08 @ ECAI'08
+    url: http://www.csc.liv.ac.uk/~mjw/mochart/Site/MOCHART-2008.html
+  - label: pdf
+    url: /Publications/map.pdf
+  id: paper-119
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verification of C Programs
+  authors: K. Havelund
+  year: 2008
+  details: TestCom/FATES conference Lecture Notes in Computer Science volume 5047. Tokyo, Japan, June
+    10-13, 2008. pdf
+  links:
+  - label: TestCom/FATES conference
+    url: http://www-higashi.ist.osaka-u.ac.jp/TESTCOM-FATES08/
+  - label: pdf
+    url: /Publications/armor.pdf
+  id: paper-120
+  group: Papers Published or Submitted for Publication
+- title: Aspect-Oriented Monitoring of C Programs
+  authors: K. Havelund and E. V. Wyk
+  year: 2008
+  details: 'The Sixth IARP-IEEE/RAS-EURON Joint Workshop on Technical Challenges
+
+    for Dependable Robots in Human Environments Pasadena, CA, May 17-18, 2008. pdf'
+  links:
+  - label: 'The Sixth IARP-IEEE/RAS-EURON Joint Workshop on Technical Challenges
+
+      for Dependable Robots in Human Environments'
+    url: http://cs.stanford.edu/group/manips/iarp/index.html
+  - label: pdf
+    url: /Publications/xspec.pdf
+  id: paper-121
+  group: Papers Published or Submitted for Publication
+- title: "Development of a Prototype Domain-Specific \nLanguage for Monitor and Control Systems"
+  authors: M. Bennett, R. Borgen, K. Havelund, M. Ingham and David Wagner
+  year: 2008
+  details: 'IEEE Aerospace Conference
+
+    ( URL ) Big Sky, Montana, March 1-8, 2008. pdf'
+  links:
+  - label: URL
+    url: http://www.aeroconf.org/
+  - label: pdf
+    url: /Publications/python-lcs-aero-08.pdf
+  id: paper-122
+  group: Papers Published or Submitted for Publication
+- title: Visualization of Concurrent Program Executions
+  authors: C. Artho, K. Havelund and S. Honiden
+  year: 2007
+  details: 'Workshop on Software Architectures and Component Technologies
+
+    ( SACT''07 @ COMPSAC''07 ) Beijing, China, July 23, 2007. pdf'
+  links:
+  - label: SACT'07 @ COMPSAC'07
+    url: http://conferences.computer.org/compsac/2007/
+  - label: pdf
+    url: /Publications/concurrency-visualization.pdf
+  id: paper-123
+  group: Papers Published or Submitted for Publication
+- title: 'Rule Systems for Run-Time Monitoring: from Eagle to RuleR'
+  authors: H. Barringer, D. Rydeheard and K. Havelund
+  year: 2008
+  details: Journal of Logic and Computation (JLC), Vol. 20 No. 3. Oxford University Press. Published online
+    21 November 2008 doi:10.1093/logcom/exn076. Journal version of RV'07 paper pdf
+  links:
+  - label: pdf
+    url: /Publications/ruler-jlc.pdf
+  id: paper-124
+  group: Papers Published or Submitted for Publication
+- title: 'Rule Systems for Run-Time Monitoring: from Eagle to RuleR'
+  authors: H. Barringer, D. Rydeheard and K. Havelund
+  year: 2007
+  details: '7th International Workshop on Runtime Verification
+
+    ( RV''07 @ AOSD''07 ) Vancouver, Canada, March 13, 2007. pdf (extended abstract) pdf (full version).
+    Lecture Notes in Computer Science volume 4839.'
+  links:
+  - label: RV'07 @ AOSD'07
+    url: http://rtg.cis.upenn.edu/rv2007/
+  - label: pdf
+    url: /Publications/ruler-rv07-abstract.pdf
+  - label: pdf
+    url: /Publications/rv-07-ruler.pdf
+  id: paper-125
+  group: Papers Published or Submitted for Publication
+- title: Towards the Industrial Scale Development of Custom Static Analyzers
+  authors: J. Anton, E. Bush, A. Goldberg, K. Havelund, D. Smith and A. Venet
+  year: 2006
+  details: 'Static Analysis Summit
+
+    ( webpage ) U.S. National Institute of Standards and Technology Gaithersburg, MD, USA, June 29, 2006.
+    pdf'
+  links:
+  - label: webpage
+    url: http://samate.nist.gov/index.php/SAS
+  - label: pdf
+    url: /Publications/SAS-KT.pdf
+  id: paper-126
+  group: Papers Published or Submitted for Publication
+- title: Confirmation of Deadlock Potentials Detected by Runtime Analysis
+  authors: S. Bensalem, J.-C. Fernandez, K. Havelund and L. Mounier
+  year: 2006
+  details: 'Parallel and Distributed Systems: Testing and Debugging 2006
+
+    ( PADTAD''06 ) Seattle, Maine, USA, July 17, 2006. Invited paper/talk. pdf'
+  links:
+  - label: PADTAD'06
+    url: http://www.haifa.il.ibm.com/Workshops/padtad2006/
+  - label: pdf
+    url: /Publications/padtad06.pdf
+  id: paper-127
+  group: Papers Published or Submitted for Publication
+- title: Dynamic Deadlock Analysis of Multi-Threaded Programs
+  authors: S. Bensalem and K. Havelund
+  year: 2005
+  details: 'Parallel and Distributed Systems: Testing and Debugging 2005
+
+    ( PADTAD''05 ) Haifa, Israel, November 15, 2005. Lecture Notes in Computer Science volume 3875. pdf
+    , slides'
+  links:
+  - label: PADTAD'05
+    url: http://www.haifa.il.ibm.com/Workshops/PADTAD2005
+  - label: pdf
+    url: /Publications/padtad05.pdf
+  - label: slides
+    url: /Publications/padtad05-slides.pdf
+  id: paper-128
+  group: Papers Published or Submitted for Publication
+- title: Verify Your Runs
+  authors: K. Havelund and A. Goldberg
+  year: 2005
+  details: 'Verified Software: Theories, Tools, Experiments
+
+    ( VSTTE''05 ) Zurich, Switzerland, October 10-13, 2005 pdf'
+  links:
+  - label: VSTTE'05
+    url: http://vstte.inf.ethz.ch
+  - label: pdf
+    url: /Publications/vstte05.pdf
+  id: paper-129
+  group: Papers Published or Submitted for Publication
+- title: Automated Runtime Verification with Eagle
+  authors: A. Goldberg and K. Havelund
+  year: 2005
+  details: Workshop on Verification and Validation of Enterprise Information Systems (VVEIS'05) Miami,
+    Florida, USA, May 24, 2005 pdf
+  links:
+  - label: pdf
+    url: /Publications/vveis05.pdf
+  id: paper-130
+  group: Papers Published or Submitted for Publication
+- title: Event-Based Runtime Verification of Java Programs
+  authors: Combining Runtime Verification with Aspect Oriented Programming M. d'Amorim and K. Havelund
+  year: 2005
+  details: "WODA'05 Proceedings of the third international \nworkshop on Dynamic analysis. St. Louis,\
+    \ Missouri, USA, May 17, 2005. ACM SIGSOFT Software Engineering Notes\nVolume 30 Issue 4, July 2005.\
+    \ \nACM New York, NY, USA. \ndoi: 10.1145/1083246.1083249 . pdf"
+  links:
+  - label: 10.1145/1083246.1083249
+    url: http://portal.acm.org/citation.cfm?doid=1083246.1083249
+  - label: pdf
+    url: /Publications/dam-havelund-woda05.pdf
+  id: paper-131
+  group: Papers Published or Submitted for Publication
+- title: Runtime Verification for Autonomous Space Craft Software
+  authors: A. Goldberg, K. Havelund and C. McGann
+  year: 2005
+  details: IEEE Aerospace Conference Big Sky, Montana, USA, March 5-12, 2005 pdf
+  links:
+  - label: pdf
+    url: /Publications/rv-ieee-05.pdf
+  id: paper-132
+  group: Papers Published or Submitted for Publication
+- title: 'Toward a Framework and Benchmark for Testing Tools
+
+    for Multi-Threaded Programs'
+  authors: Y. Eytani, K. Havelund, S. Stoller and S. Ur
+  year: 2005
+  details: 'To appear in the journal
+
+    Concurrency and Computation: Practice and Experience, Wiley. 2005. pdf'
+  links:
+  - label: pdf
+    url: /Publications/shmuel-bench-journal-04.pdf
+  id: paper-133
+  group: Papers Published or Submitted for Publication
+- title: Using Block-Local Atomicity to Detect Stale-Value Concurrency Errors
+  authors: C. Artho, K. Havelund, and A. Biere
+  year: 2004
+  details: "2nd International Symposium on Automated Technology \nfor Verification and Analysis (ATVA'04),\
+    \ Taiwan, October 31-November 3, 2004. pdf"
+  links:
+  - label: pdf
+    url: /Publications/bl-atomicity.pdf
+  id: paper-134
+  group: Papers Published or Submitted for Publication
+- title: Program Monitoring with LTL in Eagle
+  authors: H. Barringer, A. Goldberg, K. Havelund and K. Sen
+  year: 2004
+  details: 'PADTAD''04, Parallel and Distributed Systems: Testing and Debugging Santa Fe, New Mexico,
+    USA, April 30, 2004 pdf'
+  links:
+  - label: pdf
+    url: /Publications/eagle-padtad04.pdf
+  id: paper-135
+  group: Papers Published or Submitted for Publication
+- title: Rule-Based Runtime Verification
+  authors: H. Barringer, A. Goldberg, K. Havelund and K. Sen
+  year: 2004
+  details: 'VMCAI''04, Fifth International Conference on Verification, Model Checking and
+
+    Abstract Interpretation, January 11-13, Venice, Italy, 2004. pdf'
+  links:
+  - label: pdf
+    url: /Publications/eagle.pdf
+  id: paper-136
+  group: Papers Published or Submitted for Publication
+- title: Applying Jlint to Space Exploration Software
+  authors: C. Artho and K. Havelund
+  year: 2004
+  details: 'VMCAI''04, Fifth International Conference on Verification, Model Checking and
+
+    Abstract Interpretation, January 11-13, Venice, Italy, 2004. pdf'
+  links:
+  - label: pdf
+    url: /Publications/jlint-nasa.pdf
+  id: paper-137
+  group: Papers Published or Submitted for Publication
+- title: High-Level Data Races
+  authors: C. Artho, K. Havelund and A. Biere
+  year: null
+  details: Journal of Software Testing, Verification and Reliability (STVR), 13(4). Extended version of
+    VVEIS'03 paper. pdf
+  links:
+  - label: pdf
+    url: /Publications/vc-journal.pdf
+  id: paper-138
+  group: Papers Published or Submitted for Publication
+- title: High-Level Data Races
+  authors: C. Artho, K. Havelund, and A. Biere
+  year: 2003
+  details: 'VVEIS''03, The First International Workshop on Verification and Validation
+
+    of Enterprise Information Systems Angers, France, April 22, 2003. pdf'
+  links:
+  - label: pdf
+    url: /Publications/vveis03.pdf
+  id: paper-139
+  group: Papers Published or Submitted for Publication
+- title: Instrumentation of Java Bytecode for Runtime Analysis
+  authors: A. Goldberg and K. Havelund
+  year: 2003
+  details: 'FTfJP''03, Fifth ECOOP Workshop on Formal Techniques for Java-like Programs,
+
+    Darmstadt, Germany, July 21, 2003. pdf'
+  links:
+  - label: pdf
+    url: /Publications/jspy-final.pdf
+  id: paper-140
+  group: Papers Published or Submitted for Publication
+- title: Execution-Based Model Checking of Interrupt-Based Systems
+  authors: D. Drusinsky and K. Havelund
+  year: 2003
+  details: 'Workshop on Model Checking for Dependable Software-Intensive Systems.
+
+    Affiliated with DSN''03, The International Conference on Dependable Systems and Networks.
+
+    San Francisco, CA, USA, June 22-25, 2003. pdf'
+  links:
+  - label: pdf
+    url: /Publications/DrusinskyHavelund.pdf
+  id: paper-141
+  group: Papers Published or Submitted for Publication
+- title: Experimental Evaluation of Verification and Validation Tools on Martian Rover Software
+  authors: "G. Brat, D. Drusinsky, D. Giannakopoulou, A. Goldberg, \nK. Havelund, M. Lowry, C. Pasareanu,\
+    \ W. Visser, R. Washington"
+  year: 2004
+  details: Formal Methods in System Design, 25(2), 2004 Journal version of CMU/SEI paper with same name.
+    pdf
+  links:
+  - label: pdf
+    url: /Publications/k9-exp-fmsdjournal.pdf
+  id: paper-142
+  group: Papers Published or Submitted for Publication
+- title: Experimental Evaluation of Verification and Validation Tools on Martian Rover Software
+  authors: G. Brat, D. Giannakopoulou, A. Goldberg, K. Havelund, M. Lowry, C. Pasareanu, A. Venet, W.
+    Visser.
+  year: 2003
+  details: CMU/SEI Software Model Checking Workshop, Pittsburg, USA,  March 24, 2003. pdf
+  links:
+  - label: pdf
+    url: /Publications/k9-exp-cmu-ws.pdf
+  id: paper-143
+  group: Papers Published or Submitted for Publication
+- title: 'Benchmark and Framework for Encouraging Research on Multi-Threaded
+
+    Testing Tools'
+  authors: K. Havelund, S. Stoller, and S. Ur
+  year: 2003
+  details: 'Invited paper (Shmuel Ur is the invited speaker). PADTAD''03, Parallel and Distributed Systems:
+    Testing and Debugging Nice, France, April 22-26, 2003 pdf'
+  links:
+  - label: pdf
+    url: /Publications/padtad03.pdf
+  id: paper-144
+  group: Papers Published or Submitted for Publication
+- title: Combining Test-Case Generation and Runtime Verification
+  authors: "C. Artho, H. Barringer, A. Goldberg, K. Havelund, \nS. Khurshid, M. Lowry, C. Pasareanu, \n\
+    G. Rosu, K. Sen, W. Visser and R. Washington"
+  year: 2005
+  details: 'Journal of Theoretical Computer Science, Vol. 336 Number 2-3. Special issue: "Abstract State
+    Machines and High-Level
+
+    System Design and Analysis", May 2005. Extended version of ASM''03 paper: "Experiments with Test Case
+    Generation and Runtime Analysis". pdf'
+  links:
+  - label: pdf
+    url: /Publications/asm-tcs04.pdf
+  id: paper-145
+  group: Papers Published or Submitted for Publication
+- title: Experiments with Test Case Generation and Runtime Analysis
+  authors: 'C. Artho, D. Drusinsky, A. Goldberg, K. Havelund, M. Lowry,
+
+    C. Pasareanu, G. Rosu and W. Visser'
+  year: 2003
+  details: I am invited speaker. ASM 2003, 10th International Workshop on Abstract State Machines Taormina,
+    Italy, March 3-7, 2003 pdf
+  links:
+  - label: pdf
+    url: /Publications/asm03-invited.pdf
+  id: paper-146
+  group: Papers Published or Submitted for Publication
+- title: Program Instrumentation and Trace Analysis
+  authors: K. Havelund, A. Goldberg, R. Filman, G. Rosu
+  year: 2002
+  details: Invited paper. Monterey Workshop 2002 Radical Innovations of Software and Systems Engineering
+    in the Future Venice, Italy, October 7-11, 2002 Abstract rtf (word)
+  links:
+  - label: rtf (word)
+    url: /Publications/monterey-venice02.rtf
+  id: paper-147
+  group: Papers Published or Submitted for Publication
+- title: Program Model Checking as a New Trend
+  authors: K. Havelund, W. Visser
+  year: 2002
+  details: 'Guest editorial arcticle in special issue on SPIN''00 that was organized by the
+
+    authors. International Journal on Software Tools for Technology Transfer (STTT)
+
+    4(1), 2002. Special STTT journal issue containing selected submissions for
+
+    the 7''th SPIN workshop, Stanford, August 30-31, September 1 2000,
+
+    organized by the authors pdf'
+  links:
+  - label: pdf
+    url: /Publications/sttt-spin2000.pdf
+  id: paper-148
+  group: Papers Published or Submitted for Publication
+- title: The Effect of AOP on Softare Engineering, with Particular Attention to OIF and Event Quantification
+  authors: R. Filman and K. Havelund
+  year: 2003
+  details: 'Workshop on Software Engineering Properties of Languages for Aspect Technologies (SPLAT ''03),
+
+    Boston, USA, 2003. pdf'
+  links:
+  - label: pdf
+    url: /Publications/splat03.pdf
+  id: paper-149
+  group: Papers Published or Submitted for Publication
+- title: Realizing Aspects by Transforming for Events
+  authors: R. E. Filman and K. Havelund
+  year: 2002
+  details: 'Automated Software Engineering 2002 (ASE''02), Edinburgh, Scottland, 23-27
+
+    September 2002, IEEE Computer Society pdf'
+  links:
+  - label: pdf
+    url: /Publications/quant-ase02.pdf
+  id: paper-150
+  group: Papers Published or Submitted for Publication
+- title: Efficient Monitoring of Safety Properties
+  authors: K. Havelund and G. Rosu
+  year: 2004
+  details: 'To appear in the journal Software Tools for Technology Transfer, 2004. Extended version of
+    the paper "Synthesizing Monitors for Safety Properties"
+
+    that was presented at TACAS''02. pdf'
+  links:
+  - label: pdf
+    url: /Publications/sttt-tacas02.pdf
+  id: paper-151
+  group: Papers Published or Submitted for Publication
+- title: Synthesizing Monitors for Safety Properties
+  authors: K. Havelund and G. Rosu
+  year: 2002
+  details: 'International Conference on Tools and Algorithms for Construction and
+
+    Analysis of Systems (TACAS''02), Grenoble, France, 6-14 April 2002 Won EASST award for best software
+    science paper presented at ETAPS''02 ps , ps.gz'
+  links:
+  - label: EASST
+    url: http://www.easst.org/EASST2.html
+  - label: ETAPS'02
+    url: http://www-etaps.imag.fr
+  - label: pdf
+    url: /Publications/synthesis-safety.pdf
+  id: paper-152
+  group: Papers Published or Submitted for Publication
+- title: Source-Code Instrumentation and Quantification of Events
+  authors: R. E. Filman and K. Havelund
+  year: 2002
+  details: 'Foundations of Aspect-Oriented Languages (FOAL''02), Enschede, The
+
+    Netherlands, April 22, 2002. pdf'
+  links:
+  - label: pdf
+    url: /Publications/foal02.pdf
+  id: paper-153
+  group: Papers Published or Submitted for Publication
+- title: Rewriting-Based Techniques for Runtime Verification
+  authors: G. Rosu and K. Havelund
+  year: 2004
+  details: 'To appear in the journal of Automated Software Engineering, 2004. Substantially expanded version
+    of "Monitoring Programs using Rewriting" that
+
+    was presented at ASE''01. pdf'
+  links:
+  - label: pdf
+    url: /Publications/mrew-j.pdf
+  id: paper-154
+  group: Papers Published or Submitted for Publication
+- title: Monitoring Programs using Rewriting
+  authors: K. Havelund and G. Rosu
+  year: 2001
+  details: 'Automated Software Engineering 2001 (ASE''01), San Diego, California, 26-29
+
+    November 2001, IEEE Computer Society ps , ps.gz'
+  links:
+  - label: pdf
+    url: /Publications/mon-rewr.pdf
+  id: paper-155
+  group: Papers Published or Submitted for Publication
+- title: Automata-Based Verification of Temporal Properties on Running Programs
+  authors: D. Giannakopoulou and K. Havelund
+  year: 2001
+  details: 'Automated Software Engineering 2001 (ASE''01), San Diego, California, 26-29
+
+    November 2001, IEEE Computer Society pdf , pdf.gz (Extension of paper as a RIACS Technical Report
+    TR 01-21, August 2001)'
+  links:
+  - label: pdf
+    url: /Publications/tech-report-01-21.pdf
+  - label: pdf.gz
+    url: /Publications/tech-report-01-21.pdf.gz
+  id: paper-156
+  group: Papers Published or Submitted for Publication
+- title: Specification and Error Pattern Based Program Monitoring
+  authors: K. Havelund, Scott Johnson and G. Rosu
+  year: 2001
+  details: 'European Space Agency Workshop on On-Board Autonomy,
+
+    Noordwijk, Holland, 17-19 October 2001 ps , ps.gz'
+  links:
+  - label: pdf
+    url: /Publications/esa.pdf
+  id: paper-157
+  group: Papers Published or Submitted for Publication
+- title: An Overview of the Runtime Verification Tool Java PathExplorer
+  authors: K. Havelund and G. Rosu
+  year: 2004
+  details: "Formal Methods in System Design, 24(2), March 2004. Extended version of the paper \"Monitoring\
+    \ Java Programs with \nJava PathExplorer\" presented at RV'01. pdf"
+  links:
+  - label: pdf
+    url: /Publications/fmsd-rv01.pdf
+  id: paper-158
+  group: Papers Published or Submitted for Publication
+- title: Monitoring Java Programs with Java PathExplorer
+  authors: K. Havelund and G. Rosu
+  year: 2001
+  details: 'First Workshop on Runtime Verification (RV''01), Paris, France, 23 July
+
+    2001. Electronic Notes in Theoretical Computer Science, Volume 55, Number
+
+    2, 2001 Won the RV 2018 Test of time award (most influential RV paper from 2001). ps , ps.gz'
+  links:
+  - label: pdf
+    url: /Publications/rv01.pdf
+  id: paper-159
+  group: Papers Published or Submitted for Publication
+- title: Java PathExplorer - A Runtime Verification Tool
+  authors: K. Havelund and G. Rosu
+  year: 2001
+  details: The 6th International Symposium on AI, Robotics and Automation in Space, May 2001 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/pax-overview.pdf
+  id: paper-160
+  group: Papers Published or Submitted for Publication
+- title: Using Runtime Analysis to Guide Model Checking of Java Programs
+  authors: K. Havelund
+  year: 2000
+  details: The 7th International SPIN Workshop, Stanford, California, August-September, 2000 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/runtime.pdf
+  id: paper-161
+  group: Papers Published or Submitted for Publication
+- title: Model Checking Programs
+  authors: W. Visser, K. Havelund, G. Brat, S. Park and F. Lerda
+  year: 2003
+  details: 'International Journal on Automated Software Engineering
+
+    10(2), April 2003. Extended journal version of paper presented at the ASE''00 conference pdf'
+  links:
+  - label: pdf
+    url: /Publications/ase00.pdf
+  id: paper-162
+  group: Papers Published or Submitted for Publication
+- title: Model Checking Programs
+  authors: W. Visser, K. Havelund, G. Brat, S. Park
+  year: 2000
+  details: 'International Conference on Automated Software Engineering. September 2000 pdf Won the ASE
+    2014 Most Influential Paper award: see MIP . Won the 2020 SIGSOFT Impact Paper Award!'
+  links:
+  - label: pdf
+    url: /Publications/jpf2-ase.pdf
+  - label: MIP
+    url: http://ase-conferences.org/Mip.html
+  id: paper-163
+  group: Papers Published or Submitted for Publication
+- title: Java PathFinder - Second Generation of a Java Model Checker
+  authors: W. Visser, K. Havelund, G. Brat, S. Park
+  year: 2000
+  details: Post-CAV Workshop on Advances in  Verification July 2000 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/jpf2-postcav.pdf
+  id: paper-164
+  group: Papers Published or Submitted for Publication
+- title: Mapping Temporal Planning Constraints into Timed Automata
+  authors: L. Khatib, N. Muscettola, K. Havelund
+  year: 2001
+  details: 'Time''01 (IEEE press), The Eighth International Symposium on Temporal
+
+    Representation and Reasoning, Cividale Del Friuli, Italy, 2001. pdf'
+  links:
+  - label: pdf
+    url: /Publications/time01.pdf
+  id: paper-165
+  group: Papers Published or Submitted for Publication
+- title: Verification of Plan Models Using UPPAAL
+  authors: L. Khatib, N. Muscettola, K. Havelund
+  year: 2000
+  details: "First International Workshop on Formal Approaches to Agent-Based Systems, \nNASA's Goddard\
+    \ Space center, LNCS/LNAI-1871, Maryland, March 2000 pdf"
+  links:
+  - label: pdf
+    url: /Publications/faabs00-ss.pdf
+  id: paper-166
+  group: Papers Published or Submitted for Publication
+- title: Formal Analysis of the Remote Agent - Before and After Flight
+  authors: 'K. Havelund, M. Lowry, S. Park, C. Pecheur, J. Penix, W. Visser, Jon
+
+    L. White'
+  year: 2000
+  details: The Fifth NASA Langley Formal Methods Workshop, Virginia, June, 2000 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/rax.pdf
+  id: paper-167
+  group: Papers Published or Submitted for Publication
+- title: Adding Active Objects to SPIN
+  authors: W. Visser, K. Havelund, J. Penix
+  year: 1999
+  details: Appeared in proceedings of 5th SPIN Workshop, July 1999, Trento ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/spin++.pdf
+  id: paper-168
+  group: Papers Published or Submitted for Publication
+- title: Applying Model Checking in Java Verification
+  authors: K. Havelund, J. Skakkebaek
+  year: null
+  details: Proceedings of 6th SPIN Workshop in connection with FM99 Toulouse ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/jpf-fm99.pdf
+  id: paper-169
+  group: Papers Published or Submitted for Publication
+- title: Model Checking Java Programs Using Java PathFinder
+  authors: K. Havelund, T. Pressburger
+  year: 2000
+  details: 'International Journal on Software Tools for Technology Transfer (STTT)
+
+    2(4), April 2000. Special issue containing selected submissions for
+
+    the 4''th SPIN workshop, Paris, November 1998 ps , ps.Z'
+  links:
+  - label: pdf
+    url: /Publications/jpf-sttt.pdf
+  id: paper-170
+  group: Papers Published or Submitted for Publication
+- title: Java PathFinder, A Translator from Java to Promela
+  authors: K. Havelund
+  year: 1999
+  details: 'Theoretical and Practical Aspects of SPIN Model Checking,
+
+    Toulouse, France, September, 1999 pdf'
+  links:
+  - label: pdf
+    url: /Publications/jpf1-spin-99.pdf
+  id: paper-171
+  group: Papers Published or Submitted for Publication
+- title: Formal Analysis of a Space Craft Controller using SPIN
+  authors: K. Havelund, M. Lowry, J. Penix
+  year: 2001
+  details: 'IEEE Transactions on Software Engineering, Volume 27, Number 8, August 2001.
+
+    Originally appeared in proceedings of the 4th SPIN Workshop, November 1999, Paris ps , ps.gz ps ,
+    ps.Z (Extended Technical Report)'
+  links:
+  - label: pdf
+    url: /Publications/remote-agent-ieee.pdf
+  - label: pdf
+    url: /Publications/remote-agent.pdf
+  id: paper-172
+  group: Papers Published or Submitted for Publication
+- title: Mechanical Verification of a Garbage Collector
+  authors: K. Havelund
+  year: null
+  details: FMPPTA'99 ps , ps.Z ps , ps.Z (Tech. report)
+  links:
+  - label: pdf
+    url: /Publications/gc-fmppta99.pdf
+  - label: pdf
+    url: /Publications/gc-report.pdf
+  id: paper-173
+  group: Papers Published or Submitted for Publication
+- title: Transformation Systems at NASA Ames
+  authors: 'W. Buntine, B. Fischer, K. Havelund,
+
+    M. Lowry, T. Pressburger, S. Roach, P. Robinson, J. V. Baalen'
+  year: null
+  details: STS'99 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/sts99.pdf
+  id: paper-174
+  group: Papers Published or Submitted for Publication
+- title: "Formal Verification of an Audio/Video Power Controller \nusing the Real-Time Model Checker UPPAAL"
+  authors: K. Havelund, K.G. Larsen, A. Skou
+  year: null
+  details: "ARTS'99 ps , ps.Z ps , ps.Z ] \n(Tech. report)"
+  links:
+  - label: pdf
+    url: /Publications/uppaal-power-arts99.pdf
+  - label: pdf
+    url: /Publications/power-down.pdf
+  id: paper-175
+  group: Papers Published or Submitted for Publication
+- title: Using Model Checking to Validate AI Planner Domain Models
+  authors: J. Penix, C. Pecheur, K. Havelund
+  year: null
+  details: SEL'98 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/planner-sel.pdf
+  id: paper-176
+  group: Papers Published or Submitted for Publication
+- title: 'Verification and Validation of AI Systems that Control Deep-Space
+
+    Spacecrafts'
+  authors: M. Lowry, K. Havelund, J. Penix
+  year: null
+  details: ISMIS'97 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/ISMIS97.pdf
+  id: paper-177
+  group: Papers Published or Submitted for Publication
+- title: Declarative Specification of Software Architectures
+  authors: J. Penix, P. Alexander, K. Havelund
+  year: null
+  details: ASE'97 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/ase97.pdf
+  id: paper-178
+  group: Papers Published or Submitted for Publication
+- title: "Formal Modeling and Analysis of an Audio/Video Protocol: \nAn Industrial Case Study Using UPPAAL"
+  authors: K. Havelund, A. Skou, K.G. Larsen, K. Lund
+  year: null
+  details: RTSS'97 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/irlink.pdf
+  id: paper-179
+  group: Papers Published or Submitted for Publication
+- title: Experiments in Theorem Proving and Model Checking
+  authors: K. Havelund, N. Shankar
+  year: null
+  details: FME'96 ps , ps.Z ps , ps.Z (Tech. report)
+  links:
+  - label: pdf
+    url: /Publications/pvs-modelcheck-paper.pdf
+  - label: pdf
+    url: /Publications/pvs-modelcheck-report.pdf
+  id: paper-180
+  group: Papers Published or Submitted for Publication
+- title: The Fork Calculus
+  authors: K. Havelund, K.G. Larsen
+  year: null
+  details: ICALP'93, and Nordic Journal of Computing 94 dvi , dvi.Z dvi , dvi.Z (Long version with proofs)
+  links:
+  - label: dvi
+    url: /Publications/fork.dvi
+  - label: dvi.Z
+    url: /Publications/fork.dvi.Z
+  - label: dvi
+    url: /Publications/long.fork.dvi
+  - label: dvi.Z
+    url: /Publications/long.fork.dvi.Z
+  id: paper-181
+  group: Papers Published or Submitted for Publication
+- title: A Refinement Logic for the Fork Calculus
+  authors: K. Havelund, K.G. Larsen
+  year: null
+  details: PSTV'94 ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/refine.pdf
+  id: paper-182
+  group: Papers Published or Submitted for Publication
+- title: "Formal, Model-oriented Software Development\n   Methods: From VDM to ProCoS\n   and from RAISE\
+    \ to LaCoS"
+  authors: D. Bjorner, A. Haxthausen and K.Havelund
+  year: 1992
+  details: Future Generation Computer Systems, volume 7, North-Holland, 1992. acm portal
+  links:
+  - label: acm portal
+    url: http://portal.acm.org/citation.cfm?id=146763
+  id: paper-183
+  group: Papers Published or Submitted for Publication
+- title: The RAISE Language, Method and Tools
+  authors: C. George, K. Havelund, M. Nielsen, and K. R. Wagner
+  year: 1989
+  details: Formal Aspects of Computing 1(1), Springer International, 1989 Journal version of LNCS 328
+    paper of same name. SpringerLink
+  links:
+  - label: SpringerLink
+    url: http://www.springerlink.com/(hd0zhz5512mq0tjqrdejnc45)/app/home/contribution.asp?referrer=parent&backto=issue,4,20;journal,80,80;linkingpublicationresults,1:102822,1
+  id: paper-184
+  group: Papers Published or Submitted for Publication
+- title: The RAISE Language, Method and Tools
+  authors: M. Nielsen, K. Havelund, K. R. Wagner and C. George
+  year: 1988
+  details: 'In: VDM - The Way Ahead, LNCS 328, 1988. Electronic copy not available.'
+  links: []
+  id: paper-185
+  group: Papers Published or Submitted for Publication
+- title: RAISE in Perspective
+  authors: Klaus Havelund
+  year: 2007
+  details: Chapter in Logics of Specification Languages Monographs in Theoretical Computer Science. An
+    EATCS Series, 2007 Bjorner, Dines; Henson, Martin C. (Eds.) 624 p., Hardcover The brief chapter (4
+    pages) comments on RSL, the RAISE Specification Language. pdf
+  links:
+  - label: Logics of Specification Languages
+    url: http://www.springer.com/978-3-540-74106-0
+  - label: pdf
+    url: /Publications/havelund-losl.pdf
+  id: paper-186
+  group: Books and Book Chapters
+- title: The RAISE Specification Language
+  authors: The RAISE Language Group
+  year: 1992
+  details: "Prentice Hall. The BCS Practitioner Series, 1992. For sale at amazon.com The book consists\
+    \ of two parts I: RSL Tutorial (pages 9-250), \nand II: RSL Reference Description (pages 251-369).\
+    \ Havelund wrote part I, while  \nHavelund together with Anne Haxthausen wrote part II.\nThe language\
+    \ presented in the book was designed during the period 1985-1991 by many people.\nThose that lastet\
+    \ to the end were the RAISE\nLanguage Group : Chris George, Peter Haff, Klaus Havelund,\nAnne Haxthausen,\
+    \ Robert Milne, Claus Bendix Nielsen, Soeren\nPrehn and Kim Ritter Wagner.\nThe RAISE project was\
+    \ started by Dines Bjoerner. An early version of the book is the RSL tutorial (draft) below (April\
+    \ 6, 1990)."
+  links:
+  - label: amazon.com
+    url: http://www.amazon.com/gp/product/0137528337/sr=8-1/qid=1142196477/ref=sr_1_1/002-7669108-1244013?%5Fencoding=UTF8
+  id: paper-187
+  group: Books and Book Chapters
+- title: Combining Modeling and Programming - Towards Advanced Languages for Software Development
+  authors: Manfred Broy and Klaus Havelund
+  year: 2015
+  details: May 2015. pdf
+  links:
+  - label: pdf
+    url: /Publications/combining-modeling-and-programmingV0.4.pdf
+  id: paper-188
+  group: Unpublished White Papers
+- title: An RSL Tutorial
+  authors: K. Havelund
+  year: 1990
+  details: Technical Report, Version 1, April 6, 1990 Computer Resources International A/S. pdf
+  links:
+  - label: pdf
+    url: /Publications/RSL_Tutorial_V1.pdf
+  id: paper-189
+  group: The RAISE Project
+- title: An RSL Reference Manual
+  authors: K. Havelund and A. Haxthausen
+  year: 1990
+  details: Technical Report, Version 1, April 6, 1990 Computer Resources International A/S. pdf
+  links:
+  - label: pdf
+    url: /Publications/RSL_Manual_V1.pdf
+  id: paper-190
+  group: The RAISE Project
+- title: The Fork Calculus - Towards a Logic for Concurrent ML
+  authors: K. Havelund
+  year: 1994
+  details: "Ph.D. thesis DIKU, Department of Computer Science, University\nof Copenhagen, Denmark, 1994.\
+    \ Supervisors: Klaus Grue and Kim Guldstrand Larsen. Performed at Ecole Normale Superieure, Paris,\
+    \ France, \nwhile attending the groups of Michel Bidoit and Patrick\nCousot. ps"
+  links:
+  - label: pdf
+    url: /Publications/thesis.pdf
+  id: paper-191
+  group: Theses
+- title: Stepwise Development of a Denotational Stack Semantics
+  authors: K. Havelund
+  year: 1984
+  details: 'Master thesis DIKU, Department of Computer Science, University
+
+    of Copenhagen, Denmark, 1984. Supervisor: Neil Jones. Electronic copy is not available (lost in one
+    of many computer-to-computer moves). If you have a copy, let me know.'
+  links: []
+  id: paper-192
+  group: Theses
+- title: Empirical Study of Actor-based Runtime Verification
+  authors: N. Shafiei, K. Havelund, and P. Mehlitz
+  year: 2020
+  details: 'NASA Technical Report number: NASA/TM-2020-5004331.
+
+    June 2020. pdf Also available at http://ntrs.nasa.gov'
+  links:
+  - label: pdf
+    url: /Publications/mesa-nasa-report-2020.pdf
+  - label: http://ntrs.nasa.gov
+    url: http://ntrs.nasa.gov
+  id: paper-193
+  group: Technical Reports
+- title: Toward Automated Enforcement of Error-Handling Policies
+  authors: D. Smith and K. Havelund
+  year: 2005
+  details: 'Technical Report number: TR-KT-0508, Kestrel Technology LLC.
+
+    August 2005. pdf'
+  links:
+  - label: pdf
+    url: /Publications/HandlErr.pdf
+  id: paper-194
+  group: Technical Reports
+- title: Eagle Monitors by Collecting Facts and Generating Obligations
+  authors: H. Barringer, A. Goldberg, K. Havelund, and K. Sen
+  year: 2003
+  details: 'Technical Report:
+
+    Pre-Print CSPP-25, University of Manchester, Department of Computer Science, October 2003. pdf'
+  links:
+  - label: pdf
+    url: /Publications/eagle-expanded.pdf
+  id: paper-195
+  group: Technical Reports
+- title: Eagle Does Space Efficient LTL Monitoring
+  authors: H. Barringer, A. Goldberg, K. Havelund, and K. Sen
+  year: 2003
+  details: 'Technical Report:
+
+    Pre-Print CSPP-25, University of Manchester, Department of Computer Science, October 2003 pdf'
+  links:
+  - label: pdf
+    url: /Publications/eagle-ltl.pdf
+  id: paper-196
+  group: Technical Reports
+- title: "Synthesizing Dynamic Programming Algorithms from \nLinear Temporal Logic Formulae"
+  authors: G. Rosu and K. Havelund
+  year: 2001
+  details: RIACS Technical Report TR 01-15, May 2001. Written 15 January 2001 ps , ps.gz
+  links:
+  - label: pdf
+    url: /Publications/synthesis-dynamic.pdf
+  id: paper-197
+  group: Technical Reports
+- title: Testing Linear Temporal Logic Formulae on Finite Execution Traces
+  authors: K. Havelund and G. Rosu
+  year: 2001
+  details: RIACS Technical Report TR 01-08, May 2001. Written 20 December 2000 ps , ps.gz
+  links:
+  - label: pdf
+    url: /Publications/testing-temporal.pdf
+  id: paper-198
+  group: Technical Reports
+- title: Java PathFinder User Guide
+  authors: K. Havelund
+  year: null
+  details: Unpublished Report ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/jpf-manual.pdf
+  id: paper-199
+  group: Technical Reports
+- title: Java PathFinder, A Translator from Java to Promela
+  authors: K. Havelund and T. Pressburger
+  year: 1998
+  details: Unpublished Report, 1998 pdf
+  links:
+  - label: pdf
+    url: /Publications/jpf1-report-99.pdf
+  id: paper-200
+  group: Technical Reports
+- title: A Mechanized Refinement Proof for a Garbage Collector
+  authors: K. Havelund, N. Shankar
+  year: 1997
+  details: Unpublished Report, 1997 pdf
+  links:
+  - label: pdf
+    url: /Publications/gc-refine-report.pdf
+  id: paper-201
+  group: Technical Reports
+- title: StateText - A Textual Language for State Charts with Data
+  authors: K. Havelund, K. G. Larsen
+  year: null
+  details: Unpublished Report ps , ps.Z
+  links:
+  - label: pdf
+    url: /Publications/statetext.pdf
+  id: paper-202
+  group: Technical Reports

@@ -1,0 +1,13 @@
+node_modules/
+build/
+.docusaurus/
+.cache/
+.DS_Store
+static/search/search-index.json
+static/search/search-index.json.gz
+static/search/search-coverage.json
+.venv/
+__pycache__/
+data/publications.json
+data/navigation.json
+migration-excluded/

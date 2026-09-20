@@ -1,0 +1,32 @@
+{
+  "research.html": {
+    "target": "content/research.md",
+    "missing_words": {}
+  },
+  "contact.html": {
+    "target": "content/contact.md",
+    "missing_words": {}
+  },
+  "invited.html": {
+    "target": "content/talks.md",
+    "missing_words": {}
+  },
+  "committees.html": {
+    "target": "content/committees.md",
+    "missing_words": {}
+  },
+  "workshops.html": {
+    "target": "content/workshops.md",
+    "missing_words": {}
+  },
+  "events.html": {
+    "target": "content/events.md",
+    "missing_words": {}
+  },
+  "jpf.html": {
+    "target": "content/java-pathfinder.md",
+    "missing_words": {}
+  },
+  "missing_public_assets": [],
+  "publication_notes_missing_words": {}
+}

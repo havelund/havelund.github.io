@@ -1,0 +1,22 @@
+{
+  "name": "havelund-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start --host 127.0.0.1 --no-open",
+    "prestart": "npm run prepare-content",
+    "build": "npm run prepare-content && docusaurus build",
+    "serve": "docusaurus serve --host 127.0.0.1 --no-open",
+    "prepare-content": "python3 scripts/build-search.py",
+    "check": "node scripts/check-search.cjs && python3 scripts/check-migration.py"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@mdx-js/react": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "clsx": "^2.1.1"
+  },
+  "engines": {"node": ">=20"}
+}

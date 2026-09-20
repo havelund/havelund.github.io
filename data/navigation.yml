@@ -1,0 +1,24 @@
+- label: Home
+  url: /
+- label: Research
+  url: /research
+- label: Publications
+  url: /publications
+- label: Software
+  url: /software
+- label: Blog
+  url: /blog
+- label: Awards
+  url: /awards
+- label: Events
+  url: /events
+- label: Invited talks
+  url: /talks
+- label: Event organization
+  url: /workshops
+- label: Professional service
+  url: /committees
+- label: CV
+  url: /cv
+- label: Contact
+  url: /contact
