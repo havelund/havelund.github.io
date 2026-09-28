@@ -71,6 +71,22 @@
       "file": "/img/books/rv-cubes-2017-report.png",
       "source": "https://easychair.org/publications/paper/MVXk/download",
       "note": "First page of Giles Reger’s A Report of RV-CuBES 2017, rendered with pdftoppm; not a book cover."
+    },
+    {
+      "file": "/img/books/sttt-tacas-2014.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/18/2.jpg"
+    },
+    {
+      "file": "/img/books/sttt-vvps-2011.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/16/1.jpg"
+    },
+    {
+      "file": "/img/books/sttt-rv-2012.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/14/3.jpg"
+    },
+    {
+      "file": "/img/books/sttt-spin-2000.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/4/1.jpg"
     }
   ]
 }
