@@ -1,0 +1,46 @@
+{
+  "retrieved": "2026-09-28",
+  "note": "Original covers used to identify the books. Cover artwork belongs to the respective rights holders.",
+  "covers": [
+    {
+      "file": "/img/books/raise-1992.jpg",
+      "source": "https://www.imm.dtu.dk/~aeha/rslbog.jpg"
+    },
+    {
+      "file": "/img/books/nfm-2026.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-032-28079-4.jpg"
+    },
+    {
+      "file": "/img/books/nfm-2022.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-031-06773-0.jpg"
+    },
+    {
+      "file": "/img/books/fm-2018.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-319-95582-7.jpg"
+    },
+    {
+      "file": "/img/books/nfm-2015.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-319-17524-9.jpg"
+    },
+    {
+      "file": "/img/books/tacas-2014.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-642-54862-8.jpg"
+    },
+    {
+      "file": "/img/books/nfm-2011.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-642-20398-5.jpg"
+    },
+    {
+      "file": "/img/books/rv-2010.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-642-16612-9.jpg"
+    },
+    {
+      "file": "/img/books/fates-rv-2006.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-540-49703-5.jpg"
+    },
+    {
+      "file": "/img/books/spin-2000.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-540-45297-3.jpg"
+    }
+  ]
+}

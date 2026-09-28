@@ -19,6 +19,7 @@ This is the new, self-contained website. Edit content in Markdown and publicatio
 | Events | `content/events.md` |
 | Top navigation | `data/navigation.yml` |
 | Publications | `data/publications.yml` |
+| Authored and edited books | `content/books.md` |
 | PDF files, including CVs | `static/Publications/` |
 
 For example, change a paragraph directly in a `.md` file:
@@ -74,6 +75,10 @@ The archive and RSS/Atom feeds are generated once a post is published. Published
 ```
 
 Indentation matters in YAML: use spaces, not tabs. Existing `id` values should stay unchanged; new entries can omit `id`. Entries appear in file order, so place them where they belong. All PDF/text indexing and publication rendering happen during the build. Do not edit generated `data/navigation.json`, `data/publications.json` or `static/search/search-index*`.
+
+### Update books
+
+Edit `content/books.md`. Each `##` heading starts a section and each `###` heading starts a book card. Add a linked cover image, publication year and series, authors or editors, and a book link underneath. The build creates the card layout and includes the text in site search. Cover images live in `static/img/books/`; their original sources are recorded in `data/book-cover-sources.json`.
 
 ### Update a CV
 

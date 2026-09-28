@@ -12,7 +12,7 @@ const config = {
    feedOptions: {type: ['rss', 'atom'], copyright: 'Klaus Havelund'},
    onUntruncatedBlogPosts: 'ignore',
   },
-  pages: {path: 'content', routeBasePath: '/', remarkPlugins: [require('./scripts/remark-committee-cards.cjs'), require('./scripts/remark-software-cards.cjs'), require('./scripts/remark-research.cjs')]},
+  pages: {path: 'content', routeBasePath: '/', remarkPlugins: [require('./scripts/remark-committee-cards.cjs'), require('./scripts/remark-software-cards.cjs'), require('./scripts/remark-research.cjs'), require('./scripts/remark-books.cjs')]},
   theme: {customCss: './src/css/custom.css'},
  }]],
  plugins: [['@docusaurus/plugin-content-pages', {id: 'interactive', path:'src/pages', routeBasePath:'/'}], require('./scripts/blog-integration.cjs')],
