@@ -1,11 +1,11 @@
 ---
 title: Books
-description: Authored books, edited proceedings, AISoLA contributions, and journal special issues by Klaus Havelund.
+description: Authored books, edited proceedings, and journal special issues by Klaus Havelund.
 ---
 
 # Books
 
-Books I have written, proceedings and journal special issues I have co-edited, and AISoLA volumes featuring my work on AI Assisted Programming.
+Books I have written and proceedings and journal special issues I have co-edited.
 
 [Authored book](#authored-book) · [LNCS books and proceedings](#lncs-books-and-proceedings) · [Other proceedings](#other-proceedings) · [Journal special issues](#journal-special-issues)
 
@@ -38,72 +38,6 @@ Edited by Jyotirmoy Deshmukh, Klaus Havelund, and Alessandro Pinto.
 18th International Symposium, Los Angeles, USA, May 5–7, 2026. Proceedings.
 
 [View book at Springer](https://link.springer.com/book/10.1007/978-3-032-28079-4)
-
-### Bridging the Gap Between AI and Reality · AISoLA 2026
-
-**In preparation · AISoLA 2026**
-
-Conference scheduled for October 27–31, 2026, Kos, Greece.
-
-AI Assisted Programming track co-organized with Wolfgang Ahrendt and Bernhard Aichernig. Book details and a cover will be added when available.
-
-[Conference](https://2026-isola.isola-conference.org/) · [AI Assisted Programming track](https://2026-isola.isola-conference.org/aisola-tracks/)
-
-### Bridging the Gap Between AI and Reality · AISoLA 2025
-
-[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2025 selected papers](pathname:///img/books/aisola-2025.jpg)](https://link.springer.com/book/10.1007/978-3-032-07132-3)
-
-**Published 2025 · Springer · LNCS 16220 · Open access**
-
-Volume edited by Bernhard Steffen. My role: AI Assisted Programming track co-organizer and contributing author.
-
-Third International Conference, Rhodes, Greece, November 1–5, 2025. Selected papers.
-
-Includes “AI Assisted Programming (AISoLA 2025 Track Introduction),” co-authored with Wolfgang Ahrendt and Bernhard K. Aichernig. Springer released this volume in October 2025 with a 2026 bibliographic year.
-
-[Read book at Springer](https://link.springer.com/book/10.1007/978-3-032-07132-3) · [Track introduction](https://link.springer.com/chapter/10.1007/978-3-032-07132-3_2)
-
-### Bridging the Gap Between AI and Reality · AISoLA 2024 selected papers
-
-[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2024 selected papers](pathname:///img/books/aisola-2024-selected.jpg)](https://link.springer.com/book/10.1007/978-3-032-01377-4)
-
-**Published 2025 · Springer · LNCS 16032 · Open access**
-
-Volume edited by Bernhard Steffen. My role: AI Assisted Programming track co-organizer and contributing author.
-
-Second International Conference, Crete, Greece, October 30–November 3, 2024. Selected papers.
-
-Includes “Correct-ish by Design: From Upfront Verification to Continuous Monitoring of LLM Generated Code,” co-authored with Bernhard K. Aichernig.
-
-[Read book at Springer](https://link.springer.com/book/10.1007/978-3-032-01377-4)
-
-### Bridging the Gap Between AI and Reality · AISoLA 2024 proceedings
-
-[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2024 proceedings](pathname:///img/books/aisola-2024.jpg)](https://link.springer.com/book/10.1007/978-3-031-75434-0)
-
-**Published 2024 · Springer · LNCS 15217**
-
-Volume edited by Bernhard Steffen. My role: AI Assisted Programming track co-organizer and contributing author.
-
-Second International Conference, Crete, Greece, October 30–November 3, 2024. Proceedings.
-
-Includes the AI Assisted Programming track introduction, co-authored with Wolfgang Ahrendt and Bernhard K. Aichernig.
-
-[View book at Springer](https://link.springer.com/book/10.1007/978-3-031-75434-0)
-
-### Bridging the Gap Between AI and Reality · AISoLA 2023 selected papers
-
-[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2023 selected papers](pathname:///img/books/aisola-2023-selected.jpg)](https://link.springer.com/book/10.1007/978-3-031-73741-1)
-
-**Published 2024 · Springer · LNCS 14129 · Open access**
-
-Volume edited by Bernhard Steffen. My role: AI Assisted Programming track co-organizer and contributing author.
-
-First International Conference, Crete, Greece, October 23–28, 2023. Selected papers.
-
-Includes “AI-Assisted Programming with Test-Based Refinement,” co-authored with Bernhard K. Aichernig. I co-organized the AI Assisted Programming track with Wolfgang Ahrendt.
-
-[Read book at Springer](https://link.springer.com/book/10.1007/978-3-031-73741-1) · [Our chapter](https://link.springer.com/chapter/10.1007/978-3-031-73741-1_24)
 
 ### NASA Formal Methods · NFM 2022
 
@@ -229,7 +163,7 @@ Guest edited by Hakan Erdogmus and Klaus Havelund.
 
 Extended papers from the 24th International SPIN Symposium on Model Checking of Software. The SPIN 2017 special issue occupies pages 247–349 of the June 2019 issue.
 
-[View special issue](https://link.springer.com/journal/10009/volumes-and-issues/21-3) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-019-00515-5)
+[View special issue](https://link.springer.com/journal/10009/volumes-and-issues/21-3)
 
 ### TACAS 2014 · STTT special issue
 
@@ -241,7 +175,7 @@ Guest edited by Erika Ábrahám and Klaus Havelund.
 
 Six extended papers from TACAS 2014, introduced by “Some Recent Advances in Automated Analysis.” Published in April 2016.
 
-[View special issue](https://link.springer.com/journal/10009/volumes-and-issues/18-2) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-015-0403-0)
+[View special issue](https://link.springer.com/journal/10009/volumes-and-issues/18-2)
 
 ### TACAS 2014 · LMCS special issue
 
@@ -267,7 +201,7 @@ Guest edited by Saddek Bensalem, Klaus Havelund, and Andrea Orlandini.
 
 Extended papers from the third ICAPS workshop on Verification and Validation of Planning and Scheduling Systems (VVPS 2011). The special section occupies pages 1–65 of the February 2014 issue.
 
-[View special section](https://link.springer.com/journal/10009/volumes-and-issues/16-1) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-013-0294-x)
+[View special section](https://link.springer.com/journal/10009/volumes-and-issues/16-1)
 
 ### Runtime Verification · STTT special section
 
@@ -279,7 +213,7 @@ Guest edited by Oleg Sokolsky, Klaus Havelund, and Insup Lee.
 
 A special section on runtime verification, published in June 2012, with an introduction surveying the field and the selected papers.
 
-[View special section](https://link.springer.com/journal/10009/volumes-and-issues/14-3) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-011-0218-6)
+[View special section](https://link.springer.com/journal/10009/volumes-and-issues/14-3)
 
 ### SPIN 2000 · STTT special section
 
@@ -291,4 +225,4 @@ Guest edited by Klaus Havelund and Willem Visser.
 
 Five selected papers from the seventh International SPIN Workshop, Stanford, 2000. Published in October 2002, with the editorial “Program Model Checking as a New Trend.”
 
-[View special section](https://link.springer.com/journal/10009/volumes-and-issues/4-1) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-002-0080-7)
+[View special section](https://link.springer.com/journal/10009/volumes-and-issues/4-1)

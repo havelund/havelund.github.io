@@ -78,7 +78,7 @@ Indentation matters in YAML: use spaces, not tabs. Existing `id` values should s
 
 ### Update books
 
-Edit `content/books.md`. Each `##` heading starts a section and each `###` heading starts a book card. Add a linked cover image, publication year and series, authors or editors, and a book link underneath. Text between a section heading and its first card stays with that section. AISoLA volumes belong with the other LNCS books and proceedings; state the editorial or track contribution role on each card. Keep journal special issues and sections together under journals. For forthcoming volumes, omit the image until a cover is available. When using an actual preface or report page instead of a cover, label it in the card. The build creates the card layout and includes the text in site search. Images live in `static/img/books/`; their original sources are recorded in `data/book-cover-sources.json`.
+Edit `content/books.md`. Each `##` heading starts a section and each `###` heading starts a book card. Add a linked cover image, publication year and series, authors or editors, and a book link underneath. Text between a section heading and its first card stays with that section. Include authored books and volumes edited by Klaus Havelund. A chapter contribution or track-organizer role alone does not qualify a volume for this page. Keep journal special issues and sections together under journals. For forthcoming volumes, omit the image until a cover is available. When using an actual preface or report page instead of a cover, label it in the card. The build creates the card layout and includes the text in site search. Images live in `static/img/books/`; their original sources are recorded in `data/book-cover-sources.json`.
 
 ### Update a CV
 
