@@ -11,7 +11,7 @@ module.exports = function books() {
     let group, card;
     for (const node of tree.children) {
       if (node.type === 'heading' && node.depth === 2) {
-        group = {heading: node, cards: []};
+        group = {heading: node, intro: [], cards: []};
         groups.push(group);
         card = undefined;
       } else if (node.type === 'heading' && node.depth === 3 && group) {
@@ -21,13 +21,14 @@ module.exports = function books() {
         const image = node.type === 'paragraph' && node.children.some(n =>
           n.type === 'image' || (n.type === 'link' && n.children.some(c => c.type === 'image')));
         (image ? card.cover : card.body).push(node);
-      } else intro.push(node);
+      } else if (group) group.intro.push(node);
+      else intro.push(node);
     }
     tree.children = [
       element('header', 'books-intro', intro),
-      ...groups.map(g => element('section', 'books-section', [g.heading,
-        element('div', 'books-grid', g.cards.map(c => element('article', 'book-card', [
-          element('div', 'book-cover', c.cover),
+      ...groups.map(g => element('section', 'books-section', [g.heading, ...g.intro,
+        element('div', 'books-grid', g.cards.map(c => element('article', c.cover.length ? 'book-card' : 'book-card book-card-text', [
+          ...(c.cover.length ? [element('div', 'book-cover', c.cover)] : []),
           element('div', 'book-details', c.body),
         ]))),
       ])),

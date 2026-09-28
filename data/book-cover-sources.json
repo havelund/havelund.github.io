@@ -1,6 +1,6 @@
 {
   "retrieved": "2026-09-28",
-  "note": "Original covers used to identify the books. Cover artwork belongs to the respective rights holders.",
+  "note": "Original covers and explicitly labelled first-page previews used to identify publications. Artwork and documents belong to the respective rights holders.",
   "covers": [
     {
       "file": "/img/books/raise-1992.jpg",
@@ -41,6 +41,36 @@
     {
       "file": "/img/books/spin-2000.jpg",
       "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-540-45297-3.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2023-selected.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-031-73741-1.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2024.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-031-75434-0.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2024-selected.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-032-01377-4.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2025.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-032-07132-3.jpg"
+    },
+    {
+      "file": "/img/books/sttt-spin-2017.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/21/3.jpg"
+    },
+    {
+      "file": "/img/books/lmcs-tacas-2014-preface.png",
+      "source": "https://lmcs.episciences.org/public/volumes/233/PREFACE_58_1_1_.pdf",
+      "note": "First page of the special-issue preface, rendered with pdftoppm; not a book cover."
+    },
+    {
+      "file": "/img/books/rv-cubes-2017-report.png",
+      "source": "https://easychair.org/publications/paper/MVXk/download",
+      "note": "First page of Giles Reger’s A Report of RV-CuBES 2017, rendered with pdftoppm; not a book cover."
     }
   ]
 }

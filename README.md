@@ -78,7 +78,7 @@ Indentation matters in YAML: use spaces, not tabs. Existing `id` values should s
 
 ### Update books
 
-Edit `content/books.md`. Each `##` heading starts a section and each `###` heading starts a book card. Add a linked cover image, publication year and series, authors or editors, and a book link underneath. The build creates the card layout and includes the text in site search. Cover images live in `static/img/books/`; their original sources are recorded in `data/book-cover-sources.json`.
+Edit `content/books.md`. Each `##` heading starts a section and each `###` heading starts a book card. Add a linked cover image, publication year and series, authors or editors, and a book link underneath. Text between a section heading and its first card stays with that section. Keep journal special issues and AISoLA track contributions in their respective sections, with the role stated explicitly. For forthcoming volumes, omit the image until a cover is available. When using an actual preface or report page instead of a cover, label it in the card. The build creates the card layout and includes the text in site search. Images live in `static/img/books/`; their original sources are recorded in `data/book-cover-sources.json`.
 
 ### Update a CV
 
