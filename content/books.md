@@ -1,13 +1,13 @@
 ---
 title: Books
-description: Authored books, edited proceedings, and journal special issues by Klaus Havelund.
+description: Books, edited proceedings and journal issues, and proceedings featuring tracks organized by Klaus Havelund.
 ---
 
 # Books
 
-Books I have written and proceedings and journal special issues I have co-edited.
+Books I have written, proceedings and journal special issues I have co-edited, and proceedings featuring tracks I have co-organized.
 
-[Authored book](#authored-book) · [LNCS books and proceedings](#lncs-books-and-proceedings) · [Other proceedings](#other-proceedings) · [Journal special issues](#journal-special-issues)
+[Authored book](#authored-book) · [LNCS books and proceedings](#lncs-books-and-proceedings) · [Other proceedings](#other-proceedings) · [Journal special issues](#journal-special-issues) · [Tracks organized within proceedings](#tracks-organized-within-proceedings)
 
 ## Authored book
 
@@ -226,3 +226,73 @@ Guest edited by Klaus Havelund and Willem Visser.
 Five selected papers from the seventh International SPIN Workshop, Stanford, 2000. Published in October 2002, with the editorial “Program Model Checking as a New Trend.”
 
 [View special section](https://link.springer.com/journal/10009/volumes-and-issues/4-1) · [Editorial introduction](https://link.springer.com/article/10.1007/s10009-002-0080-7)
+
+## Tracks organized within proceedings
+
+Springer LNCS proceedings featuring the AI Assisted Programming tracks I have co-organized. My role concerns the track; the volume editor is credited separately on each published book.
+
+### Bridging the Gap Between AI and Reality · AISoLA 2026
+
+**In preparation · AISoLA 2026**
+
+Conference scheduled for October 27–31, 2026, Kos, Greece.
+
+AI Assisted Programming track co-organized with Wolfgang Ahrendt and Bernhard Aichernig. Book details and a cover will be added when available.
+
+[Conference](https://2026-isola.isola-conference.org/) · [AI Assisted Programming track](https://2026-isola.isola-conference.org/aisola-tracks/)
+
+### Bridging the Gap Between AI and Reality · AISoLA 2025
+
+[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2025 selected papers](pathname:///img/books/aisola-2025.jpg)](https://link.springer.com/book/10.1007/978-3-032-07132-3)
+
+**Published 2025 · Springer · LNCS 16220 · Open access**
+
+**My role: AI Assisted Programming track co-organizer.**
+
+Volume editor: Bernhard Steffen.
+
+Third International Conference, Rhodes, Greece, November 1–5, 2025. Selected papers.
+
+[Read book at Springer](https://link.springer.com/book/10.1007/978-3-032-07132-3)
+
+### Bridging the Gap Between AI and Reality · AISoLA 2024 selected papers
+
+[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2024 selected papers](pathname:///img/books/aisola-2024-selected.jpg)](https://link.springer.com/book/10.1007/978-3-032-01377-4)
+
+**Published 2025 · Springer · LNCS 16032 · Open access**
+
+**My role: AI Assisted Programming track co-organizer.**
+
+Volume editor: Bernhard Steffen.
+
+Second International Conference, Crete, Greece, October 30–November 3, 2024. Selected papers.
+
+[Read book at Springer](https://link.springer.com/book/10.1007/978-3-032-01377-4)
+
+### Bridging the Gap Between AI and Reality · AISoLA 2024 proceedings
+
+[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2024 proceedings](pathname:///img/books/aisola-2024.jpg)](https://link.springer.com/book/10.1007/978-3-031-75434-0)
+
+**Published 2024 · Springer · LNCS 15217**
+
+**My role: AI Assisted Programming track co-organizer.**
+
+Volume editor: Bernhard Steffen.
+
+Second International Conference, Crete, Greece, October 30–November 3, 2024. Proceedings.
+
+[View book at Springer](https://link.springer.com/book/10.1007/978-3-031-75434-0)
+
+### Bridging the Gap Between AI and Reality · AISoLA 2023 selected papers
+
+[![Front cover of Bridging the Gap Between AI and Reality, AISoLA 2023 selected papers](pathname:///img/books/aisola-2023-selected.jpg)](https://link.springer.com/book/10.1007/978-3-031-73741-1)
+
+**Published 2024 · Springer · LNCS 14129 · Open access**
+
+**My role: AI Assisted Programming track co-organizer.**
+
+Volume editor: Bernhard Steffen.
+
+First International Conference, Crete, Greece, October 23–28, 2023. Selected papers.
+
+[Read book at Springer](https://link.springer.com/book/10.1007/978-3-031-73741-1)

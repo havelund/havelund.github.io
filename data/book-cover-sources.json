@@ -71,6 +71,22 @@
     {
       "file": "/img/books/sttt-spin-2000.jpg",
       "source": "https://media.springernature.com/w440/springer-static/cover/journal/10009/4/1.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2023-selected.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-031-73741-1.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2024.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-031-75434-0.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2024-selected.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-032-01377-4.jpg"
+    },
+    {
+      "file": "/img/books/aisola-2025.jpg",
+      "source": "https://media.springernature.com/w440/springer-static/cover/book/978-3-032-07132-3.jpg"
     }
   ]
 }
