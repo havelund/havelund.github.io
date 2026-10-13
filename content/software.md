@@ -76,7 +76,7 @@ Turn detailed event traces into higher-level intervals that describe patterns of
 
 `Language design`
 
-The K language project.
+K is a textual language for modeling systems and writing formal specifications, combining ideas from programming and modeling languages. Its tools support type checking and use the Z3 SMT solver to check consistency and correctness of models.
 
 [Repository ↗](https://github.com/Open-MBEE/klang/tree/feature/advanced-solver-features)
 
