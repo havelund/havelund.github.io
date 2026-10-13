@@ -78,7 +78,7 @@ Turn detailed event traces into higher-level intervals that describe patterns of
 
 The K language project.
 
-[Repository ↗](https://github.com/havelund/k)
+[Repository ↗](https://github.com/Open-MBEE/klang/tree/feature/advanced-solver-features)
 
 ### Daut
 
