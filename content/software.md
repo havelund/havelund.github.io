@@ -8,6 +8,14 @@ Tools for runtime verification, model checking, and reasoning about software.
 
 ## Projects · newest first
 
+### DejaVuMT
+
+`Python` · `Temporal logic` · `SMT`
+
+Monitor event traces with first-order temporal logic, extending DejaVu with future and timed operators. Uses Z3 or CVC5 to reason about data and infer constraints on symbolic time bounds.
+
+[Repository ↗](https://github.com/havelund/dejavu-mt)
+
 ### TaskSAT
 
 `SMT` · `Task networks`
