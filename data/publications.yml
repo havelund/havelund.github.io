@@ -1,8 +1,10 @@
-- title: 'Safe Planning and Scheduling: An SMT-Based Verification Approach'
+- title: 'TaskSAT: A Domain-Specific Language and Verifier for Scheduling Task Networks'
   authors: K. Havelund and A. Pinto
   year: null
-  details: Under review.
-  links: []
+  details: 30 Years of UPPAAL - AISoLA 2025. pdf
+  links:
+  - label: pdf
+    url: /Publications/tasksat-uppaal30-2026.pdf
   id: paper-1
   group: Papers Published or Submitted for Publication
 - title: AI Assisted Programming (AISoLA 2026 Track Introduction)
