@@ -24,6 +24,14 @@ Model, schedule, and verify task networks with temporal and resource constraints
 
 [Repository ↗](https://github.com/nasa-jpl/tasksat)
 
+### TaskTree
+
+`Python` · `React` · `Task management`
+
+Organize tasks in an unlimited hierarchy and filter by today, this week, importance, and more. Edit tasks directly in filtered views while keeping the original hierarchy in sync.
+
+[Repository ↗](https://github.com/havelund/tasktree)
+
 ### Fuzzing
 
 `Python` · `Test generation`
